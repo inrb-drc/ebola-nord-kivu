@@ -1,7 +1,7 @@
 rule all:
     input:
-        auspice_tree = "auspice/ebola_tree.json",
-        auspice_meta = "auspice/ebola_meta.json"
+        auspice_tree = "auspice/ebola-nord-kivu_tree.json",
+        auspice_meta = "auspice/ebola-nord-kivu_meta.json"
 
 rule files:
     params:
