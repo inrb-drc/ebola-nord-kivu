@@ -1,0 +1,2284 @@
+{
+  "attr": {
+    "div": 0,
+    "num_date": 2018.4281413630033,
+    "clock_length": 5.278158978148422e-05,
+    "date": "2018-06-06",
+    "num_date_confidence": [
+      2018.3411571038414,
+      2018.4573651640305
+    ],
+    "health_zone_confidence": {
+      "Mabalako": 0.9447026620736473,
+      "Mandima": 0.0389267444850536,
+      "Beni": 0.006001373187682234,
+      "Oicha": 0.003607781330437143
+    },
+    "health_zone_entropy": 0.2695487531948886,
+    "health_zone": "Mabalako"
+  },
+  "strain": "NODE_0000047",
+  "clade": 78,
+  "branch_length": 5.278e-05,
+  "yvalue": 35.8583984375,
+  "children": [
+    {
+      "attr": {
+        "div": 1.2904312778152907e-19,
+        "num_date": 2018.4488993251728,
+        "clock_length": 7.291288542793481e-06,
+        "date": "2018-06-13",
+        "num_date_confidence": [
+          2018.4269254342516,
+          2018.4857230351095
+        ],
+        "health_zone_confidence": {
+          "Mabalako": 0.9866203275421761,
+          "Mandima": 0.007170122742585499,
+          "Beni": 0.0033339379511105566,
+          "Unknown": 0.0010287369465605068
+        },
+        "health_zone_entropy": 0.08768257224708449,
+        "health_zone": "Mabalako"
+      },
+      "strain": "NODE_0000000",
+      "clade": 21,
+      "branch_length": 7.29e-06,
+      "yvalue": 46.71875,
+      "children": [
+        {
+          "attr": {
+            "div": 2.5808625556305815e-19,
+            "num_date": 2018.5097375018531,
+            "clock_length": 2.1369568793676308e-05,
+            "date": "2018-07-06",
+            "num_date_confidence": [
+              2018.4624328044779,
+              2018.569634459339
+            ],
+            "health_zone_confidence": {
+              "Mabalako": 0.9955924850936253,
+              "Mandima": 0.0020476995826838296
+            },
+            "health_zone_entropy": 0.034490610203948224,
+            "health_zone": "Mabalako"
+          },
+          "strain": "NODE_0000048",
+          "clade": 2,
+          "branch_length": 2.137e-05,
+          "yvalue": 48.5,
+          "children": [
+            {
+              "attr": {
+                "div": 5.298194626526757e-05,
+                "num_date": 2018.6187542778919,
+                "clock_length": 3.829242791848165e-05,
+                "accession": "MK088510",
+                "date": "2018-08-15",
+                "raw_date": "2018-08-14",
+                "num_date_confidence": [
+                  2018.6187542778919,
+                  2018.6187542778919
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Mabalako",
+                "authors": "Mbala et al."
+              },
+              "strain": "MAN035",
+              "clade": 0,
+              "branch_length": 3.829e-05,
+              "yvalue": 49,
+              "muts": [
+                "A16624G"
+              ],
+              "aa_muts": {
+                "L": [
+                  "D1685G"
+                ]
+              }
+            },
+            {
+              "attr": {
+                "div": 5.298227171170727e-05,
+                "num_date": 2018.5722108145105,
+                "clock_length": 2.194391458534053e-05,
+                "accession": "MK007329",
+                "date": "2018-07-28",
+                "raw_date": "2018-07-28",
+                "num_date_confidence": [
+                  2018.5722108145105,
+                  2018.5722108145105
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Mabalako",
+                "authors": "Mbala et al."
+              },
+              "strain": "18FHV089",
+              "clade": 1,
+              "branch_length": 2.194e-05,
+              "yvalue": 48,
+              "muts": [
+                "T16580C"
+              ],
+              "aa_muts": {}
+            }
+          ],
+          "muts": [],
+          "aa_muts": {}
+        },
+        {
+          "attr": {
+            "div": 5.298304210722936e-05,
+            "num_date": 2018.4866711154582,
+            "clock_length": 1.3267440199725216e-05,
+            "date": "2018-06-27",
+            "num_date_confidence": [
+              2018.4621651128186,
+              2018.5461276337041
+            ],
+            "health_zone_confidence": {
+              "Mabalako": 0.9772741649521656,
+              "Beni": 0.01467322695670547,
+              "Mandima": 0.004424197894249856,
+              "Unknown": 0.0012988645939459493
+            },
+            "health_zone_entropy": 0.13275913686655938,
+            "health_zone": "Mabalako"
+          },
+          "strain": "NODE_0000002",
+          "clade": 20,
+          "branch_length": 1.327e-05,
+          "yvalue": 44.9375,
+          "children": [
+            {
+              "attr": {
+                "div": 0.00021194228964252287,
+                "num_date": 2018.6105407255304,
+                "clock_length": 4.350952474775139e-05,
+                "accession": "MK163655",
+                "date": "2018-08-11",
+                "raw_date": "2018-08-11",
+                "num_date_confidence": [
+                  2018.6105407255304,
+                  2018.6105407255304
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Mabalako",
+                "authors": "Mbala et al."
+              },
+              "strain": "BEN148",
+              "clade": 3,
+              "branch_length": 4.351e-05,
+              "yvalue": 47,
+              "muts": [
+                "C8802T",
+                "T14648C",
+                "G16573T"
+              ],
+              "aa_muts": {
+                "L": [
+                  "S1668I"
+                ]
+              }
+            },
+            {
+              "attr": {
+                "div": 5.298304210722949e-05,
+                "num_date": 2018.5280112354772,
+                "clock_length": 1.452082535810016e-05,
+                "date": "2018-07-12",
+                "num_date_confidence": [
+                  2018.4965329822733,
+                  2018.5949373842031
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 0.8338594251231849,
+                  "Beni": 0.14321749424516142,
+                  "Mandima": 0.010226206884529783,
+                  "Unknown": 0.004487203393751029
+                },
+                "health_zone_entropy": 0.5460736104534448,
+                "health_zone": "Mabalako"
+              },
+              "strain": "NODE_0000049",
+              "clade": 19,
+              "branch_length": 1.452e-05,
+              "yvalue": 42.875,
+              "children": [
+                {
+                  "attr": {
+                    "div": 0.00010596559685300079,
+                    "num_date": 2018.6488706365503,
+                    "clock_length": 4.245218095811097e-05,
+                    "accession": "MK163664",
+                    "date": "2018-08-26",
+                    "raw_date": "2018-08-25",
+                    "num_date_confidence": [
+                      2018.6488706365503,
+                      2018.6488706365503
+                    ],
+                    "health_zone_confidence": {
+                      "Mabalako": 1.0
+                    },
+                    "country": "Democratic Republic of the Congo",
+                    "health_zone_entropy": -1.000088900581841e-12,
+                    "health_zone": "Mabalako",
+                    "authors": "Mbala et al."
+                  },
+                  "strain": "BEN234",
+                  "clade": 4,
+                  "branch_length": 4.245e-05,
+                  "yvalue": 46,
+                  "muts": [
+                    "G2571A"
+                  ],
+                  "aa_muts": {}
+                },
+                {
+                  "attr": {
+                    "div": 0.00010596559685300079,
+                    "num_date": 2018.6062432820233,
+                    "clock_length": 2.747921110984419e-05,
+                    "date": "2018-08-10",
+                    "num_date_confidence": [
+                      2018.588522031444,
+                      2018.6117907271753
+                    ],
+                    "health_zone_confidence": {
+                      "Beni": 0.999999990607183
+                    },
+                    "health_zone_entropy": 1.8522026136492613e-07,
+                    "health_zone": "Beni"
+                  },
+                  "strain": "NODE_0000004",
+                  "clade": 18,
+                  "branch_length": 2.748e-05,
+                  "yvalue": 39.75,
+                  "children": [
+                    {
+                      "attr": {
+                        "div": 0.0001589490539727182,
+                        "num_date": 2018.6652977412732,
+                        "clock_length": 2.0743033377629478e-05,
+                        "accession": "MK163670",
+                        "date": "2018-09-01",
+                        "raw_date": "2018-08-31",
+                        "num_date_confidence": [
+                          2018.6652977412732,
+                          2018.6652977412732
+                        ],
+                        "health_zone_confidence": {
+                          "Beni": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Beni",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN268",
+                      "clade": 5,
+                      "branch_length": 2.074e-05,
+                      "yvalue": 45,
+                      "muts": [
+                        "G9528A"
+                      ],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596559685300092,
+                        "num_date": 2018.6680355920603,
+                        "clock_length": 2.1704710632496662e-05,
+                        "accession": "MK163672",
+                        "date": "2018-09-02",
+                        "raw_date": "2018-09-01",
+                        "num_date_confidence": [
+                          2018.6680355920603,
+                          2018.6680355920603
+                        ],
+                        "health_zone_confidence": {
+                          "Beni": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Beni",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN274",
+                      "clade": 6,
+                      "branch_length": 2.17e-05,
+                      "yvalue": 44,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596559685300092,
+                        "num_date": 2018.6598220396988,
+                        "clock_length": 1.8819678867815285e-05,
+                        "accession": "MK163667",
+                        "date": "2018-08-30",
+                        "raw_date": "2018-08-29",
+                        "num_date_confidence": [
+                          2018.6598220396988,
+                          2018.6598220396988
+                        ],
+                        "health_zone_confidence": {
+                          "Beni": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Beni",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN255",
+                      "clade": 7,
+                      "branch_length": 1.882e-05,
+                      "yvalue": 43,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596559685300092,
+                        "num_date": 2018.6762491444217,
+                        "clock_length": 2.4589742397178012e-05,
+                        "accession": "MK163674",
+                        "date": "2018-09-05",
+                        "raw_date": "2018-09-04",
+                        "num_date_confidence": [
+                          2018.6762491444217,
+                          2018.6762491444217
+                        ],
+                        "health_zone_confidence": {
+                          "Butembo": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Butembo",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN292",
+                      "clade": 8,
+                      "branch_length": 2.459e-05,
+                      "yvalue": 42,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596559685300092,
+                        "num_date": 2018.6488706365503,
+                        "clock_length": 1.4972969848266778e-05,
+                        "accession": "MK163665",
+                        "date": "2018-08-26",
+                        "raw_date": "2018-08-25",
+                        "num_date_confidence": [
+                          2018.6488706365503,
+                          2018.6488706365503
+                        ],
+                        "health_zone_confidence": {
+                          "Beni": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Beni",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN236",
+                      "clade": 9,
+                      "branch_length": 1.497e-05,
+                      "yvalue": 41,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596559685300092,
+                        "num_date": 2018.6351813826147,
+                        "clock_length": 1.0164583573851087e-05,
+                        "accession": "MK163661",
+                        "date": "2018-08-21",
+                        "raw_date": "2018-08-20",
+                        "num_date_confidence": [
+                          2018.6351813826147,
+                          2018.6351813826147
+                        ],
+                        "health_zone_confidence": {
+                          "Unknown": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Unknown",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN214",
+                      "clade": 10,
+                      "branch_length": 1.016e-05,
+                      "yvalue": 40,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596559685300092,
+                        "num_date": 2018.6652977412732,
+                        "clock_length": 2.0743033377629478e-05,
+                        "accession": "MK163669",
+                        "date": "2018-09-01",
+                        "raw_date": "2018-08-31",
+                        "num_date_confidence": [
+                          2018.6652977412732,
+                          2018.6652977412732
+                        ],
+                        "health_zone_confidence": {
+                          "Beni": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Beni",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN267",
+                      "clade": 11,
+                      "branch_length": 2.074e-05,
+                      "yvalue": 39,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.0001589481227486381,
+                        "num_date": 2018.6735112936344,
+                        "clock_length": 2.3628065142230977e-05,
+                        "accession": "MK163673",
+                        "date": "2018-09-03",
+                        "raw_date": "2018-09-03",
+                        "num_date_confidence": [
+                          2018.6735112936344,
+                          2018.6735112936344
+                        ],
+                        "health_zone_confidence": {
+                          "Beni": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Beni",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN286",
+                      "clade": 12,
+                      "branch_length": 2.363e-05,
+                      "yvalue": 38,
+                      "muts": [
+                        "A7777G"
+                      ],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596559685300092,
+                        "num_date": 2018.6789869952088,
+                        "clock_length": 2.555141965204517e-05,
+                        "accession": "MK163675",
+                        "date": "2018-09-06",
+                        "raw_date": "2018-09-05",
+                        "num_date_confidence": [
+                          2018.6789869952088,
+                          2018.6789869952088
+                        ],
+                        "health_zone_confidence": {
+                          "Butembo": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Butembo",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN294",
+                      "clade": 13,
+                      "branch_length": 2.555e-05,
+                      "yvalue": 37,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596559685300092,
+                        "num_date": 2018.662559890486,
+                        "clock_length": 1.978135612268247e-05,
+                        "accession": "MK163668",
+                        "date": "2018-08-30",
+                        "raw_date": "2018-08-30",
+                        "num_date_confidence": [
+                          2018.662559890486,
+                          2018.662559890486
+                        ],
+                        "health_zone_confidence": {
+                          "Beni": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Beni",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN263",
+                      "clade": 14,
+                      "branch_length": 1.978e-05,
+                      "yvalue": 36,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00021193459678735038,
+                        "num_date": 2018.6231268973017,
+                        "clock_length": 5.93041405687263e-06,
+                        "date": "2018-08-16",
+                        "num_date_confidence": [
+                          2018.6043052408693,
+                          2018.6444937011026
+                        ],
+                        "health_zone_confidence": {
+                          "Beni": 0.9995732816676669
+                        },
+                        "health_zone_entropy": 0.004412864998814663,
+                        "health_zone": "Beni"
+                      },
+                      "strain": "NODE_0000011",
+                      "clade": 17,
+                      "branch_length": 5.93e-06,
+                      "yvalue": 34.5,
+                      "children": [
+                        {
+                          "attr": {
+                            "div": 0.00021193459678735052,
+                            "num_date": 2018.6488706365503,
+                            "clock_length": 9.042555791394149e-06,
+                            "accession": "MK163666",
+                            "date": "2018-08-26",
+                            "raw_date": "2018-08-25",
+                            "num_date_confidence": [
+                              2018.6488706365503,
+                              2018.6488706365503
+                            ],
+                            "health_zone_confidence": {
+                              "Beni": 1.0
+                            },
+                            "country": "Democratic Republic of the Congo",
+                            "health_zone_entropy": -1.000088900581841e-12,
+                            "health_zone": "Beni",
+                            "authors": "Mbala et al."
+                          },
+                          "strain": "BEN240",
+                          "clade": 15,
+                          "branch_length": 9.04e-06,
+                          "yvalue": 35,
+                          "muts": [
+                            "A14403G"
+                          ],
+                          "aa_muts": {
+                            "L": [
+                              "M945V"
+                            ]
+                          }
+                        },
+                        {
+                          "attr": {
+                            "div": 0.00021193459678735052,
+                            "num_date": 2018.6652977412732,
+                            "clock_length": 1.4812619320756849e-05,
+                            "accession": "MK163671",
+                            "date": "2018-09-01",
+                            "raw_date": "2018-08-31",
+                            "num_date_confidence": [
+                              2018.6652977412732,
+                              2018.6652977412732
+                            ],
+                            "health_zone_confidence": {
+                              "Beni": 1.0
+                            },
+                            "country": "Democratic Republic of the Congo",
+                            "health_zone_entropy": -1.000088900581841e-12,
+                            "health_zone": "Beni",
+                            "authors": "Mbala et al."
+                          },
+                          "strain": "BEN269",
+                          "clade": 16,
+                          "branch_length": 1.481e-05,
+                          "yvalue": 34,
+                          "muts": [],
+                          "aa_muts": {}
+                        }
+                      ],
+                      "muts": [
+                        "A18752C"
+                      ],
+                      "aa_muts": {}
+                    }
+                  ],
+                  "muts": [
+                    "G12644A"
+                  ],
+                  "aa_muts": {}
+                }
+              ],
+              "muts": [],
+              "aa_muts": {}
+            }
+          ],
+          "muts": [
+            "A2098C"
+          ],
+          "aa_muts": {
+            "NP": [
+              "N547H"
+            ]
+          }
+        }
+      ],
+      "muts": [
+        "T3352G"
+      ],
+      "aa_muts": {
+        "VP35": [
+          "I78M"
+        ]
+      }
+    },
+    {
+      "attr": {
+        "div": 5.29839144848642e-05,
+        "num_date": 2018.4471779637865,
+        "clock_length": 6.686655850534143e-06,
+        "date": "2018-06-13",
+        "num_date_confidence": [
+          2018.4459678786495,
+          2018.4569551892532
+        ],
+        "health_zone_confidence": {
+          "Mabalako": 0.8983473758307564,
+          "Mandima": 0.10164398994697092
+        },
+        "health_zone_entropy": 0.32879321507894216,
+        "health_zone": "Mabalako"
+      },
+      "strain": "NODE_0000015",
+      "clade": 77,
+      "branch_length": 6.69e-06,
+      "yvalue": 24.998046875,
+      "children": [
+        {
+          "attr": {
+            "div": 0.0002649386705056518,
+            "num_date": 2018.624229979466,
+            "clock_length": 6.218998391415161e-05,
+            "accession": "MK007344",
+            "date": "2018-08-16",
+            "raw_date": "2018-08-16",
+            "num_date_confidence": [
+              2018.624229979466,
+              2018.624229979466
+            ],
+            "health_zone_confidence": {
+              "Mandima": 1.0
+            },
+            "country": "Democratic Republic of the Congo",
+            "health_zone_entropy": -1.000088900581841e-12,
+            "health_zone": "Mandima",
+            "authors": "Mbala et al."
+          },
+          "strain": "MAN065",
+          "clade": 22,
+          "branch_length": 6.219e-05,
+          "yvalue": 33,
+          "muts": [
+            "A4274G",
+            "T5982G",
+            "A7168C",
+            "G8577A"
+          ],
+          "aa_muts": {
+            "VP30": [
+              "A27T"
+            ]
+          }
+        },
+        {
+          "attr": {
+            "div": 0.00031793094850875674,
+            "num_date": 2018.6160164271048,
+            "clock_length": 5.9304952149550136e-05,
+            "accession": "MK007335",
+            "date": "2018-08-14",
+            "raw_date": "2018-08-13",
+            "num_date_confidence": [
+              2018.6160164271048,
+              2018.6160164271048
+            ],
+            "health_zone_confidence": {
+              "Mandima": 1.0
+            },
+            "country": "Democratic Republic of the Congo",
+            "health_zone_entropy": -1.000088900581841e-12,
+            "health_zone": "Mandima",
+            "authors": "Mbala et al."
+          },
+          "strain": "MAN025",
+          "clade": 23,
+          "branch_length": 5.93e-05,
+          "yvalue": 32,
+          "muts": [
+            "T1992G",
+            "C9596T",
+            "A9978G",
+            "A13872C",
+            "A16227G"
+          ],
+          "aa_muts": {
+            "NP": [
+              "S511R"
+            ],
+            "L": [
+              "N768H",
+              "T1553A"
+            ]
+          }
+        },
+        {
+          "attr": {
+            "div": 0.00021194428071444427,
+            "num_date": 2018.6160164271048,
+            "clock_length": 5.9304952149550136e-05,
+            "accession": "MK007336",
+            "date": "2018-08-14",
+            "raw_date": "2018-08-13",
+            "num_date_confidence": [
+              2018.6160164271048,
+              2018.6160164271048
+            ],
+            "health_zone_confidence": {
+              "Unknown": 1.0
+            },
+            "country": "Democratic Republic of the Congo",
+            "health_zone_entropy": -1.000088900581841e-12,
+            "health_zone": "Unknown",
+            "authors": "Mbala et al."
+          },
+          "strain": "MAN028",
+          "clade": 24,
+          "branch_length": 5.93e-05,
+          "yvalue": 31,
+          "muts": [
+            "A16527G",
+            "T18917A",
+            "A18921G"
+          ],
+          "aa_muts": {
+            "L": [
+              "K1653E"
+            ]
+          }
+        },
+        {
+          "attr": {
+            "div": 0.00015895423624170737,
+            "num_date": 2018.621492128679,
+            "clock_length": 6.122830665928445e-05,
+            "accession": "MK007342",
+            "date": "2018-08-15",
+            "raw_date": "2018-08-15",
+            "num_date_confidence": [
+              2018.621492128679,
+              2018.621492128679
+            ],
+            "health_zone_confidence": {
+              "Mabalako": 1.0
+            },
+            "country": "Democratic Republic of the Congo",
+            "health_zone_entropy": -1.000088900581841e-12,
+            "health_zone": "Mabalako",
+            "authors": "Mbala et al."
+          },
+          "strain": "MAN046",
+          "clade": 25,
+          "branch_length": 6.123e-05,
+          "yvalue": 30,
+          "muts": [
+            "G7696A",
+            "T11056C"
+          ],
+          "aa_muts": {
+            "VP24": [
+              "L241S"
+            ]
+          }
+        },
+        {
+          "attr": {
+            "div": 0.0002649343659644492,
+            "num_date": 2018.599589322382,
+            "clock_length": 5.353488862018741e-05,
+            "accession": "MK163648",
+            "date": "2018-08-08",
+            "raw_date": "2018-08-07",
+            "num_date_confidence": [
+              2018.599589322382,
+              2018.599589322382
+            ],
+            "health_zone_confidence": {
+              "Beni": 1.0
+            },
+            "country": "Democratic Republic of the Congo",
+            "health_zone_entropy": -1.000088900581841e-12,
+            "health_zone": "Beni",
+            "authors": "Mbala et al."
+          },
+          "strain": "BEN070",
+          "clade": 26,
+          "branch_length": 5.353e-05,
+          "yvalue": 29,
+          "muts": [
+            "C1269T",
+            "A2254C",
+            "A6830G",
+            "A17716G"
+          ],
+          "aa_muts": {
+            "NP": [
+              "N599H"
+            ],
+            "GP": [
+              "N268D"
+            ],
+            "L": [
+              "D2049G"
+            ]
+          }
+        },
+        {
+          "attr": {
+            "div": 0.0001589523480681962,
+            "num_date": 2018.621492128679,
+            "clock_length": 6.122830665928445e-05,
+            "accession": "MK007343",
+            "date": "2018-08-15",
+            "raw_date": "2018-08-15",
+            "num_date_confidence": [
+              2018.621492128679,
+              2018.621492128679
+            ],
+            "health_zone_confidence": {
+              "Mandima": 1.0
+            },
+            "country": "Democratic Republic of the Congo",
+            "health_zone_entropy": -1.000088900581841e-12,
+            "health_zone": "Mandima",
+            "authors": "Mbala et al."
+          },
+          "strain": "MAN048",
+          "clade": 27,
+          "branch_length": 6.123e-05,
+          "yvalue": 28,
+          "muts": [
+            "A238G",
+            "T6694C"
+          ],
+          "aa_muts": {}
+        },
+        {
+          "attr": {
+            "div": 0.00015895307787446098,
+            "num_date": 2018.621492128679,
+            "clock_length": 6.122830665928445e-05,
+            "accession": "MK007340",
+            "date": "2018-08-15",
+            "raw_date": "2018-08-15",
+            "num_date_confidence": [
+              2018.621492128679,
+              2018.621492128679
+            ],
+            "health_zone_confidence": {
+              "Mabalako": 1.0
+            },
+            "country": "Democratic Republic of the Congo",
+            "health_zone_entropy": -1.000088900581841e-12,
+            "health_zone": "Mabalako",
+            "authors": "Mbala et al."
+          },
+          "strain": "MAN040",
+          "clade": 28,
+          "branch_length": 6.123e-05,
+          "yvalue": 27,
+          "muts": [
+            "T4564C",
+            "T4567C"
+          ],
+          "aa_muts": {}
+        },
+        {
+          "attr": {
+            "div": 0.00010596721784086142,
+            "num_date": 2018.526076341503,
+            "clock_length": 2.7713261677398348e-05,
+            "date": "2018-07-12",
+            "num_date_confidence": [
+              2018.495651446333,
+              2018.5835982612932
+            ],
+            "health_zone_confidence": {
+              "Mabalako": 0.8016657711309524,
+              "Oicha": 0.14122733033217513,
+              "Mandima": 0.04179894094093932,
+              "Beni": 0.006386896511733882
+            },
+            "health_zone_entropy": 0.666896998177152,
+            "health_zone": "Mabalako"
+          },
+          "strain": "NODE_0000018",
+          "clade": 31,
+          "branch_length": 2.771e-05,
+          "yvalue": 25.5,
+          "children": [
+            {
+              "attr": {
+                "div": 0.00015895067496057884,
+                "num_date": 2018.6461327857633,
+                "clock_length": 4.217014027593018e-05,
+                "accession": "MK163663",
+                "date": "2018-08-25",
+                "raw_date": "2018-08-24",
+                "num_date_confidence": [
+                  2018.6461327857633,
+                  2018.6461327857633
+                ],
+                "health_zone_confidence": {
+                  "Oicha": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Oicha",
+                "authors": "Mbala et al."
+              },
+              "strain": "BEN230",
+              "clade": 29,
+              "branch_length": 4.217e-05,
+              "yvalue": 26,
+              "muts": [
+                "G3397A"
+              ],
+              "aa_muts": {}
+            },
+            {
+              "attr": {
+                "div": 0.00015894974373649874,
+                "num_date": 2018.5886379192334,
+                "clock_length": 2.1974917923240554e-05,
+                "accession": "MK163645",
+                "date": "2018-08-04",
+                "raw_date": "2018-08-03",
+                "num_date_confidence": [
+                  2018.5886379192334,
+                  2018.5886379192334
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Mabalako",
+                "authors": "Mbala et al."
+              },
+              "strain": "BEN018",
+              "clade": 30,
+              "branch_length": 2.197e-05,
+              "yvalue": 25,
+              "muts": [
+                "A14772G"
+              ],
+              "aa_muts": {
+                "L": [
+                  "T1068A"
+                ]
+              }
+            }
+          ],
+          "muts": [
+            "T7854C"
+          ],
+          "aa_muts": {}
+        },
+        {
+          "attr": {
+            "div": 0.0001589532372430596,
+            "num_date": 2018.6011602899023,
+            "clock_length": 5.4086695073515654e-05,
+            "date": "2018-08-08",
+            "num_date_confidence": [
+              2018.5464090738562,
+              2018.6132785763175
+            ],
+            "health_zone_confidence": {
+              "Mabalako": 0.7300812360592316,
+              "Mandima": 0.2585647739940816,
+              "Beni": 0.003847602344350855,
+              "Unknown": 0.0026374677321336563
+            },
+            "health_zone_entropy": 0.6457598642395781,
+            "health_zone": "Mabalako"
+          },
+          "strain": "NODE_0000019",
+          "clade": 34,
+          "branch_length": 5.409e-05,
+          "yvalue": 23.5,
+          "children": [
+            {
+              "attr": {
+                "div": 0.00015895323724305973,
+                "num_date": 2018.6132785763175,
+                "clock_length": 4.2565798210874456e-06,
+                "accession": "MK007331",
+                "date": "2018-08-12",
+                "raw_date": "2018-08-12",
+                "num_date_confidence": [
+                  2018.6132785763175,
+                  2018.6132785763175
+                ],
+                "health_zone_confidence": {
+                  "Mandima": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Mandima",
+                "authors": "Mbala et al."
+              },
+              "strain": "MAN002",
+              "clade": 32,
+              "branch_length": 4.26e-06,
+              "yvalue": 24,
+              "muts": [],
+              "aa_muts": {}
+            },
+            {
+              "attr": {
+                "div": 0.00015895323724305973,
+                "num_date": 2018.6132785763175,
+                "clock_length": 4.2565798210874456e-06,
+                "accession": "MK163657",
+                "date": "2018-08-12",
+                "raw_date": "2018-08-12",
+                "num_date_confidence": [
+                  2018.6132785763175,
+                  2018.6132785763175
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Mabalako",
+                "authors": "Mbala et al."
+              },
+              "strain": "BEN163",
+              "clade": 33,
+              "branch_length": 4.26e-06,
+              "yvalue": 23,
+              "muts": [],
+              "aa_muts": {}
+            }
+          ],
+          "muts": [
+            "A18927G",
+            "C18930T"
+          ],
+          "aa_muts": {}
+        },
+        {
+          "attr": {
+            "div": 0.00010596692642784664,
+            "num_date": 2018.5334177585949,
+            "clock_length": 3.0291953645944004e-05,
+            "date": "2018-07-14",
+            "num_date_confidence": [
+              2018.5029840063219,
+              2018.5913757700205
+            ],
+            "health_zone_confidence": {
+              "Mabalako": 0.9862506663402019,
+              "Mandima": 0.011365120992062185
+            },
+            "health_zone_entropy": 0.08217035439556795,
+            "health_zone": "Mabalako"
+          },
+          "strain": "NODE_0000046",
+          "clade": 37,
+          "branch_length": 3.029e-05,
+          "yvalue": 21.5,
+          "children": [
+            {
+              "attr": {
+                "div": 0.00021193536130390429,
+                "num_date": 2018.621492128679,
+                "clock_length": 3.0936353013340446e-05,
+                "accession": "MK007339",
+                "date": "2018-08-15",
+                "raw_date": "2018-08-15",
+                "num_date_confidence": [
+                  2018.621492128679,
+                  2018.621492128679
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Mabalako",
+                "authors": "Mbala et al."
+              },
+              "strain": "MAN039",
+              "clade": 35,
+              "branch_length": 3.094e-05,
+              "yvalue": 22,
+              "muts": [
+                "G1238A",
+                "T17857C"
+              ],
+              "aa_muts": {
+                "NP": [
+                  "R260Q"
+                ],
+                "L": [
+                  "I2096T"
+                ]
+              }
+            },
+            {
+              "attr": {
+                "div": 0.00010596692642784677,
+                "num_date": 2018.5913757700205,
+                "clock_length": 2.0357903209562055e-05,
+                "accession": "MK163647",
+                "date": "2018-08-04",
+                "raw_date": "2018-08-04",
+                "num_date_confidence": [
+                  2018.5913757700205,
+                  2018.5913757700205
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 1.0
+                },
+                "country": "Democratic Republic of the Congo",
+                "health_zone_entropy": -1.000088900581841e-12,
+                "health_zone": "Mabalako",
+                "authors": "Mbala et al."
+              },
+              "strain": "BEN031",
+              "clade": 36,
+              "branch_length": 2.036e-05,
+              "yvalue": 21,
+              "muts": [],
+              "aa_muts": {}
+            }
+          ],
+          "muts": [
+            "A2148G"
+          ],
+          "aa_muts": {}
+        },
+        {
+          "attr": {
+            "div": 5.298391448486433e-05,
+            "num_date": 2018.469621390568,
+            "clock_length": 7.88331239920292e-06,
+            "date": "2018-06-21",
+            "num_date_confidence": [
+              2018.4479615425948,
+              2018.4853455573557
+            ],
+            "health_zone_confidence": {
+              "Mabalako": 0.9499021284125286,
+              "Mandima": 0.027360338624772697,
+              "Beni": 0.018265169399123014,
+              "Unknown": 0.0015920383834424707
+            },
+            "health_zone_entropy": 0.24949276171525392,
+            "health_zone": "Mabalako"
+          },
+          "strain": "NODE_0000050",
+          "clade": 76,
+          "branch_length": 7.88e-06,
+          "yvalue": 16.99609375,
+          "children": [
+            {
+              "attr": {
+                "div": 0.00010596721784086154,
+                "num_date": 2018.508904493159,
+                "clock_length": 1.3798292602659664e-05,
+                "date": "2018-07-05",
+                "num_date_confidence": [
+                  2018.4914833129399,
+                  2018.5886379192334
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 0.991244559150602,
+                  "Mandima": 0.004532607934355914,
+                  "Beni": 0.002360335894309636
+                },
+                "health_zone_entropy": 0.06119836049775208,
+                "health_zone": "Mabalako"
+              },
+              "strain": "NODE_0000035",
+              "clade": 44,
+              "branch_length": 1.38e-05,
+              "yvalue": 19.125,
+              "children": [
+                {
+                  "attr": {
+                    "div": 0.00010596721784086168,
+                    "num_date": 2018.5886379192334,
+                    "clock_length": 2.8006574598776318e-05,
+                    "accession": "MK163646",
+                    "date": "2018-08-04",
+                    "raw_date": "2018-08-03",
+                    "num_date_confidence": [
+                      2018.5886379192334,
+                      2018.5886379192334
+                    ],
+                    "health_zone_confidence": {
+                      "Mabalako": 1.0
+                    },
+                    "country": "Democratic Republic of the Congo",
+                    "health_zone_entropy": -1.000088900581841e-12,
+                    "health_zone": "Mabalako",
+                    "authors": "Mbala et al."
+                  },
+                  "strain": "BEN020",
+                  "clade": 38,
+                  "branch_length": 2.801e-05,
+                  "yvalue": 20,
+                  "muts": [],
+                  "aa_muts": {}
+                },
+                {
+                  "attr": {
+                    "div": 0.00010596721784086168,
+                    "num_date": 2018.5868108252023,
+                    "clock_length": 2.7364803038183792e-05,
+                    "date": "2018-08-03",
+                    "num_date_confidence": [
+                      2018.533798703928,
+                      2018.601999863906
+                    ],
+                    "health_zone_confidence": {
+                      "Mabalako": 0.9956383720531402,
+                      "Mandima": 0.0019821422111268713
+                    },
+                    "health_zone_entropy": 0.034237094990962155,
+                    "health_zone": "Mabalako"
+                  },
+                  "strain": "NODE_0000051",
+                  "clade": 43,
+                  "branch_length": 2.736e-05,
+                  "yvalue": 18.25,
+                  "children": [
+                    {
+                      "attr": {
+                        "div": 0.00010596721784086181,
+                        "num_date": 2018.6132785763175,
+                        "clock_length": 9.296866854556724e-06,
+                        "accession": "MK163660",
+                        "date": "2018-08-12",
+                        "raw_date": "2018-08-12",
+                        "num_date_confidence": [
+                          2018.6132785763175,
+                          2018.6132785763175
+                        ],
+                        "health_zone_confidence": {
+                          "Mabalako": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Mabalako",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN167",
+                      "clade": 39,
+                      "branch_length": 9.3e-06,
+                      "yvalue": 19,
+                      "muts": [],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 0.00010596721784086181,
+                        "num_date": 2018.6105407255304,
+                        "clock_length": 8.335189599689566e-06,
+                        "date": "2018-08-11",
+                        "num_date_confidence": [
+                          2018.5689633965271,
+                          2018.6105407255304
+                        ],
+                        "health_zone_confidence": {
+                          "Mabalako": 0.9964335613263243,
+                          "Mandima": 0.001541030073190913
+                        },
+                        "health_zone_entropy": 0.028835694394788697,
+                        "health_zone": "Mabalako"
+                      },
+                      "strain": "NODE_0000052",
+                      "clade": 42,
+                      "branch_length": 8.34e-06,
+                      "yvalue": 17.5,
+                      "children": [
+                        {
+                          "attr": {
+                            "div": 0.00010596721784086195,
+                            "num_date": 2018.6105407255304,
+                            "clock_length": 0.0,
+                            "accession": "MK163653",
+                            "date": "2018-08-11",
+                            "raw_date": "2018-08-11",
+                            "num_date_confidence": [
+                              2018.6105407255304,
+                              2018.6105407255304
+                            ],
+                            "health_zone_confidence": {
+                              "Mabalako": 1.0
+                            },
+                            "country": "Democratic Republic of the Congo",
+                            "health_zone_entropy": -1.000088900581841e-12,
+                            "health_zone": "Mabalako",
+                            "authors": "Mbala et al."
+                          },
+                          "strain": "BEN143",
+                          "clade": 40,
+                          "branch_length": 0.0,
+                          "yvalue": 18,
+                          "muts": [],
+                          "aa_muts": {}
+                        },
+                        {
+                          "attr": {
+                            "div": 0.00010596721784086195,
+                            "num_date": 2018.6105407255304,
+                            "clock_length": 0.0,
+                            "accession": "MK163652",
+                            "date": "2018-08-11",
+                            "raw_date": "2018-08-11",
+                            "num_date_confidence": [
+                              2018.6105407255304,
+                              2018.6105407255304
+                            ],
+                            "health_zone_confidence": {
+                              "Mabalako": 1.0
+                            },
+                            "country": "Democratic Republic of the Congo",
+                            "health_zone_entropy": -1.000088900581841e-12,
+                            "health_zone": "Mabalako",
+                            "authors": "Mbala et al."
+                          },
+                          "strain": "BEN141",
+                          "clade": 41,
+                          "branch_length": 0.0,
+                          "yvalue": 17,
+                          "muts": [],
+                          "aa_muts": {}
+                        }
+                      ],
+                      "muts": [],
+                      "aa_muts": {}
+                    }
+                  ],
+                  "muts": [],
+                  "aa_muts": {}
+                }
+              ],
+              "muts": [
+                "T7233C"
+              ],
+              "aa_muts": {}
+            },
+            {
+              "attr": {
+                "div": 5.298391448486446e-05,
+                "num_date": 2018.469621390568,
+                "clock_length": 0.0,
+                "date": "2018-06-21",
+                "num_date_confidence": [
+                  2018.4453157021705,
+                  2018.5009075554667
+                ],
+                "health_zone_confidence": {
+                  "Mabalako": 0.8017917233197623,
+                  "Beni": 0.1623129044344611,
+                  "Mandima": 0.021608340841813962,
+                  "Unknown": 0.0050492904036954596
+                },
+                "health_zone_entropy": 0.6314840265718044,
+                "health_zone": "Mabalako"
+              },
+              "strain": "NODE_0000053",
+              "clade": 75,
+              "branch_length": 0.0,
+              "yvalue": 14.8671875,
+              "children": [
+                {
+                  "attr": {
+                    "div": 0.00010596895007077701,
+                    "num_date": 2018.6105407255304,
+                    "clock_length": 4.949828524053302e-05,
+                    "accession": "MK163651",
+                    "date": "2018-08-11",
+                    "raw_date": "2018-08-11",
+                    "num_date_confidence": [
+                      2018.6105407255304,
+                      2018.6105407255304
+                    ],
+                    "health_zone_confidence": {
+                      "Beni": 1.0
+                    },
+                    "country": "Democratic Republic of the Congo",
+                    "health_zone_entropy": -1.000088900581841e-12,
+                    "health_zone": "Beni",
+                    "authors": "Mbala et al."
+                  },
+                  "strain": "BEN140",
+                  "clade": 45,
+                  "branch_length": 4.95e-05,
+                  "yvalue": 16,
+                  "muts": [
+                    "T15137A"
+                  ],
+                  "aa_muts": {
+                    "L": [
+                      "D1189E"
+                    ]
+                  }
+                },
+                {
+                  "attr": {
+                    "div": 5.298391448486459e-05,
+                    "num_date": 2018.4899243161483,
+                    "clock_length": 7.131455749920723e-06,
+                    "date": "2018-06-28",
+                    "num_date_confidence": [
+                      2018.4663523501338,
+                      2018.5239693075102
+                    ],
+                    "health_zone_confidence": {
+                      "Mabalako": 0.9631997068592384,
+                      "Beni": 0.01834165787952976,
+                      "Mandima": 0.014042504039790859,
+                      "Unknown": 0.0015766537486055173
+                    },
+                    "health_zone_entropy": 0.19814440794265084,
+                    "health_zone": "Mabalako"
+                  },
+                  "strain": "NODE_0000054",
+                  "clade": 74,
+                  "branch_length": 7.13e-06,
+                  "yvalue": 13.734375,
+                  "children": [
+                    {
+                      "attr": {
+                        "div": 0.00010596787079147636,
+                        "num_date": 2018.6105407255304,
+                        "clock_length": 4.23668294906123e-05,
+                        "accession": "MK163654",
+                        "date": "2018-08-11",
+                        "raw_date": "2018-08-11",
+                        "num_date_confidence": [
+                          2018.6105407255304,
+                          2018.6105407255304
+                        ],
+                        "health_zone_confidence": {
+                          "Mabalako": 1.0
+                        },
+                        "country": "Democratic Republic of the Congo",
+                        "health_zone_entropy": -1.000088900581841e-12,
+                        "health_zone": "Mabalako",
+                        "authors": "Mbala et al."
+                      },
+                      "strain": "BEN146",
+                      "clade": 46,
+                      "branch_length": 4.237e-05,
+                      "yvalue": 15,
+                      "muts": [
+                        "G4210A"
+                      ],
+                      "aa_muts": {}
+                    },
+                    {
+                      "attr": {
+                        "div": 5.2983914484864716e-05,
+                        "num_date": 2018.4897297946209,
+                        "clock_length": -6.832619562263708e-08,
+                        "date": "2018-06-28",
+                        "num_date_confidence": [
+                          2018.464047758268,
+                          2018.5256546949834
+                        ],
+                        "health_zone_confidence": {
+                          "Mabalako": 0.9472002638591258,
+                          "Mandima": 0.04410802026769739,
+                          "Beni": 0.004691956272051411,
+                          "Unknown": 0.0014242374785498545
+                        },
+                        "health_zone_entropy": 0.2406683327180871,
+                        "health_zone": "Mabalako"
+                      },
+                      "strain": "NODE_0000055",
+                      "clade": 73,
+                      "branch_length": -7e-08,
+                      "yvalue": 12.46875,
+                      "children": [
+                        {
+                          "attr": {
+                            "div": 0.0001059677798268901,
+                            "num_date": 2018.6132785763175,
+                            "clock_length": 4.3396832941102094e-05,
+                            "accession": "MK163659",
+                            "date": "2018-08-12",
+                            "raw_date": "2018-08-12",
+                            "num_date_confidence": [
+                              2018.6132785763175,
+                              2018.6132785763175
+                            ],
+                            "health_zone_confidence": {
+                              "Mabalako": 1.0
+                            },
+                            "country": "Democratic Republic of the Congo",
+                            "health_zone_entropy": -1.000088900581841e-12,
+                            "health_zone": "Mabalako",
+                            "authors": "Mbala et al."
+                          },
+                          "strain": "BEN165",
+                          "clade": 47,
+                          "branch_length": 4.34e-05,
+                          "yvalue": 14,
+                          "muts": [
+                            "C2139T"
+                          ],
+                          "aa_muts": {}
+                        },
+                        {
+                          "attr": {
+                            "div": 5.2983914484864845e-05,
+                            "num_date": 2018.5075092269915,
+                            "clock_length": 6.245072155156841e-06,
+                            "date": "2018-07-05",
+                            "num_date_confidence": [
+                              2018.4799740163705,
+                              2018.5364672437884
+                            ],
+                            "health_zone_confidence": {
+                              "Mabalako": 0.694255349845571,
+                              "Mandima": 0.29155519110598727,
+                              "Beni": 0.005237762284375713,
+                              "Unknown": 0.0031543375681499946
+                            },
+                            "health_zone_entropy": 0.6922233245886404,
+                            "health_zone": "Mabalako"
+                          },
+                          "strain": "NODE_0000056",
+                          "clade": 72,
+                          "branch_length": 6.25e-06,
+                          "yvalue": 10.9375,
+                          "children": [
+                            {
+                              "attr": {
+                                "div": 0.00010596721784086206,
+                                "num_date": 2018.6160164271048,
+                                "clock_length": 3.811343804089229e-05,
+                                "accession": "MK007332",
+                                "date": "2018-08-14",
+                                "raw_date": "2018-08-13",
+                                "num_date_confidence": [
+                                  2018.6160164271048,
+                                  2018.6160164271048
+                                ],
+                                "health_zone_confidence": {
+                                  "Mandima": 1.0
+                                },
+                                "country": "Democratic Republic of the Congo",
+                                "health_zone_entropy": -1.000088900581841e-12,
+                                "health_zone": "Mandima",
+                                "authors": "Mbala et al."
+                              },
+                              "strain": "MAN003",
+                              "clade": 48,
+                              "branch_length": 3.811e-05,
+                              "yvalue": 13,
+                              "muts": [
+                                "T11966C"
+                              ],
+                              "aa_muts": {}
+                            },
+                            {
+                              "attr": {
+                                "div": 5.2983914484864974e-05,
+                                "num_date": 2018.5080319193532,
+                                "clock_length": 1.8359706007345486e-07,
+                                "date": "2018-07-05",
+                                "num_date_confidence": [
+                                  2018.4905246369665,
+                                  2018.5533059949464
+                                ],
+                                "health_zone_confidence": {
+                                  "Mabalako": 0.8753556949855018,
+                                  "Mandima": 0.11838625098528482,
+                                  "Beni": 0.00235986030788743,
+                                  "Unknown": 0.0013889070050423595
+                                },
+                                "health_zone_entropy": 0.40930843265547207,
+                                "health_zone": "Mabalako"
+                              },
+                              "strain": "NODE_0000057",
+                              "clade": 71,
+                              "branch_length": 1.8e-07,
+                              "yvalue": 8.875,
+                              "children": [
+                                {
+                                  "attr": {
+                                    "div": 5.29839144848651e-05,
+                                    "num_date": 2018.5482376520536,
+                                    "clock_length": 1.4122368843392933e-05,
+                                    "date": "2018-07-20",
+                                    "num_date_confidence": [
+                                      2018.5205301528217,
+                                      2018.5722108145105
+                                    ],
+                                    "health_zone_confidence": {
+                                      "Mabalako": 0.9838174424563944,
+                                      "Mandima": 0.013184658197515796,
+                                      "Beni": 0.0010811533430046608
+                                    },
+                                    "health_zone_entropy": 0.09459580038558574,
+                                    "health_zone": "Mabalako"
+                                  },
+                                  "strain": "NODE_0000058",
+                                  "clade": 51,
+                                  "branch_length": 1.412e-05,
+                                  "yvalue": 11.5,
+                                  "children": [
+                                    {
+                                      "attr": {
+                                        "div": 5.298391448486523e-05,
+                                        "num_date": 2018.5886379192334,
+                                        "clock_length": 1.4190699588514667e-05,
+                                        "accession": "MK163644",
+                                        "date": "2018-08-04",
+                                        "raw_date": "2018-08-03",
+                                        "num_date_confidence": [
+                                          2018.5886379192334,
+                                          2018.5886379192334
+                                        ],
+                                        "health_zone_confidence": {
+                                          "Mabalako": 1.0
+                                        },
+                                        "country": "Democratic Republic of the Congo",
+                                        "health_zone_entropy": -1.000088900581841e-12,
+                                        "health_zone": "Mabalako",
+                                        "authors": "Mbala et al."
+                                      },
+                                      "strain": "BEN017",
+                                      "clade": 49,
+                                      "branch_length": 1.419e-05,
+                                      "yvalue": 12,
+                                      "muts": [],
+                                      "aa_muts": {}
+                                    },
+                                    {
+                                      "attr": {
+                                        "div": 5.298391448486523e-05,
+                                        "num_date": 2018.5722108145105,
+                                        "clock_length": 8.42063605915194e-06,
+                                        "accession": "MK007330",
+                                        "date": "2018-07-28",
+                                        "raw_date": "2018-07-28",
+                                        "num_date_confidence": [
+                                          2018.5722108145105,
+                                          2018.5722108145105
+                                        ],
+                                        "health_zone_confidence": {
+                                          "Mabalako": 1.0
+                                        },
+                                        "country": "Democratic Republic of the Congo",
+                                        "health_zone_entropy": -1.000088900581841e-12,
+                                        "health_zone": "Mabalako",
+                                        "authors": "Mbala et al."
+                                      },
+                                      "strain": "18FHV090",
+                                      "clade": 50,
+                                      "branch_length": 8.42e-06,
+                                      "yvalue": 11,
+                                      "muts": [],
+                                      "aa_muts": {}
+                                    }
+                                  ],
+                                  "muts": [],
+                                  "aa_muts": {}
+                                },
+                                {
+                                  "attr": {
+                                    "div": 5.29839144848651e-05,
+                                    "num_date": 2018.5299765546106,
+                                    "clock_length": 7.708110570933799e-06,
+                                    "date": "2018-07-13",
+                                    "num_date_confidence": [
+                                      2018.501577234258,
+                                      2018.5752097894697
+                                    ],
+                                    "health_zone_confidence": {
+                                      "Mabalako": 0.8607955156807676,
+                                      "Mandima": 0.13218747828381697,
+                                      "Beni": 0.002999740096679984,
+                                      "Unknown": 0.001432789723883473
+                                    },
+                                    "health_zone_entropy": 0.44050280171517386,
+                                    "health_zone": "Mabalako"
+                                  },
+                                  "strain": "NODE_0000059",
+                                  "clade": 70,
+                                  "branch_length": 7.71e-06,
+                                  "yvalue": 6.25,
+                                  "children": [
+                                    {
+                                      "attr": {
+                                        "div": 5.298391448486523e-05,
+                                        "num_date": 2018.5649769050765,
+                                        "clock_length": 1.2293964709254429e-05,
+                                        "date": "2018-07-26",
+                                        "num_date_confidence": [
+                                          2018.5294268441125,
+                                          2018.6019654409517
+                                        ],
+                                        "health_zone_confidence": {
+                                          "Mabalako": 0.6984977270617687,
+                                          "Mandima": 0.2879655289934894,
+                                          "Beni": 0.004779050975990541,
+                                          "Unknown": 0.003085750171479811
+                                        },
+                                        "health_zone_entropy": 0.6857521780963967,
+                                        "health_zone": "Mabalako"
+                                      },
+                                      "strain": "NODE_0000060",
+                                      "clade": 58,
+                                      "branch_length": 1.229e-05,
+                                      "yvalue": 8.5,
+                                      "children": [
+                                        {
+                                          "attr": {
+                                            "div": 5.298391448486536e-05,
+                                            "num_date": 2018.6038981406896,
+                                            "clock_length": 1.367118587954316e-05,
+                                            "date": "2018-08-09",
+                                            "num_date_confidence": [
+                                              2018.566980456462,
+                                              2018.6160164271048
+                                            ],
+                                            "health_zone_confidence": {
+                                              "Mandima": 0.977535382159322,
+                                              "Mabalako": 0.019683019516010543
+                                            },
+                                            "health_zone_entropy": 0.11971069964044634,
+                                            "health_zone": "Mandima"
+                                          },
+                                          "strain": "NODE_0000061",
+                                          "clade": 54,
+                                          "branch_length": 1.367e-05,
+                                          "yvalue": 9.5,
+                                          "children": [
+                                            {
+                                              "attr": {
+                                                "div": 5.298391448486549e-05,
+                                                "num_date": 2018.6160164271048,
+                                                "clock_length": 4.2565798210874456e-06,
+                                                "accession": "MK007333",
+                                                "date": "2018-08-14",
+                                                "raw_date": "2018-08-13",
+                                                "num_date_confidence": [
+                                                  2018.6160164271048,
+                                                  2018.6160164271048
+                                                ],
+                                                "health_zone_confidence": {
+                                                  "Mandima": 1.0
+                                                },
+                                                "country": "Democratic Republic of the Congo",
+                                                "health_zone_entropy": -1.000088900581841e-12,
+                                                "health_zone": "Mandima",
+                                                "authors": "Mbala et al."
+                                              },
+                                              "strain": "MAN006",
+                                              "clade": 52,
+                                              "branch_length": 4.26e-06,
+                                              "yvalue": 10,
+                                              "muts": [],
+                                              "aa_muts": {}
+                                            },
+                                            {
+                                              "attr": {
+                                                "div": 5.298391448486549e-05,
+                                                "num_date": 2018.6160164271048,
+                                                "clock_length": 4.2565798210874456e-06,
+                                                "accession": "MK007334",
+                                                "date": "2018-08-14",
+                                                "raw_date": "2018-08-13",
+                                                "num_date_confidence": [
+                                                  2018.6160164271048,
+                                                  2018.6160164271048
+                                                ],
+                                                "health_zone_confidence": {
+                                                  "Mandima": 1.0
+                                                },
+                                                "country": "Democratic Republic of the Congo",
+                                                "health_zone_entropy": -1.000088900581841e-12,
+                                                "health_zone": "Mandima",
+                                                "authors": "Mbala et al."
+                                              },
+                                              "strain": "MAN020",
+                                              "clade": 53,
+                                              "branch_length": 4.26e-06,
+                                              "yvalue": 9,
+                                              "muts": [],
+                                              "aa_muts": {}
+                                            }
+                                          ],
+                                          "muts": [],
+                                          "aa_muts": {}
+                                        },
+                                        {
+                                          "attr": {
+                                            "div": 5.298391448486536e-05,
+                                            "num_date": 2018.6036878081848,
+                                            "clock_length": 1.3597306036712748e-05,
+                                            "date": "2018-08-09",
+                                            "num_date_confidence": [
+                                              2018.5667679118887,
+                                              2018.6132785763175
+                                            ],
+                                            "health_zone_confidence": {
+                                              "Mabalako": 0.9620680004869069,
+                                              "Mandima": 0.033124332812341915,
+                                              "Beni": 0.0017076911432184938,
+                                              "Unknown": 0.0011034240815488597
+                                            },
+                                            "health_zone_entropy": 0.1822544060340507,
+                                            "health_zone": "Mabalako"
+                                          },
+                                          "strain": "NODE_0000062",
+                                          "clade": 57,
+                                          "branch_length": 1.36e-05,
+                                          "yvalue": 7.5,
+                                          "children": [
+                                            {
+                                              "attr": {
+                                                "div": 5.298391448486549e-05,
+                                                "num_date": 2018.6132785763175,
+                                                "clock_length": 3.368782408970822e-06,
+                                                "accession": "MK163656",
+                                                "date": "2018-08-12",
+                                                "raw_date": "2018-08-12",
+                                                "num_date_confidence": [
+                                                  2018.6132785763175,
+                                                  2018.6132785763175
+                                                ],
+                                                "health_zone_confidence": {
+                                                  "Mabalako": 1.0
+                                                },
+                                                "country": "Democratic Republic of the Congo",
+                                                "health_zone_entropy": -1.000088900581841e-12,
+                                                "health_zone": "Mabalako",
+                                                "authors": "Mbala et al."
+                                              },
+                                              "strain": "BEN162",
+                                              "clade": 55,
+                                              "branch_length": 3.37e-06,
+                                              "yvalue": 8,
+                                              "muts": [],
+                                              "aa_muts": {}
+                                            },
+                                            {
+                                              "attr": {
+                                                "div": 5.298391448486549e-05,
+                                                "num_date": 2018.6132785763175,
+                                                "clock_length": 3.368782408970822e-06,
+                                                "accession": "MK163658",
+                                                "date": "2018-08-12",
+                                                "raw_date": "2018-08-12",
+                                                "num_date_confidence": [
+                                                  2018.6132785763175,
+                                                  2018.6132785763175
+                                                ],
+                                                "health_zone_confidence": {
+                                                  "Mabalako": 1.0
+                                                },
+                                                "country": "Democratic Republic of the Congo",
+                                                "health_zone_entropy": -1.000088900581841e-12,
+                                                "health_zone": "Mabalako",
+                                                "authors": "Mbala et al."
+                                              },
+                                              "strain": "BEN164",
+                                              "clade": 56,
+                                              "branch_length": 3.37e-06,
+                                              "yvalue": 7,
+                                              "muts": [],
+                                              "aa_muts": {}
+                                            }
+                                          ],
+                                          "muts": [],
+                                          "aa_muts": {}
+                                        }
+                                      ],
+                                      "muts": [],
+                                      "aa_muts": {}
+                                    },
+                                    {
+                                      "attr": {
+                                        "div": 5.298391448486523e-05,
+                                        "num_date": 2018.5474634589498,
+                                        "clock_length": 6.142320918477552e-06,
+                                        "date": "2018-07-19",
+                                        "num_date_confidence": [
+                                          2018.5207791325324,
+                                          2018.5849806683134
+                                        ],
+                                        "health_zone_confidence": {
+                                          "Mabalako": 0.9156212450307007,
+                                          "Mandima": 0.07356284228405763,
+                                          "Beni": 0.006833756864191195,
+                                          "Unknown": 0.0014221135138200764
+                                        },
+                                        "health_zone_entropy": 0.3331232703415201,
+                                        "health_zone": "Mabalako"
+                                      },
+                                      "strain": "NODE_0000063",
+                                      "clade": 69,
+                                      "branch_length": 6.14e-06,
+                                      "yvalue": 4.0,
+                                      "children": [
+                                        {
+                                          "attr": {
+                                            "div": 5.298391448486536e-05,
+                                            "num_date": 2018.6050650239563,
+                                            "clock_length": 2.0232700471858948e-05,
+                                            "date": "2018-08-10",
+                                            "num_date_confidence": [
+                                              2018.5581134001466,
+                                              2018.6050650239563
+                                            ],
+                                            "health_zone_confidence": {
+                                              "Mabalako": 0.9882986755912666,
+                                              "Mandima": 0.008576392376352486,
+                                              "Beni": 0.0013493633400662474
+                                            },
+                                            "health_zone_entropy": 0.07454885234190498,
+                                            "health_zone": "Mabalako"
+                                          },
+                                          "strain": "NODE_0000064",
+                                          "clade": 61,
+                                          "branch_length": 2.023e-05,
+                                          "yvalue": 5.5,
+                                          "children": [
+                                            {
+                                              "attr": {
+                                                "div": 5.298391448486549e-05,
+                                                "num_date": 2018.6050650239563,
+                                                "clock_length": 0.0,
+                                                "accession": "MK163650",
+                                                "date": "2018-08-10",
+                                                "raw_date": "2018-08-09",
+                                                "num_date_confidence": [
+                                                  2018.6050650239563,
+                                                  2018.6050650239563
+                                                ],
+                                                "health_zone_confidence": {
+                                                  "Mabalako": 1.0
+                                                },
+                                                "country": "Democratic Republic of the Congo",
+                                                "health_zone_entropy": -1.000088900581841e-12,
+                                                "health_zone": "Mabalako",
+                                                "authors": "Mbala et al."
+                                              },
+                                              "strain": "BEN114",
+                                              "clade": 59,
+                                              "branch_length": 0.0,
+                                              "yvalue": 6,
+                                              "muts": [],
+                                              "aa_muts": {}
+                                            },
+                                            {
+                                              "attr": {
+                                                "div": 5.298391448486549e-05,
+                                                "num_date": 2018.6050650239563,
+                                                "clock_length": 0.0,
+                                                "accession": "MK163649",
+                                                "date": "2018-08-10",
+                                                "raw_date": "2018-08-09",
+                                                "num_date_confidence": [
+                                                  2018.6050650239563,
+                                                  2018.6050650239563
+                                                ],
+                                                "health_zone_confidence": {
+                                                  "Mabalako": 1.0
+                                                },
+                                                "country": "Democratic Republic of the Congo",
+                                                "health_zone_entropy": -1.000088900581841e-12,
+                                                "health_zone": "Mabalako",
+                                                "authors": "Mbala et al."
+                                              },
+                                              "strain": "BEN104",
+                                              "clade": 60,
+                                              "branch_length": 0.0,
+                                              "yvalue": 5,
+                                              "muts": [],
+                                              "aa_muts": {}
+                                            }
+                                          ],
+                                          "muts": [],
+                                          "aa_muts": {}
+                                        },
+                                        {
+                                          "attr": {
+                                            "div": 5.298391448486536e-05,
+                                            "num_date": 2018.5843953630604,
+                                            "clock_length": 1.297242798250543e-05,
+                                            "date": "2018-08-02",
+                                            "num_date_confidence": [
+                                              2018.540361227338,
+                                              2018.6054664938533
+                                            ],
+                                            "health_zone_confidence": {
+                                              "Mabalako": 0.8127232995419191,
+                                              "Mandima": 0.13156308708964395,
+                                              "Beni": 0.04446550615239719,
+                                              "Unknown": 0.003973555703222545
+                                            },
+                                            "health_zone_entropy": 0.6366170587137191,
+                                            "health_zone": "Mabalako"
+                                          },
+                                          "strain": "NODE_0000065",
+                                          "clade": 68,
+                                          "branch_length": 1.297e-05,
+                                          "yvalue": 2.5,
+                                          "children": [
+                                            {
+                                              "attr": {
+                                                "div": 5.298391448486549e-05,
+                                                "num_date": 2018.60867370358,
+                                                "clock_length": 8.527830652396565e-06,
+                                                "date": "2018-08-11",
+                                                "num_date_confidence": [
+                                                  2018.5750575397692,
+                                                  2018.621492128679
+                                                ],
+                                                "health_zone_confidence": {
+                                                  "Mabalako": 0.9773232644116635,
+                                                  "Mandima": 0.015138556956878432,
+                                                  "Beni": 0.004692240424010342,
+                                                  "Unknown": 0.0010173933592450832
+                                                },
+                                                "health_zone_entropy": 0.13081347408840852,
+                                                "health_zone": "Mabalako"
+                                              },
+                                              "strain": "NODE_0000066",
+                                              "clade": 64,
+                                              "branch_length": 8.53e-06,
+                                              "yvalue": 3.5,
+                                              "children": [
+                                                {
+                                                  "attr": {
+                                                    "div": 5.298391448486562e-05,
+                                                    "num_date": 2018.621492128679,
+                                                    "clock_length": 4.502505366239801e-06,
+                                                    "accession": "MK007341",
+                                                    "date": "2018-08-15",
+                                                    "raw_date": "2018-08-15",
+                                                    "num_date_confidence": [
+                                                      2018.621492128679,
+                                                      2018.621492128679
+                                                    ],
+                                                    "health_zone_confidence": {
+                                                      "Mabalako": 1.0
+                                                    },
+                                                    "country": "Democratic Republic of the Congo",
+                                                    "health_zone_entropy": -1.000088900581841e-12,
+                                                    "health_zone": "Mabalako",
+                                                    "authors": "Mbala et al."
+                                                  },
+                                                  "strain": "MAN042",
+                                                  "clade": 62,
+                                                  "branch_length": 4.5e-06,
+                                                  "yvalue": 4,
+                                                  "muts": [],
+                                                  "aa_muts": {}
+                                                },
+                                                {
+                                                  "attr": {
+                                                    "div": 5.298391448486562e-05,
+                                                    "num_date": 2018.621492128679,
+                                                    "clock_length": 4.502505366239801e-06,
+                                                    "accession": "MK007337",
+                                                    "date": "2018-08-15",
+                                                    "raw_date": "2018-08-15",
+                                                    "num_date_confidence": [
+                                                      2018.621492128679,
+                                                      2018.621492128679
+                                                    ],
+                                                    "health_zone_confidence": {
+                                                      "Mabalako": 1.0
+                                                    },
+                                                    "country": "Democratic Republic of the Congo",
+                                                    "health_zone_entropy": -1.000088900581841e-12,
+                                                    "health_zone": "Mabalako",
+                                                    "authors": "Mbala et al."
+                                                  },
+                                                  "strain": "MAN036",
+                                                  "clade": 63,
+                                                  "branch_length": 4.5e-06,
+                                                  "yvalue": 3,
+                                                  "muts": [],
+                                                  "aa_muts": {}
+                                                }
+                                              ],
+                                              "muts": [],
+                                              "aa_muts": {}
+                                            },
+                                            {
+                                              "attr": {
+                                                "div": 5.298391448486549e-05,
+                                                "num_date": 2018.6070400757305,
+                                                "clock_length": 7.954014594471097e-06,
+                                                "date": "2018-08-10",
+                                                "num_date_confidence": [
+                                                  2018.5759862919126,
+                                                  2018.621492128679
+                                                ],
+                                                "health_zone_confidence": {
+                                                  "Mandima": 0.4754890945985485,
+                                                  "Beni": 0.28641947342607676,
+                                                  "Mabalako": 0.21038296844407392,
+                                                  "Unknown": 0.009532923501177118
+                                                },
+                                                "health_zone_entropy": 1.1693290863748542,
+                                                "health_zone": "Mandima"
+                                              },
+                                              "strain": "NODE_0000067",
+                                              "clade": 67,
+                                              "branch_length": 7.95e-06,
+                                              "yvalue": 1.5,
+                                              "children": [
+                                                {
+                                                  "attr": {
+                                                    "div": 5.298391448486562e-05,
+                                                    "num_date": 2018.643394934976,
+                                                    "clock_length": 1.276973946326231e-05,
+                                                    "accession": "MK163662",
+                                                    "date": "2018-08-23",
+                                                    "raw_date": "2018-08-23",
+                                                    "num_date_confidence": [
+                                                      2018.643394934976,
+                                                      2018.643394934976
+                                                    ],
+                                                    "health_zone_confidence": {
+                                                      "Beni": 1.0
+                                                    },
+                                                    "country": "Democratic Republic of the Congo",
+                                                    "health_zone_entropy": -1.000088900581841e-12,
+                                                    "health_zone": "Beni",
+                                                    "authors": "Mbala et al."
+                                                  },
+                                                  "strain": "BEN225",
+                                                  "clade": 65,
+                                                  "branch_length": 1.277e-05,
+                                                  "yvalue": 2,
+                                                  "muts": [],
+                                                  "aa_muts": {}
+                                                },
+                                                {
+                                                  "attr": {
+                                                    "div": 5.298391448486562e-05,
+                                                    "num_date": 2018.621492128679,
+                                                    "clock_length": 5.076321424165269e-06,
+                                                    "accession": "MK007338",
+                                                    "date": "2018-08-15",
+                                                    "raw_date": "2018-08-15",
+                                                    "num_date_confidence": [
+                                                      2018.621492128679,
+                                                      2018.621492128679
+                                                    ],
+                                                    "health_zone_confidence": {
+                                                      "Mandima": 1.0
+                                                    },
+                                                    "country": "Democratic Republic of the Congo",
+                                                    "health_zone_entropy": -1.000088900581841e-12,
+                                                    "health_zone": "Mandima",
+                                                    "authors": "Mbala et al."
+                                                  },
+                                                  "strain": "MAN037",
+                                                  "clade": 66,
+                                                  "branch_length": 5.08e-06,
+                                                  "yvalue": 1,
+                                                  "muts": [],
+                                                  "aa_muts": {}
+                                                }
+                                              ],
+                                              "muts": [],
+                                              "aa_muts": {}
+                                            }
+                                          ],
+                                          "muts": [],
+                                          "aa_muts": {}
+                                        }
+                                      ],
+                                      "muts": [],
+                                      "aa_muts": {}
+                                    }
+                                  ],
+                                  "muts": [],
+                                  "aa_muts": {}
+                                }
+                              ],
+                              "muts": [],
+                              "aa_muts": {}
+                            }
+                          ],
+                          "muts": [],
+                          "aa_muts": {}
+                        }
+                      ],
+                      "muts": [],
+                      "aa_muts": {}
+                    }
+                  ],
+                  "muts": [],
+                  "aa_muts": {}
+                }
+              ],
+              "muts": [],
+              "aa_muts": {}
+            }
+          ],
+          "muts": [],
+          "aa_muts": {}
+        }
+      ],
+      "muts": [],
+      "aa_muts": {}
+    }
+  ],
+  "muts": [],
+  "aa_muts": {}
+}

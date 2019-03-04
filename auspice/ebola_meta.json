@@ -1,0 +1,148 @@
+{
+  "title": "Genomic epidemiology of the 2018 North Kivu, DRC Ebola epidemic",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "authors": {
+      "key": "authors",
+      "legendTitle": "Authors",
+      "menuItem": "authors",
+      "type": "discrete"
+    },
+    "country": {
+      "legendTitle": "country",
+      "menuItem": "country",
+      "key": "country",
+      "color_map": []
+    },
+    "health_zone": {
+      "key": "health_zone",
+      "legendTitle": "Health zone",
+      "menuItem": "health zone",
+      "type": "discrete",
+      "color_map": [
+        [
+          "Mabalako",
+          "#87CEFF"
+        ],
+        [
+          "Beni",
+          "#3b9072"
+        ],
+        [
+          "Oicha",
+          "#b09977"
+        ],
+        [
+          "Butembo",
+          "#f05129"
+        ],
+        [
+          "Mandima",
+          "#e3337e"
+        ]
+      ]
+    }
+  },
+  "geo": {
+    "health_zone": {
+      "Beni": {
+        "latitude": 0.4939335,
+        "longitude": 29.4653222
+      },
+      "Mandima": {
+        "latitude": 0.6887,
+        "longitude": 29.248
+      },
+      "Mabalako": {
+        "latitude": 0.4612573,
+        "longitude": 29.2106874
+      },
+      "Butembo": {
+        "latitude": 0.113994,
+        "longitude": 29.297898
+      },
+      "Oicha": {
+        "latitude": 0.6967778,
+        "longitude": 29.5172722
+      }
+    }
+  },
+  "defaults": {
+    "colorBy": "health_zone",
+    "geoResolution": "health_zone"
+  },
+  "maintainer": [
+    "Catherine Pratt",
+    ""
+  ],
+  "filters": [
+    "country",
+    "health_zone",
+    "authors"
+  ],
+  "updated": "01 Mar 2019",
+  "virus_count": 49,
+  "author_info": {
+    "Mbala et al.": {
+      "n": 49
+    }
+  },
+  "annotations": {
+    "nuc": {
+      "start": 1,
+      "end": 18946,
+      "strand": 1
+    },
+    "NP": {
+      "start": 459,
+      "end": 2679,
+      "strand": 1
+    },
+    "VP35": {
+      "start": 3118,
+      "end": 4141,
+      "strand": 1
+    },
+    "VP40": {
+      "start": 4468,
+      "end": 5449,
+      "strand": 1
+    },
+    "GP": {
+      "start": 6028,
+      "end": 6923,
+      "strand": 1
+    },
+    "VP30": {
+      "start": 8498,
+      "end": 9365,
+      "strand": 1
+    },
+    "VP24": {
+      "start": 10334,
+      "end": 11090,
+      "strand": 1
+    },
+    "L": {
+      "start": 11570,
+      "end": 18209,
+      "strand": 1
+    }
+  },
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}

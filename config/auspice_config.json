@@ -1,0 +1,48 @@
+{
+  "title": "Genomic epidemiology of the 2018 North Kivu, DRC Ebola epidemic",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "authors": {
+      "key":"authors",
+      "legendTitle":"Authors",
+      "menuItem":"authors",
+      "type":"discrete"
+    },
+    "country": {
+    },
+    "health_zone": {
+      "key":"health_zone",
+      "legendTitle":"Health zone",
+      "menuItem":"health zone",
+      "type":"discrete"
+    }
+  },
+  "geo": [
+    "country",
+    "health_zone"
+  ],
+  "defaults": {
+    "colorBy": "health_zone",
+    "geoResolution": "health_zone"
+  },  
+  "maintainer": [
+    "Catherine Pratt",
+    ""
+  ],
+  "filters": [
+    "country",
+    "health_zone",
+    "authors"
+  ]
+}

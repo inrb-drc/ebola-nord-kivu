@@ -1,0 +1,50 @@
+strain	virus	accession	date	health_zone	province	country	authors
+18FHV089	ebola	MK007329	2018-07-28	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+18FHV090	ebola	MK007330	2018-07-28	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN017	ebola	MK163644	2018-08-03	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN018	ebola	MK163645	2018-08-03	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN020	ebola	MK163646	2018-08-03	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN031	ebola	MK163647	2018-08-04	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN070	ebola	MK163648	2018-08-07	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN104	ebola	MK163649	2018-08-09	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN114	ebola	MK163650	2018-08-09	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN140	ebola	MK163651	2018-08-11	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN141	ebola	MK163652	2018-08-11	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN143	ebola	MK163653	2018-08-11	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN146	ebola	MK163654	2018-08-11	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN148	ebola	MK163655	2018-08-11	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN162	ebola	MK163656	2018-08-12	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN163	ebola	MK163657	2018-08-12	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN164	ebola	MK163658	2018-08-12	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN165	ebola	MK163659	2018-08-12	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN167	ebola	MK163660	2018-08-12	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN214	ebola	MK163661	2018-08-20	Unknown	Unknown	Democratic Republic of the Congo	Mbala et al.
+BEN225	ebola	MK163662	2018-08-23	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN230	ebola	MK163663	2018-08-24	Oicha	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN234	ebola	MK163664	2018-08-25	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN236	ebola	MK163665	2018-08-25	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN240	ebola	MK163666	2018-08-25	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN255	ebola	MK163667	2018-08-29	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN263	ebola	MK163668	2018-08-30	Beni	Nord-kivu	Democratic Republic of the Congo	Mbala et al.
+BEN267	ebola	MK163669	2018-08-31	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN268	ebola	MK163670	2018-08-31	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN269	ebola	MK163671	2018-08-31	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN274	ebola	MK163672	2018-09-01	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN286	ebola	MK163673	2018-09-03	Beni	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN292	ebola	MK163674	2018-09-04	Butembo	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+BEN294	ebola	MK163675	2018-09-05	Butembo	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+MAN002	ebola	MK007331	2018-08-12	Mandima	Ituri	Democratic Republic of the Congo	Mbala et al.
+MAN003	ebola	MK007332	2018-08-13	Mandima	Ituri	Democratic Republic of the Congo	Mbala et al.
+MAN006	ebola	MK007333	2018-08-13	Mandima	Ituri	Democratic Republic of the Congo	Mbala et al.
+MAN020	ebola	MK007334	2018-08-13	Mandima	Ituri	Democratic Republic of the Congo	Mbala et al.
+MAN025	ebola	MK007335	2018-08-13	Mandima	Ituri	Democratic Republic of the Congo	Mbala et al.
+MAN028	ebola	MK007336	2018-08-13	Unknown	Nord Kivu	Democratic Republic of the Congo	Mbala et al.
+MAN035	ebola	MK088510	2018-08-14	Mabalako	Nord Kivu	Democratic Republic of the Congo	Mbala et al.
+MAN036	ebola	MK007337	2018-08-15	Mabalako	Nord Kivu	Democratic Republic of the Congo	Mbala et al.
+MAN037	ebola	MK007338	2018-08-15	Mandima	Ituri	Democratic Republic of the Congo	Mbala et al.
+MAN039	ebola	MK007339	2018-08-15	Mabalako	Nord Kivu	Democratic Republic of the Congo	Mbala et al.
+MAN040	ebola	MK007340	2018-08-15	Mabalako	Nord Kivu	Democratic Republic of the Congo	Mbala et al.
+MAN042	ebola	MK007341	2018-08-15	Mabalako	Nord Kivu	Democratic Republic of the Congo	Mbala et al.
+MAN046	ebola	MK007342	2018-08-15	Mabalako	Nord-Kivu	Democratic Republic of the Congo	Mbala et al.
+MAN048	ebola	MK007343	2018-08-15	Mandima	Ituri	Democratic Republic of the Congo	Mbala et al.
+MAN065	ebola	MK007344	2018-08-16	Mandima	Ituri	Democratic Republic of the Congo	Mbala et al.

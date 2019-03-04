@@ -1,0 +1,951 @@
+{
+ "annotations": {
+  "nuc": {
+   "start": 1,
+   "end": 18946,
+   "strand": 1
+  },
+  "NP": {
+   "start": 459,
+   "end": 2679,
+   "strand": 1
+  },
+  "VP35": {
+   "start": 3118,
+   "end": 4141,
+   "strand": 1
+  },
+  "VP40": {
+   "start": 4468,
+   "end": 5449,
+   "strand": 1
+  },
+  "GP": {
+   "start": 6028,
+   "end": 6923,
+   "strand": 1
+  },
+  "VP30": {
+   "start": 8498,
+   "end": 9365,
+   "strand": 1
+  },
+  "VP24": {
+   "start": 10334,
+   "end": 11090,
+   "strand": 1
+  },
+  "L": {
+   "start": 11570,
+   "end": 18209,
+   "strand": 1
+  }
+ },
+ "nodes": {
+  "NODE_0000047": {
+   "aa_muts": {},
+   "aa_sequences": {
+    "NP": "MDSRPQKVWMTPNLTESDMDYHKILTAGLSVQQGIVRQRVIPVYQVNNLEEICQLIIQAFEAGVDFQESADSFLLMLCLHHAYQGDYKLFLESGAVKYLEGHGFRFEVKKRDGVKRLEELLPAVSSGKNIKRTLAAMPEEETTEANAGQFLSFASLFLPKLVVGEKACLEKVQRQIQVHAEQGLIQYPTAWQSVGHMMVIFRLMRTNFLIKFLLIHQGMHMVAGHDANDAVISNSVAQARFSGLLIVKTVLDHILQKTERGVRLHPLARTAKVKNEVNSFKAALSSLAKHGEYAPFARLLNLSGVNNLEHGLFPQLSAIALGVATAHGSTLAGVNVGEQYQQLREAATEAEKQLQQYAESRELDHLGLDDQEKKILMNFHQKKNEISFQQTNAMVTLRKERLAKLTEAITAASLPKTSGHYDDDDDIPFPGPINDDDNPGHQDDDPTDSQDTTIPDVVIDPDDGSYGEYQSYSENGMSAPDDLVLFDLDEDDEDTKPVPNRSIKGGQQKNSQKGQHTEGRQAQSRPTQNVPGPHRTIHHDSAPLTDNNRRNEPSGSTSPRMLTPINEEADPLDDADDETSSLPPLESDDEEQDRDGTSNRTPTVAPPAPVYRDHSEKKELPQDEQQDQDHTQEARNQDSDNTQPEHSFEEMYRHILRSQGPFDAVLYYHMMKDEPVVFSTSDGKEYTYPDSLEEEYPPWLTEKEAMNEENRFVTLDGQQFYWPVMNHKNKFMAILQHHQ*",
+    "VP35": "MTTRTKGRGHTAVTTQNDRMPGPELSGWISEQLMTGRIPVSDIFCDIENNPGLCHVSQMQQTKPNPKTRNSQTQTDPICNHSFEEVVQTLASLATVVQQQTIASESLEQRITSLENGLKPVYDMAKTISSLNRVCAEMVAKYDLLVMTTGRATATAAATEAYWAEHGQPPPGPSLYEESTIRGKIESRDETVPQSVREAFNNLDSTTSLTEENFGKPDISAKDLRNIMYDHLPGFGTAFHQLVQVICKLGKDSNSLDIIHAEFQASLAEGDSPQCALIQITKRVPIFQDAAPPVIHIRSRGDIPRACQKSLRPVPPSPKIDRGWVCVFQLQDGKTLGLKI*",
+    "VP40": "MRRVILPTAPPEYMEAIYPVRSNSTIARGGNSNTGFLTPESVNGDTPSNPLRPIADDTIDHASHTPGSVSSAFILEAMVNVISGPKVLMKQIPIWLPLGVADQKTYSFDSTTAAIMLASYTITHFGKATNPLVRVNRLGPGIPDHPLRLLRIGNQAFLQEFVLPPVQLPQYFTFDLTALKLITQPLPAATWTDDTPTGSNGALRPGISFHPKLRPILLPNKSGKKGNSADLTSPEKIQAIMTSLQDFKIVPIDPAKNIMGIEVPETLVHKLTGKKVNSKNGQPIIPVLLPKYIGLDPVAPGDLTMVITQDCDTCHSPASLPAVIEK*",
+    "GP": "MGATGILQLPRDRFKRTSFFLWVIILFQRTFSIPLGVIHNSTLQVSDVDKLVCRDKLSSTNQLRSVGLNLEGNGVATDVPSATKRWGFRSGVPPKVVNYEAGEWAENCYNLEIKKPDGSECLPAAPDGIRGFPRCRYVHKVSGTGPCAGDFAFHKEGAFFLYDRLASTVIYRGTTFAEGVVAFLILPQAKKDFFSSHPLREPVNATEDPSSGYYSTTIRYQATGFGTNETEYLFEVDNLTYVQLESRFTPQFLLQLNETIYTSGKRSNTTGKLIWKVNPEIDTTIGEWAFWETKKPH*",
+    "VP30": "MEASYERGRPRAARQHSRDGHDHHVRARSSSRENYRGEYRQSRSASQVRVPTVFHKKRVEPLTVPPAPKDICPTLKKGFLCDSSFCKKDHQLESLTDRELLLLIARKTCGSVEQQLNITAPKDSRLANPTADDFQQEEGPKITLLTLIKTAEHWARQDIRTIEDSKLRALLTLCAVMTRKFSKSQLSLLCETHLRREGLGQDQAEPVLEVYQRLHSDKGGSFEAALWQQWDRQSLIMFITAFLNIALQLPCESSAVVVSGLRTLVPQSDNEEASTNPGTCSWSDEGTP*",
+    "VP24": "MAKATGRYNLISPKQDLEKGVVLSDLCNFLVSQTIQGWKVYWAGIEFDVTHKGMALLHRLKTNDFAPAWSMTRNLFPHLFQNPNSTIESPLWALRVILAAGIQDQLIDQSLIEPLAGALGLISDWLLTTNTNHFNMRTQRVKEQLSLKMLSLIRSNILKFINKLDALHVVNYNGLLSSIEIGTQNHTIIITRTNMGFLVELQEPDKSAMNRKKPGPAKFSLLHESTLKAFTQGSSTRMQSLILEFNSSLAI*",
+    "L": "MATQHTQYPDARLSSPIVLDQCDLVTRACGLYSSYSLNPQLRNCKLPKHIYRLKYDVTVTKFLSDVPVATLPIDFIVPILLKALSGNGFCPVEPRCQQFLDEIIKYTMQDALFLKYYLKNVGAQEDCVDDHFQEKILSSIQGNEFLHQMFFWYDLAILTRRGRLNRGNSRSTWFVHDDLIDILGYGDYVFWKIPISMLPLNTQGIPHAAMDWYQASVFKEAVQGHTHIVSVSTADVLIMCKDLITCRFNTTLISKIAEIEDPVCSDYPNFKIVSMLYQSGDYLLSILGSDGYKIIKFLEPLCLAKIQLCSKYTERKGRFLTQMHLAVNHTLEEITEMRALKPSQAQKIREFHRTLIRLEMTPQQLCELFSIQKHWGHPVLHSETAIQKVKKHATVLKALRPIVIFETYCVFKYSIAKHYFDSQGSWYSVTSDRNLTPGLNSYIKRNQFPPLPMIKELLWEFYHLDHPPLFSTKIISDLSIFIKDRATAVERTCWDAVFEPNVLGYNPPHKFSTKRVPEQFLEQENFSIENVLSYAQKLEYLLPQYRNFSFSLKEKELNVGRTFGKLPYPTRNVQTLCEALLADGLAKAFPSNMMVVTEREQKESLLHQASWHHTSDDFGEHATVRGSSFVTDLEKYNLAFRYEFTAPFIEYCNRCYGVKNVFNWMHYTIPQCYMHVSDYYNPPHNLTLENRDNPPEGPSSYRGHMGGIEGLQQKLWTSISCAQISLVEIKTGFKLRSAVMGDNQCITVLSVFPLETDADEQEQSAEDNAARVAASLAKVTSACGIFLKPDETFVHSGFIYFGKKQYLNGVQLPQSLKTATRMAPLSDAIFDDLQGTLASIGTAFERSISETRHIFPCRITAAFHTFFSVRILQYHHLGFNKGFDLGQLTLGKPLDFGTISLALAVPQVLGGLSFLNPEKCFYRNLGDPVTSGLFQLKTYLRMIEMDDLFLPLIAKNPGNCTAIDFVLNPSGLNVPGSQDLTSFLRQIVRRTITLSAKNKLINTLFHASADFEDEMVCKWLLSSTPVMSRFAADIFSRTPSGKRLQILGYLEGTRTLLASKIINNNTETPVLDRLRKITLQRWSLWFSYLDHCDNILAEALTQITCTVDLAQILREYSWAHILEGRPLIGATLPCMIEQFKVFWLKPYEQCPQCSNAKQPGGKPFVSVAVKKHIVSAWPNASRISWTIGDGIPYIGSRTEDKIGQPAIKPKCPSAALREAIELASRLTWVTQGSSNSDLLIKPFLEARVNLSVQEILQMTPSHYSGNIVHRYNDQYSPHSFMANRMSNSATRLIVSTNTLGEFSGGGQSARDSNIIFQNVINYAVALFDIKFRNTEATDIQYNRAHLHLTKCCTREVPAQYLTYTSTLDLDLTRYRENELIYDNNPLKGGLNCNISFDNPFFQGKRLNIIEDDLIRLPHLSGWELAKTIMQSIISDSNNSSTDPISSGETRSFTTHFLTYPKIGLLYSFGAFVSYYLGNTILRTKKLTLDNFLYYLTTQIHNLPHRSLRILKPTFKHASVMSRLMSIDPHFSIYIGGAAGDRGLSDAARLFLRTSISSFLTFVKEWIINRGTIVPLWIVYPLEGQNPTPVNNFLYQIVELLVHDSSRQQALKTTISDHVHPHDNLVYTCKSTASNFFHASLAYWRSRHRNSNRKYLAGDSSTGSSTNNSDGHIERSQEQTTRDPHDGTERNLVLQMSHEIKRTTIPQENTHQGPSFQSFLSDSACGTANPKLNFDRSRHSVKSQDHNSASKRESHQIISHRLVLPFFTLSQGTRQLTSSNESQTQDEISKYLRQLRSVIDTTVYCRFTGIVSSMHYKLDEVLWEMESFKSAVTLAEGEGAGALLLIQKYQVKTLFFNTLATESSIESEIVSGMTTPRMLLPVMSKFHNDQIEIILNNSASQITDITNPTWFKDQKARLPKQVEVITMDAETTENINRSKLYEAVYKLILHHIDPSVLKAVVLKVFLSDTEGMLWLNDNLAPFFATGYLIKPITSSARSSEWYLCLTNFLSTTRKMPHQNHLSCKQVILMALQLQIQRSPYWLSHLTQYADCDLHLSYIRLGFPSLEKVLYHRYNLVDSKRGPLVSITQHLAHLRAEIRELTNDYNQQRQSRTQTYHFIRTAKGRITKLVNDYLKFFLIVQALKHNGTWQAEFKKLPELISVCNRFYHIRDCNCEERFLVQTLYLHRMQDSEVKLIERLTGLLSLFPDGLYRFD*"
+   }
+  },
+  "NODE_0000000": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [
+     "I78M"
+    ],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000015": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000048": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000002": {
+   "aa_muts": {
+    "NP": [
+     "N547H"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN035": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "D1685G"
+    ]
+   }
+  },
+  "18FHV089": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN148": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "S1668I"
+    ]
+   }
+  },
+  "NODE_0000049": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN234": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000004": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN268": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN274": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN255": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN292": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN236": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN214": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN267": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN286": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN294": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN263": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000011": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN240": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "M945V"
+    ]
+   }
+  },
+  "BEN269": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN065": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [
+     "A27T"
+    ],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN025": {
+   "aa_muts": {
+    "NP": [
+     "S511R"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "N768H",
+     "T1553A"
+    ]
+   }
+  },
+  "MAN028": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "K1653E"
+    ]
+   }
+  },
+  "MAN046": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [
+     "L241S"
+    ],
+    "L": []
+   }
+  },
+  "BEN070": {
+   "aa_muts": {
+    "NP": [
+     "N599H"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [
+     "N268D"
+    ],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "D2049G"
+    ]
+   }
+  },
+  "MAN048": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN040": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000018": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000019": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000046": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000050": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN230": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN018": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "T1068A"
+    ]
+   }
+  },
+  "MAN002": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN163": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN039": {
+   "aa_muts": {
+    "NP": [
+     "R260Q"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "I2096T"
+    ]
+   }
+  },
+  "BEN031": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000035": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000053": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN020": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000051": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN167": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000052": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN143": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN141": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN140": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "D1189E"
+    ]
+   }
+  },
+  "NODE_0000054": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN146": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000055": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN165": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000056": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN003": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000057": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000058": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000059": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN017": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "18FHV090": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000060": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000063": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000061": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000062": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN006": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN020": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN162": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN164": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000064": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000065": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN114": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN104": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000066": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000067": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN042": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN036": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN225": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN037": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  }
+ }
+}
