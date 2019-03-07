@@ -42,11 +42,11 @@
   }
  },
  "nodes": {
-  "NODE_0000047": {
+  "NODE_0000158": {
    "aa_muts": {},
    "aa_sequences": {
-    "NP": "MDSRPQKVWMTPNLTESDMDYHKILTAGLSVQQGIVRQRVIPVYQVNNLEEICQLIIQAFEAGVDFQESADSFLLMLCLHHAYQGDYKLFLESGAVKYLEGHGFRFEVKKRDGVKRLEELLPAVSSGKNIKRTLAAMPEEETTEANAGQFLSFASLFLPKLVVGEKACLEKVQRQIQVHAEQGLIQYPTAWQSVGHMMVIFRLMRTNFLIKFLLIHQGMHMVAGHDANDAVISNSVAQARFSGLLIVKTVLDHILQKTERGVRLHPLARTAKVKNEVNSFKAALSSLAKHGEYAPFARLLNLSGVNNLEHGLFPQLSAIALGVATAHGSTLAGVNVGEQYQQLREAATEAEKQLQQYAESRELDHLGLDDQEKKILMNFHQKKNEISFQQTNAMVTLRKERLAKLTEAITAASLPKTSGHYDDDDDIPFPGPINDDDNPGHQDDDPTDSQDTTIPDVVIDPDDGSYGEYQSYSENGMSAPDDLVLFDLDEDDEDTKPVPNRSIKGGQQKNSQKGQHTEGRQAQSRPTQNVPGPHRTIHHDSAPLTDNNRRNEPSGSTSPRMLTPINEEADPLDDADDETSSLPPLESDDEEQDRDGTSNRTPTVAPPAPVYRDHSEKKELPQDEQQDQDHTQEARNQDSDNTQPEHSFEEMYRHILRSQGPFDAVLYYHMMKDEPVVFSTSDGKEYTYPDSLEEEYPPWLTEKEAMNEENRFVTLDGQQFYWPVMNHKNKFMAILQHHQ*",
-    "VP35": "MTTRTKGRGHTAVTTQNDRMPGPELSGWISEQLMTGRIPVSDIFCDIENNPGLCHVSQMQQTKPNPKTRNSQTQTDPICNHSFEEVVQTLASLATVVQQQTIASESLEQRITSLENGLKPVYDMAKTISSLNRVCAEMVAKYDLLVMTTGRATATAAATEAYWAEHGQPPPGPSLYEESTIRGKIESRDETVPQSVREAFNNLDSTTSLTEENFGKPDISAKDLRNIMYDHLPGFGTAFHQLVQVICKLGKDSNSLDIIHAEFQASLAEGDSPQCALIQITKRVPIFQDAAPPVIHIRSRGDIPRACQKSLRPVPPSPKIDRGWVCVFQLQDGKTLGLKI*",
+    "NP": "MDSRPQKVWMTPNLTESDMDYHKILTAGLSVQQGIVRQRVIPVYQVNNLEEICQLIIQAFEAGVDFQESADSFLLMLCLHHAYQGDYKLFLESGAVKYLEGHGFRFEVKKRDGVKRLEELLPAVSSGKNIKRTLAAMPEEETTEANAGQFLSFASLFLPKLVVGEKACLEKVQRQIQVHAEQGLIQYPTAWQSVGHMMVIFRLMRTNFLIKFLLIHQGMHMVAGHDANDAVISNSVAQARFSGLLIVKTVLDHILQKTERGVRLHPLARTAKVKNEVNSFKAALSSLAKHGEYAPFARLLNLSGVNNLEHGLFPQLSAIALGVATAHGSTLAGVNVGEQYQQLREAATEAEKQLQQYAESRELDHLGLDDQEKKILMNFHQKKNEISFQQTNAMVTLRKERLAKLTEAITAASLPKTSGHYDDDDDIPFPGPINDDDNPGHQDDDPTDSQDTTIPDVVIDPDDGSYGEYQSYSENGMSAPDDLVLFDLDEDDEDTKPVPNRSIKGGQQKNSQKGQHTEGRQAQSRPTQNVPGPHRTIHHDSAPLTDHNRRNEPSGSTSPRMLTPINEEADPLDDADDETSSLPPLESDDEEQDRDGTSNRTPTVAPPAPVYRDHSEKKELPQDEQQDQDHTQEARNQDSDNTQPEHSFEEMYRHILRSQGPFDAVLYYHMMKDEPVVFSTSDGKEYTYPDSLEEEYPPWLTEKEAMNEENRFVTLDGQQFYWPVMNHKNKFMAILQHHQ*",
+    "VP35": "MTTRTKGRGHTAVTTQNDRMPGPELSGWISEQLMTGRIPVSDIFCDIENNPGLCHVSQMQQTKPNPKTRNSQTQTDPMCNHSFEEVVQTLASLATVVQQQTIASESLEQRITSLENGLKPVYDMAKTISSLNRVCAEMVAKYDLLVMTTGRATATAAATEAYWAEHGQPPPGPSLYEESTIRGKIESRDETVPQSVREAFNNLDSTTSLTEENFGKPDISAKDLRNIMYDHLPGFGTAFHQLVQVICKLGKDSNSLDIIHAEFQASLAEGDSPQCALIQITKRVPIFQDAAPPVIHIRSRGDIPRACQKSLRPVPPSPKIDRGWVCVFQLQDGKTLGLKI*",
     "VP40": "MRRVILPTAPPEYMEAIYPVRSNSTIARGGNSNTGFLTPESVNGDTPSNPLRPIADDTIDHASHTPGSVSSAFILEAMVNVISGPKVLMKQIPIWLPLGVADQKTYSFDSTTAAIMLASYTITHFGKATNPLVRVNRLGPGIPDHPLRLLRIGNQAFLQEFVLPPVQLPQYFTFDLTALKLITQPLPAATWTDDTPTGSNGALRPGISFHPKLRPILLPNKSGKKGNSADLTSPEKIQAIMTSLQDFKIVPIDPAKNIMGIEVPETLVHKLTGKKVNSKNGQPIIPVLLPKYIGLDPVAPGDLTMVITQDCDTCHSPASLPAVIEK*",
     "GP": "MGATGILQLPRDRFKRTSFFLWVIILFQRTFSIPLGVIHNSTLQVSDVDKLVCRDKLSSTNQLRSVGLNLEGNGVATDVPSATKRWGFRSGVPPKVVNYEAGEWAENCYNLEIKKPDGSECLPAAPDGIRGFPRCRYVHKVSGTGPCAGDFAFHKEGAFFLYDRLASTVIYRGTTFAEGVVAFLILPQAKKDFFSSHPLREPVNATEDPSSGYYSTTIRYQATGFGTNETEYLFEVDNLTYVQLESRFTPQFLLQLNETIYTSGKRSNTTGKLIWKVNPEIDTTIGEWAFWETKKPH*",
     "VP30": "MEASYERGRPRAARQHSRDGHDHHVRARSSSRENYRGEYRQSRSASQVRVPTVFHKKRVEPLTVPPAPKDICPTLKKGFLCDSSFCKKDHQLESLTDRELLLLIARKTCGSVEQQLNITAPKDSRLANPTADDFQQEEGPKITLLTLIKTAEHWARQDIRTIEDSKLRALLTLCAVMTRKFSKSQLSLLCETHLRREGLGQDQAEPVLEVYQRLHSDKGGSFEAALWQQWDRQSLIMFITAFLNIALQLPCESSAVVVSGLRTLVPQSDNEEASTNPGTCSWSDEGTP*",
@@ -54,46 +54,57 @@
     "L": "MATQHTQYPDARLSSPIVLDQCDLVTRACGLYSSYSLNPQLRNCKLPKHIYRLKYDVTVTKFLSDVPVATLPIDFIVPILLKALSGNGFCPVEPRCQQFLDEIIKYTMQDALFLKYYLKNVGAQEDCVDDHFQEKILSSIQGNEFLHQMFFWYDLAILTRRGRLNRGNSRSTWFVHDDLIDILGYGDYVFWKIPISMLPLNTQGIPHAAMDWYQASVFKEAVQGHTHIVSVSTADVLIMCKDLITCRFNTTLISKIAEIEDPVCSDYPNFKIVSMLYQSGDYLLSILGSDGYKIIKFLEPLCLAKIQLCSKYTERKGRFLTQMHLAVNHTLEEITEMRALKPSQAQKIREFHRTLIRLEMTPQQLCELFSIQKHWGHPVLHSETAIQKVKKHATVLKALRPIVIFETYCVFKYSIAKHYFDSQGSWYSVTSDRNLTPGLNSYIKRNQFPPLPMIKELLWEFYHLDHPPLFSTKIISDLSIFIKDRATAVERTCWDAVFEPNVLGYNPPHKFSTKRVPEQFLEQENFSIENVLSYAQKLEYLLPQYRNFSFSLKEKELNVGRTFGKLPYPTRNVQTLCEALLADGLAKAFPSNMMVVTEREQKESLLHQASWHHTSDDFGEHATVRGSSFVTDLEKYNLAFRYEFTAPFIEYCNRCYGVKNVFNWMHYTIPQCYMHVSDYYNPPHNLTLENRDNPPEGPSSYRGHMGGIEGLQQKLWTSISCAQISLVEIKTGFKLRSAVMGDNQCITVLSVFPLETDADEQEQSAEDNAARVAASLAKVTSACGIFLKPDETFVHSGFIYFGKKQYLNGVQLPQSLKTATRMAPLSDAIFDDLQGTLASIGTAFERSISETRHIFPCRITAAFHTFFSVRILQYHHLGFNKGFDLGQLTLGKPLDFGTISLALAVPQVLGGLSFLNPEKCFYRNLGDPVTSGLFQLKTYLRMIEMDDLFLPLIAKNPGNCTAIDFVLNPSGLNVPGSQDLTSFLRQIVRRTITLSAKNKLINTLFHASADFEDEMVCKWLLSSTPVMSRFAADIFSRTPSGKRLQILGYLEGTRTLLASKIINNNTETPVLDRLRKITLQRWSLWFSYLDHCDNILAEALTQITCTVDLAQILREYSWAHILEGRPLIGATLPCMIEQFKVFWLKPYEQCPQCSNAKQPGGKPFVSVAVKKHIVSAWPNASRISWTIGDGIPYIGSRTEDKIGQPAIKPKCPSAALREAIELASRLTWVTQGSSNSDLLIKPFLEARVNLSVQEILQMTPSHYSGNIVHRYNDQYSPHSFMANRMSNSATRLIVSTNTLGEFSGGGQSARDSNIIFQNVINYAVALFDIKFRNTEATDIQYNRAHLHLTKCCTREVPAQYLTYTSTLDLDLTRYRENELIYDNNPLKGGLNCNISFDNPFFQGKRLNIIEDDLIRLPHLSGWELAKTIMQSIISDSNNSSTDPISSGETRSFTTHFLTYPKIGLLYSFGAFVSYYLGNTILRTKKLTLDNFLYYLTTQIHNLPHRSLRILKPTFKHASVMSRLMSIDPHFSIYIGGAAGDRGLSDAARLFLRTSISSFLTFVKEWIINRGTIVPLWIVYPLEGQNPTPVNNFLYQIVELLVHDSSRQQALKTTISDHVHPHDNLVYTCKSTASNFFHASLAYWRSRHRNSNRKYLAGDSSTGSSTNNSDGHIERSQEQTTRDPHDGTERNLVLQMSHEIKRTTIPQENTHQGPSFQSFLSDSACGTANPKLNFDRSRHSVKSQDHNSASKRESHQIISHRLVLPFFTLSQGTRQLTSSNESQTQDEISKYLRQLRSVIDTTVYCRFTGIVSSMHYKLDEVLWEMESFKSAVTLAEGEGAGALLLIQKYQVKTLFFNTLATESSIESEIVSGMTTPRMLLPVMSKFHNDQIEIILNNSASQITDITNPTWFKDQKARLPKQVEVITMDAETTENINRSKLYEAVYKLILHHIDPSVLKAVVLKVFLSDTEGMLWLNDNLAPFFATGYLIKPITSSARSSEWYLCLTNFLSTTRKMPHQNHLSCKQVILMALQLQIQRSPYWLSHLTQYADCDLHLSYIRLGFPSLEKVLYHRYNLVDSKRGPLVSITQHLAHLRAEIRELTNDYNQQRQSRTQTYHFIRTAKGRITKLVNDYLKFFLIVQALKHNGTWQAEFKKLPELISVCNRFYHIRDCNCEERFLVQTLYLHRMQDSEVKLIERLTGLLSLFPDGLYRFD*"
    }
   },
+  "BEN148": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "S1668I"
+    ]
+   }
+  },
+  "NODE_0000061": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
   "NODE_0000000": {
    "aa_muts": {
-    "NP": [],
-    "VP35": [
-     "I78M"
-    ],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000015": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000048": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000002": {
-   "aa_muts": {
     "NP": [
-     "N547H"
+     "H547N"
     ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000186": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "18FHV089": {
+   "aa_muts": {
+    "NP": [],
     "VP35": [],
     "VP40": [],
     "GP": [],
@@ -115,10 +126,12 @@
     ]
    }
   },
-  "18FHV089": {
+  "NODE_0000002": {
    "aa_muts": {
     "NP": [],
-    "VP35": [],
+    "VP35": [
+     "M78I"
+    ],
     "VP40": [],
     "GP": [],
     "VP30": [],
@@ -126,7 +139,7 @@
     "L": []
    }
   },
-  "BEN148": {
+  "MAN028": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -135,11 +148,11 @@
     "VP30": [],
     "VP24": [],
     "L": [
-     "S1668I"
+     "K1653E"
     ]
    }
   },
-  "NODE_0000049": {
+  "MAN003": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -150,163 +163,7 @@
     "L": []
    }
   },
-  "BEN234": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000004": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN268": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN274": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN255": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN292": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN236": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN214": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN267": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN286": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN294": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN263": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000011": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "BEN240": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": [
-     "M945V"
-    ]
-   }
-  },
-  "BEN269": {
+  "MAN048": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -346,50 +203,7 @@
     ]
    }
   },
-  "MAN028": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": [
-     "K1653E"
-    ]
-   }
-  },
-  "MAN046": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [
-     "L241S"
-    ],
-    "L": []
-   }
-  },
-  "BEN070": {
-   "aa_muts": {
-    "NP": [
-     "N599H"
-    ],
-    "VP35": [],
-    "VP40": [],
-    "GP": [
-     "N268D"
-    ],
-    "VP30": [],
-    "VP24": [],
-    "L": [
-     "D2049G"
-    ]
-   }
-  },
-  "MAN048": {
+  "BEN146": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -411,7 +225,37 @@
     "L": []
    }
   },
-  "NODE_0000018": {
+  "BEN070": {
+   "aa_muts": {
+    "NP": [
+     "N599H"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [
+     "N268D"
+    ],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "D2049G"
+    ]
+   }
+  },
+  "BEN140": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "D1189E"
+    ]
+   }
+  },
+  "BEN165": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -429,11 +273,24 @@
     "VP40": [],
     "GP": [],
     "VP30": [],
+    "VP24": [
+     "L241S"
+    ],
+    "L": []
+   }
+  },
+  "NODE_0000035": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
     "VP24": [],
     "L": []
    }
   },
-  "NODE_0000046": {
+  "NODE_0000038": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -455,7 +312,7 @@
     "L": []
    }
   },
-  "BEN230": {
+  "NODE_0000054": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -466,20 +323,7 @@
     "L": []
    }
   },
-  "BEN018": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": [
-     "T1068A"
-    ]
-   }
-  },
-  "MAN002": {
+  "NODE_0000161": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -490,7 +334,51 @@
     "L": []
    }
   },
-  "BEN163": {
+  "MAN046": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN112": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN4020": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN3652": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN031": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -516,7 +404,7 @@
     ]
    }
   },
-  "BEN031": {
+  "BEN018": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -524,21 +412,12 @@
     "GP": [],
     "VP30": [],
     "VP24": [],
-    "L": []
+    "L": [
+     "T1068A"
+    ]
    }
   },
-  "NODE_0000035": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000053": {
+  "BEN230": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -560,7 +439,7 @@
     "L": []
    }
   },
-  "NODE_0000051": {
+  "NODE_0000159": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -582,7 +461,7 @@
     "L": []
    }
   },
-  "NODE_0000052": {
+  "NODE_0000160": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -615,20 +494,7 @@
     "L": []
    }
   },
-  "BEN140": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": [
-     "D1189E"
-    ]
-   }
-  },
-  "NODE_0000054": {
+  "18FHV090": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -639,7 +505,7 @@
     "L": []
    }
   },
-  "BEN146": {
+  "NODE_0000162": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -650,7 +516,7 @@
     "L": []
    }
   },
-  "NODE_0000055": {
+  "NODE_0000163": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -661,62 +527,7 @@
     "L": []
    }
   },
-  "BEN165": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000056": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "MAN003": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000057": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000058": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000059": {
+  "NODE_0000167": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -738,7 +549,7 @@
     "L": []
    }
   },
-  "18FHV090": {
+  "NODE_0000164": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -749,7 +560,7 @@
     "L": []
    }
   },
-  "NODE_0000060": {
+  "NODE_0000165": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -760,7 +571,7 @@
     "L": []
    }
   },
-  "NODE_0000063": {
+  "NODE_0000166": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -771,29 +582,7 @@
     "L": []
    }
   },
-  "NODE_0000061": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "NODE_0000062": {
-   "aa_muts": {
-    "NP": [],
-    "VP35": [],
-    "VP40": [],
-    "GP": [],
-    "VP30": [],
-    "VP24": [],
-    "L": []
-   }
-  },
-  "MAN006": {
+  "MAN037": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -837,7 +626,7 @@
     "L": []
    }
   },
-  "NODE_0000064": {
+  "NODE_0000168": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -848,7 +637,7 @@
     "L": []
    }
   },
-  "NODE_0000065": {
+  "NODE_0000172": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -859,7 +648,64 @@
     "L": []
    }
   },
-  "BEN114": {
+  "BEN810": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "Y51H"
+    ]
+   }
+  },
+  "NODE_0000169": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000170": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000171": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN002": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN006": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -881,7 +727,7 @@
     "L": []
    }
   },
-  "NODE_0000066": {
+  "BEN114": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -892,7 +738,7 @@
     "L": []
    }
   },
-  "NODE_0000067": {
+  "NODE_0000173": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -903,7 +749,7 @@
     "L": []
    }
   },
-  "MAN042": {
+  "NODE_0000174": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -914,7 +760,7 @@
     "L": []
    }
   },
-  "MAN036": {
+  "BEN809": {
    "aa_muts": {
     "NP": [],
     "VP35": [],
@@ -936,7 +782,2486 @@
     "L": []
    }
   },
-  "MAN037": {
+  "NODE_0000175": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000176": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN036": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN042": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000045": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000178": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000047": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000177": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN915": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1066": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1084": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN823": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN379": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000179": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000180": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000181": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1708": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [
+     "F83S"
+    ],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000052": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1662": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1811": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000182": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000004": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000183": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000057": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2079": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN867": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2064": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2024": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2010": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000225": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2078": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2510": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN3240": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000184": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000185": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000008": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN5597": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000007": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN4627": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN4834": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BUN058": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BUN076": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "F297S"
+    ]
+   }
+  },
+  "NODE_0000010": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BUN059": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN6244": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN234": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000063": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN347": {
+   "aa_muts": {
+    "NP": [
+     "T557A"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "N1065D",
+     "V2128A"
+    ]
+   }
+  },
+  "NODE_0000078": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "M945V"
+    ]
+   }
+  },
+  "NODE_0000226": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000092": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN240": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN269": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000227": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000187": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN286": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN268": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN341": {
+   "aa_muts": {
+    "NP": [
+     "E645D"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000188": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000065": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000195": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB336": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000189": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000071": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000192": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB221": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB220": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000190": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB323": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000191": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB576": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB701": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000066": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000193": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB287": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB2565": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [
+     "N34S"
+    ],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB294": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000194": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB628": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB350": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000196": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000201": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000197": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000198": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN263": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN267": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000199": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000200": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN340": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2329": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN274": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN292": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000080": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "E760K"
+    ]
+   }
+  },
+  "NODE_0000203": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB164": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "N558S"
+    ]
+   }
+  },
+  "NODE_0000202": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB129": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB123": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN294": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000204": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN236": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN255": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB452": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "I1577M"
+    ]
+   }
+  },
+  "NODE_0000228": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000123": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [
+     "T34A",
+     "K163Q"
+    ],
+    "L": []
+   }
+  },
+  "NODE_0000110": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000205": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB429": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000111": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "S471T"
+    ]
+   }
+  },
+  "BTB571": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB843": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000094": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000207": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000095": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000096": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB467": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB485": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "D790E"
+    ]
+   }
+  },
+  "MAN1011": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000229": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN1258": {
+   "aa_muts": {
+    "NP": [
+     "D2G"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [
+     "R18K"
+    ],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000230": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN1046": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000231": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN1095": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000232": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN1152": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000206": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN1016": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "MAN1038": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000208": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000209": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB232": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000105": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB367": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB368": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000108": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000112": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB185": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000210": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1271": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB675": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000113": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000116": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2193": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2062": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1753": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1543": {
+   "aa_muts": {
+    "NP": [
+     "N636S"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1656": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1674": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1706": {
+   "aa_muts": {
+    "NP": [
+     "N566S"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "D1200G"
+    ]
+   }
+  },
+  "NODE_0000122": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000233": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2030": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2072": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2099": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000234": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2357": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN2332": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN814": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [
+     "A12V"
+    ],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BEN1742": {
+   "aa_muts": {
+    "NP": [
+     "Q450R"
+    ],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000135": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000137": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [
+     "G29S"
+    ],
+    "GP": [
+     "V75A"
+    ],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000124": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000212": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB2640": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [
+     "Y213H"
+    ],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "T860I"
+    ]
+   }
+  },
+  "NODE_0000235": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB2558": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB2996": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB513": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000138": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "Q133H",
+     "S428N",
+     "V1597A"
+    ]
+   }
+  },
+  "BTB3104": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB3207": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "E539K"
+    ]
+   }
+  },
+  "BTB778": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000125": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000211": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000127": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB769": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [
+     "S228N"
+    ],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB534": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB755": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB2485": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000129": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000236": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000237": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB2749": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB2869": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB2696": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000238": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB3223": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB3177": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB238": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [
+     "D312G"
+    ],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000213": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000214": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000215": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB162": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB623": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "G1725S"
+    ]
+   }
+  },
+  "NODE_0000216": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000218": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB615": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000217": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB518": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB614": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [
+     "K270E"
+    ],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB618": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "K937I"
+    ]
+   }
+  },
+  "NODE_0000148": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB766": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "E1698K"
+    ]
+   }
+  },
+  "BTB842": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB562": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB725": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": [
+     "Q1774H"
+    ]
+   }
+  },
+  "NODE_0000219": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000220": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000221": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB556": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB496": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000222": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000223": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB841": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB752": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB933": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "NODE_0000224": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB844": {
+   "aa_muts": {
+    "NP": [],
+    "VP35": [],
+    "VP40": [],
+    "GP": [],
+    "VP30": [],
+    "VP24": [],
+    "L": []
+   }
+  },
+  "BTB771": {
    "aa_muts": {
     "NP": [],
     "VP35": [],

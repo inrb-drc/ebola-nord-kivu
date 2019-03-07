@@ -1,41 +1,43 @@
 {
  "nodes": {
-  "NODE_0000047": {
+  "NODE_0000158": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.9447026620736473,
-    "Mandima": 0.0389267444850536,
-    "Beni": 0.006001373187682234,
-    "Oicha": 0.003607781330437143
+    "Mabalako": 0.994517000302359,
+    "Beni": 0.0013424697722961185
    },
-   "health_zone_entropy": 0.2695487531948886
+   "health_zone_entropy": 0.047479060592739916
   },
-  "NODE_0000000": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.9866203275421761,
-    "Mandima": 0.007170122742585499,
-    "Beni": 0.0033339379511105566,
-    "Unknown": 0.0010287369465605068
-   },
-   "health_zone_entropy": 0.08768257224708449
-  },
-  "NODE_0000048": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.9955924850936253,
-    "Mandima": 0.0020476995826838296
-   },
-   "health_zone_entropy": 0.034490610203948224
-  },
-  "MAN035": {
+  "BEN148": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
     "Mabalako": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
+  "NODE_0000061": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9981539070999172,
+    "Beni": 0.0013545350539617795
+   },
+   "health_zone_entropy": 0.015744968459634006
+  },
+  "NODE_0000000": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9999965853503854
+   },
+   "health_zone_entropy": 5.3464378586182235e-05
+  },
   "18FHV089": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "MAN035": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
     "Mabalako": 1.0
@@ -45,142 +47,30 @@
   "NODE_0000002": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.9772741649521656,
-    "Beni": 0.01467322695670547,
-    "Mandima": 0.004424197894249856,
-    "Unknown": 0.0012988645939459493
+    "Mabalako": 0.9999999820909841
    },
-   "health_zone_entropy": 0.13275913686655938
+   "health_zone_entropy": 3.374527691004048e-07
   },
-  "BEN148": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000049": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.8338594251231849,
-    "Beni": 0.14321749424516142,
-    "Mandima": 0.010226206884529783,
-    "Unknown": 0.004487203393751029
-   },
-   "health_zone_entropy": 0.5460736104534448
-  },
-  "BEN234": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000004": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 0.999999990607183
-   },
-   "health_zone_entropy": 1.8522026136492613e-07
-  },
-  "BEN268": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN274": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN255": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN292": {
-   "health_zone": "Butembo",
-   "health_zone_confidence": {
-    "Butembo": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN236": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN214": {
+  "MAN028": {
    "health_zone": "Unknown",
    "health_zone_confidence": {
     "Unknown": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "BEN267": {
-   "health_zone": "Beni",
+  "MAN003": {
+   "health_zone": "Mandima",
    "health_zone_confidence": {
-    "Beni": 1.0
+    "Mandima": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "BEN286": {
-   "health_zone": "Beni",
+  "MAN048": {
+   "health_zone": "Mandima",
    "health_zone_confidence": {
-    "Beni": 1.0
+    "Mandima": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN294": {
-   "health_zone": "Butembo",
-   "health_zone_confidence": {
-    "Butembo": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN263": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000011": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 0.9995732816676669
-   },
-   "health_zone_entropy": 0.004412864998814663
-  },
-  "BEN240": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN269": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000015": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.8983473758307564,
-    "Mandima": 0.10164398994697092
-   },
-   "health_zone_entropy": 0.32879321507894216
   },
   "MAN065": {
    "health_zone": "Mandima",
@@ -196,14 +86,14 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "MAN028": {
-   "health_zone": "Unknown",
+  "BEN146": {
+   "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Unknown": 1.0
+    "Mabalako": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "MAN046": {
+  "MAN040": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
     "Mabalako": 1.0
@@ -217,38 +107,14 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "MAN048": {
-   "health_zone": "Mandima",
+  "BEN140": {
+   "health_zone": "Beni",
    "health_zone_confidence": {
-    "Mandima": 1.0
+    "Beni": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "MAN040": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000018": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.8016657711309524,
-    "Oicha": 0.14122733033217513,
-    "Mandima": 0.04179894094093932,
-    "Beni": 0.006386896511733882
-   },
-   "health_zone_entropy": 0.666896998177152
-  },
-  "BEN230": {
-   "health_zone": "Oicha",
-   "health_zone_confidence": {
-    "Oicha": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN018": {
+  "BEN165": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
     "Mabalako": 1.0
@@ -258,43 +124,61 @@
   "NODE_0000019": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.7300812360592316,
-    "Mandima": 0.2585647739940816,
-    "Beni": 0.003847602344350855,
-    "Unknown": 0.0026374677321336563
+    "Mabalako": 0.9998956047667023
    },
-   "health_zone_entropy": 0.6457598642395781
+   "health_zone_entropy": 0.0013200601203276067
   },
-  "MAN002": {
-   "health_zone": "Mandima",
-   "health_zone_confidence": {
-    "Mandima": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "BEN163": {
+  "MAN046": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
     "Mabalako": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "NODE_0000046": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.9862506663402019,
-    "Mandima": 0.011365120992062185
-   },
-   "health_zone_entropy": 0.08217035439556795
-  },
-  "MAN039": {
+  "MAN112": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
     "Mabalako": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000035": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.980899431140266,
+    "Mabalako": 0.01675286250321946
+   },
+   "health_zone_entropy": 0.10749119105091912
+  },
+  "BEN4020": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN3652": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000038": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9998956047667023
+   },
+   "health_zone_entropy": 0.0013200601203276067
   },
   "BEN031": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "MAN039": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
     "Mabalako": 1.0
@@ -304,21 +188,31 @@
   "NODE_0000050": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.9499021284125286,
-    "Mandima": 0.027360338624772697,
-    "Beni": 0.018265169399123014,
-    "Unknown": 0.0015920383834424707
+    "Mabalako": 0.9749210314904665,
+    "Oicha": 0.020620478869370556
    },
-   "health_zone_entropy": 0.24949276171525392
+   "health_zone_entropy": 0.1400205577598913
   },
-  "NODE_0000035": {
+  "BEN018": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.991244559150602,
-    "Mandima": 0.004532607934355914,
-    "Beni": 0.002360335894309636
+    "Mabalako": 1.0
    },
-   "health_zone_entropy": 0.06119836049775208
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN230": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000054": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9998929567821082
+   },
+   "health_zone_entropy": 0.0013506525405411849
   },
   "BEN020": {
    "health_zone": "Mabalako",
@@ -327,13 +221,12 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "NODE_0000051": {
+  "NODE_0000159": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.9956383720531402,
-    "Mandima": 0.0019821422111268713
+    "Mabalako": 0.9998903743933012
    },
-   "health_zone_entropy": 0.034237094990962155
+   "health_zone_entropy": 0.0013804266096661185
   },
   "BEN167": {
    "health_zone": "Mabalako",
@@ -342,13 +235,12 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "NODE_0000052": {
+  "NODE_0000160": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.9964335613263243,
-    "Mandima": 0.001541030073190913
+    "Mabalako": 0.9998929572917642
    },
-   "health_zone_entropy": 0.028835694394788697
+   "health_zone_entropy": 0.001350646928638791
   },
   "BEN143": {
    "health_zone": "Mabalako",
@@ -364,99 +256,12 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "NODE_0000053": {
+  "NODE_0000161": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.8017917233197623,
-    "Beni": 0.1623129044344611,
-    "Mandima": 0.021608340841813962,
-    "Unknown": 0.0050492904036954596
+    "Mabalako": 0.9994619210827702
    },
-   "health_zone_entropy": 0.6314840265718044
-  },
-  "BEN140": {
-   "health_zone": "Beni",
-   "health_zone_confidence": {
-    "Beni": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000054": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.9631997068592384,
-    "Beni": 0.01834165787952976,
-    "Mandima": 0.014042504039790859,
-    "Unknown": 0.0015766537486055173
-   },
-   "health_zone_entropy": 0.19814440794265084
-  },
-  "BEN146": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000055": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.9472002638591258,
-    "Mandima": 0.04410802026769739,
-    "Beni": 0.004691956272051411,
-    "Unknown": 0.0014242374785498545
-   },
-   "health_zone_entropy": 0.2406683327180871
-  },
-  "BEN165": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000056": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.694255349845571,
-    "Mandima": 0.29155519110598727,
-    "Beni": 0.005237762284375713,
-    "Unknown": 0.0031543375681499946
-   },
-   "health_zone_entropy": 0.6922233245886404
-  },
-  "MAN003": {
-   "health_zone": "Mandima",
-   "health_zone_confidence": {
-    "Mandima": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000057": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.8753556949855018,
-    "Mandima": 0.11838625098528482,
-    "Beni": 0.00235986030788743,
-    "Unknown": 0.0013889070050423595
-   },
-   "health_zone_entropy": 0.40930843265547207
-  },
-  "NODE_0000058": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.9838174424563944,
-    "Mandima": 0.013184658197515796,
-    "Beni": 0.0010811533430046608
-   },
-   "health_zone_entropy": 0.09459580038558574
-  },
-  "BEN017": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 1.0
-   },
-   "health_zone_entropy": -1.000088900581841e-12
+   "health_zone_entropy": 0.005389650391795632
   },
   "18FHV090": {
    "health_zone": "Mabalako",
@@ -465,35 +270,46 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "NODE_0000059": {
+  "NODE_0000162": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.8607955156807676,
-    "Mandima": 0.13218747828381697,
-    "Beni": 0.002999740096679984,
-    "Unknown": 0.001432789723883473
+    "Mabalako": 0.9842316892195099,
+    "Beni": 0.013292022783222848
    },
-   "health_zone_entropy": 0.44050280171517386
+   "health_zone_entropy": 0.0936031315125776
   },
-  "NODE_0000060": {
+  "NODE_0000163": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.6984977270617687,
-    "Mandima": 0.2879655289934894,
-    "Beni": 0.004779050975990541,
-    "Unknown": 0.003085750171479811
+    "Mabalako": 0.9972779769846302,
+    "Mandima": 0.0015655115166860278
    },
-   "health_zone_entropy": 0.6857521780963967
+   "health_zone_entropy": 0.022289817854482787
   },
-  "NODE_0000061": {
+  "BEN017": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000164": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9636388733607122,
+    "Mandima": 0.033126796022060215
+   },
+   "health_zone_entropy": 0.1750867485821602
+  },
+  "NODE_0000165": {
    "health_zone": "Mandima",
    "health_zone_confidence": {
-    "Mandima": 0.977535382159322,
-    "Mabalako": 0.019683019516010543
+    "Mandima": 0.9824589471878983,
+    "Mabalako": 0.01588281408883562
    },
-   "health_zone_entropy": 0.11971069964044634
+   "health_zone_entropy": 0.09802947122530696
   },
-  "MAN006": {
+  "MAN037": {
    "health_zone": "Mandima",
    "health_zone_confidence": {
     "Mandima": 1.0
@@ -507,15 +323,12 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "NODE_0000062": {
+  "NODE_0000166": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.9620680004869069,
-    "Mandima": 0.033124332812341915,
-    "Beni": 0.0017076911432184938,
-    "Unknown": 0.0011034240815488597
+    "Mabalako": 0.9988965980300989
    },
-   "health_zone_entropy": 0.1822544060340507
+   "health_zone_entropy": 0.009767700864507707
   },
   "BEN162": {
    "health_zone": "Mabalako",
@@ -531,31 +344,73 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "NODE_0000063": {
+  "NODE_0000167": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
-    "Mabalako": 0.9156212450307007,
-    "Mandima": 0.07356284228405763,
-    "Beni": 0.006833756864191195,
-    "Unknown": 0.0014221135138200764
+    "Mabalako": 0.5010620256954792,
+    "Beni": 0.49017047686076604,
+    "Mandima": 0.004042738576237648
    },
-   "health_zone_entropy": 0.3331232703415201
+   "health_zone_entropy": 0.7546604867687786
   },
-  "NODE_0000064": {
-   "health_zone": "Mabalako",
+  "NODE_0000168": {
+   "health_zone": "Beni",
    "health_zone_confidence": {
-    "Mabalako": 0.9882986755912666,
-    "Mandima": 0.008576392376352486,
-    "Beni": 0.0013493633400662474
+    "Beni": 0.5079211268037169,
+    "Mabalako": 0.46765509048987186,
+    "Mandima": 0.017197371803895533,
+    "Unknown": 0.0012705721116774492
    },
-   "health_zone_entropy": 0.07454885234190498
+   "health_zone_entropy": 0.8224869760973395
   },
-  "BEN114": {
-   "health_zone": "Mabalako",
+  "BEN810": {
+   "health_zone": "Beni",
    "health_zone_confidence": {
-    "Mabalako": 1.0
+    "Beni": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000169": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.6401476242733526,
+    "Mandima": 0.20273385635581415,
+    "Beni": 0.1321038245759926,
+    "Unknown": 0.0037057182629003775
+   },
+   "health_zone_entropy": 1.0300670949206892
+  },
+  "NODE_0000170": {
+   "health_zone": "Mandima",
+   "health_zone_confidence": {
+    "Mandima": 0.9857793874700937,
+    "Mabalako": 0.010962529287714802,
+    "Beni": 0.0015886489760557293
+   },
+   "health_zone_entropy": 0.0886448960446629
+  },
+  "MAN002": {
+   "health_zone": "Mandima",
+   "health_zone_confidence": {
+    "Mandima": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "MAN006": {
+   "health_zone": "Mandima",
+   "health_zone_confidence": {
+    "Mandima": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000171": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9896555907697622,
+    "Mandima": 0.005432106118737983,
+    "Beni": 0.0035044461301362096
+   },
+   "health_zone_entropy": 0.07110009830657973
   },
   "BEN104": {
    "health_zone": "Mabalako",
@@ -564,49 +419,35 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "NODE_0000065": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.8127232995419191,
-    "Mandima": 0.13156308708964395,
-    "Beni": 0.04446550615239719,
-    "Unknown": 0.003973555703222545
-   },
-   "health_zone_entropy": 0.6366170587137191
-  },
-  "NODE_0000066": {
-   "health_zone": "Mabalako",
-   "health_zone_confidence": {
-    "Mabalako": 0.9773232644116635,
-    "Mandima": 0.015138556956878432,
-    "Beni": 0.004692240424010342,
-    "Unknown": 0.0010173933592450832
-   },
-   "health_zone_entropy": 0.13081347408840852
-  },
-  "MAN042": {
+  "BEN114": {
    "health_zone": "Mabalako",
    "health_zone_confidence": {
     "Mabalako": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "MAN036": {
-   "health_zone": "Mabalako",
+  "NODE_0000172": {
+   "health_zone": "Beni",
    "health_zone_confidence": {
-    "Mabalako": 1.0
+    "Beni": 0.7320413604475684,
+    "Mabalako": 0.26470177489859686
+   },
+   "health_zone_entropy": 0.6067804708396012
+  },
+  "NODE_0000173": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9917989949079595,
+    "Mabalako": 0.007092610713399576
+   },
+   "health_zone_entropy": 0.053560895975185284
+  },
+  "BEN809": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
-  },
-  "NODE_0000067": {
-   "health_zone": "Mandima",
-   "health_zone_confidence": {
-    "Mandima": 0.4754890945985485,
-    "Beni": 0.28641947342607676,
-    "Mabalako": 0.21038296844407392,
-    "Unknown": 0.009532923501177118
-   },
-   "health_zone_entropy": 1.1693290863748542
   },
   "BEN225": {
    "health_zone": "Beni",
@@ -615,10 +456,1692 @@
    },
    "health_zone_entropy": -1.000088900581841e-12
   },
-  "MAN037": {
-   "health_zone": "Mandima",
+  "NODE_0000174": {
+   "health_zone": "Beni",
    "health_zone_confidence": {
-    "Mandima": 1.0
+    "Beni": 0.7169557547677969,
+    "Mabalako": 0.2783884840558006
+   },
+   "health_zone_entropy": 0.6310852765125127
+  },
+  "NODE_0000175": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9801901868460773,
+    "Beni": 0.017321161156862153
+   },
+   "health_zone_entropy": 0.11096545768598763
+  },
+  "MAN036": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "MAN042": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000176": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9907955148072382,
+    "Mabalako": 0.007946037867716993
+   },
+   "health_zone_entropy": 0.05910427616607937
+  },
+  "NODE_0000045": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9995790156604581
+   },
+   "health_zone_entropy": 0.004413059370904455
+  },
+  "NODE_0000047": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9998583076262728
+   },
+   "health_zone_entropy": 0.0017478358057086418
+  },
+  "BEN915": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN1066": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000177": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9998583076262728
+   },
+   "health_zone_entropy": 0.0017478358057086418
+  },
+  "BEN1084": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN823": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000178": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.999551220074813
+   },
+   "health_zone_entropy": 0.004690069167202302
+  },
+  "BEN379": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000179": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9991915092742261
+   },
+   "health_zone_entropy": 0.008104719653029203
+  },
+  "NODE_0000180": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9998446683846867
+   },
+   "health_zone_entropy": 0.001901393888663138
+  },
+  "BEN1708": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000052": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.999866000188519
+   },
+   "health_zone_entropy": 0.0016641428323029104
+  },
+  "BEN1662": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN1811": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000181": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9768977973211608,
+    "Unknown": 0.013099062855175427,
+    "Oicha": 0.005482453591374915
+   },
+   "health_zone_entropy": 0.14342345942760154
+  },
+  "NODE_0000182": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9992427922479088
+   },
+   "health_zone_entropy": 0.007635058325027404
+  },
+  "NODE_0000183": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9998500936636308
+   },
+   "health_zone_entropy": 0.0018410222440715942
+  },
+  "BEN2079": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN867": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000057": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9999999198754472
+   },
+   "health_zone_entropy": 1.569025184524506e-06
+  },
+  "BEN2064": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN2024": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN2010": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000225": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9998700276052112
+   },
+   "health_zone_entropy": 0.001618386350162977
+  },
+  "BEN2078": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN2510": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000004": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.42395425059090414,
+    "Beni": 0.2684235166441151,
+    "Oicha": 0.2515380086609089,
+    "Mabalako": 0.008169757537294728
+   },
+   "health_zone_entropy": 1.3620248102243384
+  },
+  "BEN3240": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000184": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 0.9259195601139457,
+    "Unknown": 0.03614413275598736,
+    "Mbau": 0.0158087238565497,
+    "Beni": 0.012315598335564547
+   },
+   "health_zone_entropy": 0.3785316286360049
+  },
+  "NODE_0000185": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 0.9266572826558448,
+    "Mbau": 0.049735538511937676,
+    "Unknown": 0.011666371423151753,
+    "Beni": 0.00400787790467462
+   },
+   "health_zone_entropy": 0.3510377996981138
+  },
+  "BEN5597": {
+   "health_zone": "Mbau",
+   "health_zone_confidence": {
+    "Mbau": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000007": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 0.9986058351446904
+   },
+   "health_zone_entropy": 0.012833139102506661
+  },
+  "BEN4627": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN4834": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000008": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 0.9755102037805433,
+    "Unknown": 0.017754320074923134,
+    "Komanda": 0.004846008601916941
+   },
+   "health_zone_entropy": 0.13705109829234852
+  },
+  "BUN058": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BUN076": {
+   "health_zone": "Komanda",
+   "health_zone_confidence": {
+    "Komanda": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000010": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 0.9582918132318211,
+    "Unknown": 0.03671596969507799,
+    "Komanda": 0.0016370109126967423
+   },
+   "health_zone_entropy": 0.19996139085595357
+  },
+  "BUN059": {
+   "health_zone": "Oicha",
+   "health_zone_confidence": {
+    "Oicha": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN6244": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000186": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9713460468524964,
+    "Beni": 0.025240909717271477
+   },
+   "health_zone_entropy": 0.14897022742778282
+  },
+  "BEN234": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000063": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9991960208763544
+   },
+   "health_zone_entropy": 0.007293671511125477
+  },
+  "BEN347": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000078": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9998467657336997
+   },
+   "health_zone_entropy": 0.0018696614175325787
+  },
+  "BEN240": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN269": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000226": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9998038429171187
+   },
+   "health_zone_entropy": 0.0023365975429624286
+  },
+  "NODE_0000227": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9998648622251158
+   },
+   "health_zone_entropy": 0.0016767950764644884
+  },
+  "BEN286": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN268": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000187": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9986961266085569
+   },
+   "health_zone_entropy": 0.011917374971415701
+  },
+  "BEN341": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000188": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9579234956805625,
+    "Katwa": 0.033868848390348,
+    "Butembo": 0.002446570740295504,
+    "Masereka": 0.0013171077549623484
+   },
+   "health_zone_entropy": 0.21364617148914222
+  },
+  "NODE_0000065": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9780028260112105,
+    "Beni": 0.018643518531518365
+   },
+   "health_zone_entropy": 0.1234375340288424
+  },
+  "BTB336": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000189": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9993342983499173
+   },
+   "health_zone_entropy": 0.006545206025214703
+  },
+  "NODE_0000071": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.999997957035448
+   },
+   "health_zone_entropy": 3.363840742402212e-05
+  },
+  "BTB221": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB220": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000190": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9994367703422999
+   },
+   "health_zone_entropy": 0.005682779256227167
+  },
+  "BTB323": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000191": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9764871800137784,
+    "Kyondo": 0.019817613628292888
+   },
+   "health_zone_entropy": 0.13094610692762543
+  },
+  "BTB576": {
+   "health_zone": "Kyondo",
+   "health_zone_confidence": {
+    "Kyondo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB701": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000192": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9993471633692539
+   },
+   "health_zone_entropy": 0.006516076554882821
+  },
+  "NODE_0000066": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9999074776091961
+   },
+   "health_zone_entropy": 0.0011847086930514433
+  },
+  "BTB287": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB2565": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000193": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9759393595703449,
+    "Vuhovi": 0.020269906100436556
+   },
+   "health_zone_entropy": 0.1334698011315831
+  },
+  "BTB294": {
+   "health_zone": "Vuhovi",
+   "health_zone_confidence": {
+    "Vuhovi": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000194": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.999425655112914
+   },
+   "health_zone_entropy": 0.0057811171536327425
+  },
+  "BTB628": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB350": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000195": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9836607617410598,
+    "Butembo": 0.00553962611329205,
+    "Katwa": 0.005062345019903093,
+    "Masereka": 0.0037958921279424404
+   },
+   "health_zone_entropy": 0.10952470465944557
+  },
+  "NODE_0000196": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9944103278121942,
+    "Butembo": 0.004644525950888439
+   },
+   "health_zone_entropy": 0.03902449819405256
+  },
+  "NODE_0000197": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.99972651586324
+   },
+   "health_zone_entropy": 0.0030868084068864394
+  },
+  "BEN263": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN267": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000198": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9584146901154157,
+    "Butembo": 0.04055476363624197
+   },
+   "health_zone_entropy": 0.18027240614239118
+  },
+  "NODE_0000199": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9286335904344821,
+    "Butembo": 0.06649464892064254
+   },
+   "health_zone_entropy": 0.2869500671035677
+  },
+  "BEN340": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN2329": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000200": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9286335904344821,
+    "Butembo": 0.06649464892064254
+   },
+   "health_zone_entropy": 0.2869500671035677
+  },
+  "BEN274": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN292": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000201": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.8867813634823986,
+    "Masereka": 0.06766670585015035,
+    "Butembo": 0.030165283819578354,
+    "Katwa": 0.003685812207807603
+   },
+   "health_zone_entropy": 0.4945316070419312
+  },
+  "NODE_0000080": {
+   "health_zone": "Masereka",
+   "health_zone_confidence": {
+    "Masereka": 0.9862186985650854,
+    "Beni": 0.010757333723379668
+   },
+   "health_zone_entropy": 0.08752143062201166
+  },
+  "BTB164": {
+   "health_zone": "Masereka",
+   "health_zone_confidence": {
+    "Masereka": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000202": {
+   "health_zone": "Masereka",
+   "health_zone_confidence": {
+    "Masereka": 0.9997235486365782
+   },
+   "health_zone_entropy": 0.003028894455051711
+  },
+  "BTB129": {
+   "health_zone": "Masereka",
+   "health_zone_confidence": {
+    "Masereka": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB123": {
+   "health_zone": "Masereka",
+   "health_zone_confidence": {
+    "Masereka": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000203": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.88509754925764,
+    "Butembo": 0.08245418334620583,
+    "Masereka": 0.019358102935708367,
+    "Katwa": 0.00252381390915916
+   },
+   "health_zone_entropy": 0.4780443199845858
+  },
+  "BEN294": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000204": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9969049151582351,
+    "Butembo": 0.001885484025975286
+   },
+   "health_zone_entropy": 0.025701416374682012
+  },
+  "BEN236": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN255": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000092": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.6701353596246421,
+    "Beni": 0.32632398789381617,
+    "Katwa": 0.002348458161141864
+   },
+   "health_zone_entropy": 0.658708715186287
+  },
+  "BTB452": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000228": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9669270263990196,
+    "Beni": 0.025488331234261134,
+    "Unknown": 0.004776764370005012
+   },
+   "health_zone_entropy": 0.1743275025378985
+  },
+  "NODE_0000110": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.99917411473182
+   },
+   "health_zone_entropy": 0.00781137406165035
+  },
+  "BTB429": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000111": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9999208149477263
+   },
+   "health_zone_entropy": 0.0010192421657244084
+  },
+  "BTB571": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB843": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000205": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9557885690044338,
+    "Unknown": 0.02391533299093059,
+    "Beni": 0.014710018640134102,
+    "Mabalako": 0.0024514819973955816
+   },
+   "health_zone_entropy": 0.23321927409600776
+  },
+  "NODE_0000094": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9474767543169945,
+    "Unknown": 0.026667482572303183,
+    "Mabalako": 0.014311642744343224,
+    "Beni": 0.00705185357008884
+   },
+   "health_zone_entropy": 0.27825486029436736
+  },
+  "NODE_0000095": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9988941020514253
+   },
+   "health_zone_entropy": 0.01066983891150412
+  },
+  "BTB467": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB485": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000096": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.5137273591150583,
+    "Unknown": 0.26333506384508304,
+    "Kalunguta": 0.18324771021555,
+    "Beni": 0.009312327185800877
+   },
+   "health_zone_entropy": 1.226656922984429
+  },
+  "MAN1011": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000229": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.6869796098080534,
+    "Mabalako": 0.29768065886546674,
+    "Kalunguta": 0.009156394787789927,
+    "Beni": 0.001480594342367296
+   },
+   "health_zone_entropy": 0.7076416866268799
+  },
+  "MAN1258": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000230": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.6719687368385128,
+    "Mabalako": 0.3217149679271813,
+    "Kalunguta": 0.0021653804831152255
+   },
+   "health_zone_entropy": 0.6778779152399251
+  },
+  "MAN1046": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000231": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.8581035965746179,
+    "Mabalako": 0.14009420267738476
+   },
+   "health_zone_entropy": 0.4224816766368206
+  },
+  "MAN1095": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000232": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.845838762340346,
+    "Mabalako": 0.1510844676755056
+   },
+   "health_zone_entropy": 0.45257800381607594
+  },
+  "MAN1152": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000206": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 0.9739867108906514,
+    "Unknown": 0.023125580372337213
+   },
+   "health_zone_entropy": 0.1367891045516882
+  },
+  "MAN1016": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "MAN1038": {
+   "health_zone": "Mabalako",
+   "health_zone_confidence": {
+    "Mabalako": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000207": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.8745225347660193,
+    "Unknown": 0.07258747288313472,
+    "Beni": 0.02487543730200192,
+    "Katwa": 0.014941269742710442
+   },
+   "health_zone_entropy": 0.5412377843171112
+  },
+  "NODE_0000208": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.8788471114487236,
+    "Unknown": 0.078000362942201,
+    "Butembo": 0.018806771738781255,
+    "Beni": 0.011429209066320334
+   },
+   "health_zone_entropy": 0.5178235618064003
+  },
+  "BTB232": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000105": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.36965597992174415,
+    "Butembo": 0.32140780251386364,
+    "Kalunguta": 0.2504155622885848,
+    "Beni": 0.012238207305950757
+   },
+   "health_zone_entropy": 1.3841295360835508
+  },
+  "BTB367": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB368": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000209": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.2865670268452139,
+    "Katwa": 0.26071801168020364,
+    "Beni": 0.21304027614766122,
+    "Unknown": 0.19619458442003074
+   },
+   "health_zone_entropy": 1.5951485116946775
+  },
+  "NODE_0000108": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.851187705968801,
+    "Beni": 0.11315064251055558,
+    "Kalunguta": 0.01724669420233731,
+    "Unknown": 0.011339216532601108
+   },
+   "health_zone_entropy": 0.5559468607809072
+  },
+  "BTB185": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000210": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.8470994739148915,
+    "Beni": 0.13727081592647022,
+    "Kalunguta": 0.005896710600750731,
+    "Unknown": 0.003868296723130643
+   },
+   "health_zone_entropy": 0.5086485433721427
+  },
+  "BEN1271": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB675": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000112": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.4885444006744291,
+    "Beni": 0.39267030211161097,
+    "Kalunguta": 0.05119036849263509,
+    "Katwa": 0.04509959627261131
+   },
+   "health_zone_entropy": 1.1467343961990841
+  },
+  "NODE_0000113": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 0.83703673778258,
+    "Beni": 0.15660339211774257,
+    "Mutwanga": 0.0042484706752106026
+   },
+   "health_zone_entropy": 0.47941813919936926
+  },
+  "BEN2193": {
+   "health_zone": "Mutwanga",
+   "health_zone_confidence": {
+    "Mutwanga": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN2062": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN1753": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN1543": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000116": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.6735859574929302,
+    "Unknown": 0.3263538677954968
+   },
+   "health_zone_entropy": 0.63229126223545
+  },
+  "BEN1656": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN1674": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN1706": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000122": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.990098823633857,
+    "Unknown": 0.008697051348645497
+   },
+   "health_zone_entropy": 0.06218087741001575
+  },
+  "BEN2030": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN2072": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000233": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9898236197568979,
+    "Unknown": 0.00894202736387164
+   },
+   "health_zone_entropy": 0.06361274005883807
+  },
+  "BEN2099": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000234": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.9995875088780117
+   },
+   "health_zone_entropy": 0.004325883589177126
+  },
+  "BEN2357": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN2332": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000123": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.7161460775033385,
+    "Kalunguta": 0.14723948293204472,
+    "Katwa": 0.13644766533553895
+   },
+   "health_zone_entropy": 0.7945255533809285
+  },
+  "BEN814": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BEN1742": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000135": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9297847504430524,
+    "Beni": 0.03672683709185847,
+    "Butembo": 0.021050614842149568,
+    "Kalunguta": 0.0071422165666305566
+   },
+   "health_zone_entropy": 0.34596835456338554
+  },
+  "BTB2640": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000235": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9167634205575497,
+    "Butembo": 0.06521432812559098,
+    "Beni": 0.010863612171530933,
+    "Kalunguta": 0.0022854409968730157
+   },
+   "health_zone_entropy": 0.3583094572157758
+  },
+  "BTB2558": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB2996": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000137": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.4052969641370532,
+    "Beni": 0.2668344436036805,
+    "Katwa": 0.20573005487881796,
+    "Butembo": 0.09053814769412034
+   },
+   "health_zone_entropy": 1.4454894988587956
+  },
+  "BTB513": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000138": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.4373287401136309,
+    "Butembo": 0.3509105022995113,
+    "Kalunguta": 0.10250239595788303,
+    "Beni": 0.0766437973221439
+   },
+   "health_zone_entropy": 1.3489514802890419
+  },
+  "BTB3104": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB3207": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000124": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9801021516851007,
+    "Beni": 0.014412738437891282,
+    "Kalunguta": 0.0028825892528001255
+   },
+   "health_zone_entropy": 0.11942980437017042
+  },
+  "BTB778": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000125": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.999377498383724
+   },
+   "health_zone_entropy": 0.006282549362933316
+  },
+  "NODE_0000211": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9999067224910586
+   },
+   "health_zone_entropy": 0.001189994278822217
+  },
+  "BTB769": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB534": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000127": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9991847032985484
+   },
+   "health_zone_entropy": 0.006947482997520753
+  },
+  "BTB755": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB2485": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000129": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9998956924613334
+   },
+   "health_zone_entropy": 0.0013028392246676177
+  },
+  "NODE_0000236": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.999918829212143
+   },
+   "health_zone_entropy": 0.0010508552365664382
+  },
+  "BTB2749": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB2869": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000237": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9999170328463152
+   },
+   "health_zone_entropy": 0.0010721885449373808
+  },
+  "BTB2696": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000238": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9999193672524285
+   },
+   "health_zone_entropy": 0.0010447850389894155
+  },
+  "BTB3223": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB3177": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000212": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 0.7440158585600458,
+    "Kalunguta": 0.2050420688942403,
+    "Katwa": 0.041425016688512346,
+    "Musienene": 0.0013036458567378707
+   },
+   "health_zone_entropy": 0.7441763521428596
+  },
+  "BTB238": {
+   "health_zone": "Beni",
+   "health_zone_confidence": {
+    "Beni": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000213": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9411214877928887,
+    "Beni": 0.03868333773073482,
+    "Musienene": 0.011087752816105658,
+    "Katwa": 0.003108027549609572
+   },
+   "health_zone_entropy": 0.29546423570938635
+  },
+  "NODE_0000214": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9365511070707309,
+    "Musienene": 0.04230711897935409,
+    "Beni": 0.013159864137619149,
+    "Katwa": 0.0015107931051952404
+   },
+   "health_zone_entropy": 0.30999810455992516
+  },
+  "BTB162": {
+   "health_zone": "Musienene",
+   "health_zone_confidence": {
+    "Musienene": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB623": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000215": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9937183618328626,
+    "Beni": 0.0024590580610766534,
+    "Butembo": 0.0013675975730678869,
+    "Katwa": 0.0010635188625653085
+   },
+   "health_zone_entropy": 0.049037010280369275
+  },
+  "NODE_0000216": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9998026694952838
+   },
+   "health_zone_entropy": 0.0023131336378184354
+  },
+  "BTB615": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000217": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9999350680930301
+   },
+   "health_zone_entropy": 0.0008572917182407267
+  },
+  "BTB518": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB614": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000218": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 0.9747112156370162,
+    "Butembo": 0.01443719428727824,
+    "Katwa": 0.005794386712162533,
+    "Beni": 0.0014425352280717813
+   },
+   "health_zone_entropy": 0.15390966497543426
+  },
+  "BTB618": {
+   "health_zone": "Kalunguta",
+   "health_zone_confidence": {
+    "Kalunguta": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000148": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 0.7192032368028218,
+    "Katwa": 0.2337285790078755,
+    "Unknown": 0.020595326126667833,
+    "Kalunguta": 0.0136281588478787
+   },
+   "health_zone_entropy": 0.7803112261747157
+  },
+  "BTB766": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB842": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB562": {
+   "health_zone": "Musienene",
+   "health_zone_confidence": {
+    "Musienene": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB725": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000219": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 0.7467858665751456,
+    "Katwa": 0.234855203659315,
+    "Unknown": 0.0103486940484992,
+    "Kalunguta": 0.0030968068647166842
+   },
+   "health_zone_entropy": 0.6587975171427696
+  },
+  "NODE_0000220": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 0.9944372923729417,
+    "Katwa": 0.004723197804913495
+   },
+   "health_zone_entropy": 0.03877709221231681
+  },
+  "BTB556": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB496": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000221": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.5483246545148291,
+    "Butembo": 0.42417002147213934,
+    "Unknown": 0.020785823549523377,
+    "Beni": 0.001112221599021076
+   },
+   "health_zone_entropy": 0.8236262107686785
+  },
+  "NODE_0000222": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.9877001552156676,
+    "Butembo": 0.010691710476916897
+   },
+   "health_zone_entropy": 0.07484638930425719
+  },
+  "BTB841": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB752": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000223": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.5106785738299972,
+    "Butembo": 0.4107174655437329,
+    "Unknown": 0.06843621368916422,
+    "Beni": 0.0018052160971320937
+   },
+   "health_zone_entropy": 0.9635429025414793
+  },
+  "BTB933": {
+   "health_zone": "Unknown",
+   "health_zone_confidence": {
+    "Unknown": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "NODE_0000224": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 0.5293930791762725,
+    "Butembo": 0.44507283513934764,
+    "Unknown": 0.017824897899553556,
+    "Beni": 0.001348269723742803
+   },
+   "health_zone_entropy": 0.8250614843217839
+  },
+  "BTB844": {
+   "health_zone": "Butembo",
+   "health_zone_confidence": {
+    "Butembo": 1.0
+   },
+   "health_zone_entropy": -1.000088900581841e-12
+  },
+  "BTB771": {
+   "health_zone": "Katwa",
+   "health_zone_confidence": {
+    "Katwa": 1.0
    },
    "health_zone_entropy": -1.000088900581841e-12
   }
