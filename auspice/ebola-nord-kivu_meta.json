@@ -23,7 +23,12 @@
       "legendTitle": "country",
       "menuItem": "country",
       "key": "country",
-      "color_map": []
+      "color_map": [
+        [
+          "Democratic_Republic_of_the_Congo",
+          "#E4682F"
+        ]
+      ]
     },
     "health_zone": {
       "key": "health_zone",
@@ -84,69 +89,99 @@
           "#000000"
         ],
         [
-          "Mbau",
+          "Kayna",
           "#37d6dc"
+        ],
+        [
+          "Biena",
+          "#743700"
+        ],
+        [
+          "Manguredjipa",
+          "#274720"
+        ],
+        [
+          "Bunia",
+          "#810025"
         ]
       ]
     }
   },
   "geo": {
+    "country": {
+      "Democratic_Republic_of_the_Congo": {
+        "latitude": -2.272309,
+        "longitude": 23.813734
+      }
+    },
     "health_zone": {
-      "Komanda": {
-        "latitude": 1.362605,
-        "longitude": 29.775695
-      },
-      "Katwa": {
-        "latitude": 0.117255,
-        "longitude": 29.373772
-      },
-      "Mandima": {
-        "latitude": 0.6887,
-        "longitude": 29.248
-      },
-      "Oicha": {
-        "latitude": 0.6967778,
-        "longitude": 29.5172722
-      },
-      "Mbau": {
-        "latitude": 0.655603,
-        "longitude": 29.502797
-      },
       "Masereka": {
-        "latitude": -0.109011,
-        "longitude": 29.356358
-      },
-      "Mabalako": {
-        "latitude": 0.4612573,
-        "longitude": 29.2106874
-      },
-      "Vuhovi": {
-        "latitude": 0.274,
-        "longitude": 29.2751
+        "latitude": -0.13579,
+        "longitude": 29.44296
       },
       "Musienene": {
-        "latitude": 0.016093,
-        "longitude": 29.251206
+        "latitude": 0.01769,
+        "longitude": 29.02767
       },
-      "Butembo": {
-        "latitude": 0.113994,
-        "longitude": 29.297898
-      },
-      "Mutwanga": {
-        "latitude": 0.333873,
-        "longitude": 29.744312
+      "Manguredjipa": {
+        "latitude": 0.33107,
+        "longitude": 28.50162
       },
       "Kyondo": {
-        "latitude": 0.003777,
-        "longitude": 29.404306
+        "latitude": -0.0076,
+        "longitude": 29.40715
       },
-      "Kalunguta": {
-        "latitude": 0.3296,
-        "longitude": 29.4901
+      "Vuhovi": {
+        "latitude": 0.34267,
+        "longitude": 29.21021
+      },
+      "Katwa": {
+        "latitude": 0.11789,
+        "longitude": 29.37422
+      },
+      "Kayna": {
+        "latitude": -0.45282,
+        "longitude": 28.98241
+      },
+      "Mandima": {
+        "latitude": 1.0521,
+        "longitude": 29.14737
+      },
+      "Mabalako": {
+        "latitude": 0.52593,
+        "longitude": 29.19262
       },
       "Beni": {
-        "latitude": 0.4939335,
-        "longitude": 29.4653222
+        "latitude": 0.49901,
+        "longitude": 29.45275
+      },
+      "Oicha": {
+        "latitude": 0.69687,
+        "longitude": 29.52237
+      },
+      "Komanda": {
+        "latitude": 1.36302,
+        "longitude": 29.77931
+      },
+      "Butembo": {
+        "latitude": 0.11404,
+        "longitude": 29.3018
+      },
+      "Kalunguta": {
+        "latitude": 0.36464,
+        "longitude": 29.51096
+      },
+      "Biena": {
+        "latitude": 0.29118,
+        "longitude": 28.93127
+      },
+      "Bunia": {
+        "latitude": 1.57748,
+        "longitude": 30.25337
+      },
+      "Mutwanga": {
+        "latitude": 0.3358,
+        "longitude": 29.74854
       }
     }
   },
@@ -163,11 +198,11 @@
     "health_zone",
     "authors"
   ],
-  "updated": "06 Mar 2019",
-  "virus_count": 160,
+  "updated": "13 Apr 2019",
+  "virus_count": 188,
   "author_info": {
     "Mbala et al.": {
-      "n": 163
+      "n": 191
     }
   },
   "annotations": {
