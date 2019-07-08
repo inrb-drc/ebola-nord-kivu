@@ -115,29 +115,21 @@
       }
     },
     "health_zone": {
-      "Masereka": {
-        "latitude": -0.13579,
-        "longitude": 29.44296
+      "Biena": {
+        "latitude": 0.29118,
+        "longitude": 28.93127
       },
-      "Musienene": {
-        "latitude": 0.01769,
-        "longitude": 29.02767
+      "Mabalako": {
+        "latitude": 0.52593,
+        "longitude": 29.19262
       },
-      "Manguredjipa": {
-        "latitude": 0.33107,
-        "longitude": 28.50162
+      "Komanda": {
+        "latitude": 1.36302,
+        "longitude": 29.77931
       },
-      "Kyondo": {
-        "latitude": -0.0076,
-        "longitude": 29.40715
-      },
-      "Vuhovi": {
-        "latitude": 0.34267,
-        "longitude": 29.21021
-      },
-      "Katwa": {
-        "latitude": 0.11789,
-        "longitude": 29.37422
+      "Kalunguta": {
+        "latitude": 0.36464,
+        "longitude": 29.51096
       },
       "Kayna": {
         "latitude": -0.45282,
@@ -147,33 +139,37 @@
         "latitude": 1.0521,
         "longitude": 29.14737
       },
-      "Mabalako": {
-        "latitude": 0.52593,
-        "longitude": 29.19262
+      "Oicha": {
+        "latitude": 0.69687,
+        "longitude": 29.52237
+      },
+      "Masereka": {
+        "latitude": -0.13579,
+        "longitude": 29.44296
+      },
+      "Katwa": {
+        "latitude": 0.11789,
+        "longitude": 29.37422
+      },
+      "Vuhovi": {
+        "latitude": 0.34267,
+        "longitude": 29.21021
+      },
+      "Musienene": {
+        "latitude": 0.01769,
+        "longitude": 29.02767
+      },
+      "Kyondo": {
+        "latitude": -0.0076,
+        "longitude": 29.40715
       },
       "Beni": {
         "latitude": 0.49901,
         "longitude": 29.45275
       },
-      "Oicha": {
-        "latitude": 0.69687,
-        "longitude": 29.52237
-      },
-      "Komanda": {
-        "latitude": 1.36302,
-        "longitude": 29.77931
-      },
       "Butembo": {
         "latitude": 0.11404,
         "longitude": 29.3018
-      },
-      "Kalunguta": {
-        "latitude": 0.36464,
-        "longitude": 29.51096
-      },
-      "Biena": {
-        "latitude": 0.29118,
-        "longitude": 28.93127
       },
       "Bunia": {
         "latitude": 1.57748,
@@ -182,6 +178,10 @@
       "Mutwanga": {
         "latitude": 0.3358,
         "longitude": 29.74854
+      },
+      "Manguredjipa": {
+        "latitude": 0.33107,
+        "longitude": 28.50162
       }
     }
   },
@@ -198,11 +198,11 @@
     "health_zone",
     "authors"
   ],
-  "updated": "13 Apr 2019",
-  "virus_count": 188,
+  "updated": "08 Jul 2019",
+  "virus_count": 272,
   "author_info": {
     "Mbala et al.": {
-      "n": 191
+      "n": 273
     }
   },
   "annotations": {
