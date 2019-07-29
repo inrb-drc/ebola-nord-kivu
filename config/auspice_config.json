@@ -29,13 +29,12 @@
     }
   },
   "geo": [
-    "country",
     "health_zone"
   ],
   "defaults": {
     "colorBy": "health_zone",
     "geoResolution": "health_zone"
-  },  
+  },
   "maintainer": [
     "Catherine Pratt",
     ""
