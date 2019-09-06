@@ -7,7 +7,6 @@ rule files:
     params:
         input_fasta = "data/sequences.fasta",
         metadata = "data/metadata.tsv",
-        forced_strains = "config/forced_strains.txt",
         dropped_strains = "config/dropped_strains.txt",
         reference = "config/reference.gb",
         colors = "config/colors.tsv",
@@ -25,7 +24,6 @@ rule filter:
     input:
         sequences = files.input_fasta,
         metadata = files.metadata,
-        include = files.forced_strains,
         exclude = files.dropped_strains
     output:
         sequences = "results/filtered.fasta"
@@ -34,7 +32,6 @@ rule filter:
         augur filter \
             --sequences {input.sequences} \
             --metadata {input.metadata} \
-            --include {input.include} \
             --exclude {input.exclude} \
             --output {output.sequences} \
         """
@@ -101,15 +98,30 @@ rule refine:
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --timetree \
+            --root "MK088515_outgroup" \
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference}
         """
 
+rule prune_outgroup:
+    message: "Pruning the outgroup from the tree"
+    input:
+        tree = rules.refine.output.tree
+    output:
+        tree = "results/tree_pruned.nwk"
+    run:
+        from Bio import Phylo
+        T = Phylo.read(input[0], "newick")
+        outgroup = [c for c in T.find_clades() if str(c.name) == "MK088515_outgroup"][0]
+        # T.root_with_outgroup(outgroup)
+        T.prune(outgroup)
+        Phylo.write(T, output[0], "newick")
+
 rule ancestral:
     message: "Reconstructing ancestral sequences and mutations"
     input:
-        tree = rules.refine.output.tree,
+        tree = rules.prune_outgroup.output.tree,
         alignment = rules.align.output
     output:
         node_data = "results/nt_muts.json"
@@ -127,7 +139,7 @@ rule ancestral:
 rule translate:
     message: "Translating amino acid sequences"
     input:
-        tree = rules.refine.output.tree,
+        tree = rules.prune_outgroup.output.tree,
         node_data = rules.ancestral.output.node_data,
         reference = files.reference
     output:
@@ -144,7 +156,7 @@ rule translate:
 rule traits:
     message: "Inferring ancestral traits for {params.columns!s}"
     input:
-        tree = rules.refine.output.tree,
+        tree = rules.prune_outgroup.output.tree,
         metadata = files.metadata
     output:
         node_data = "results/traits.json",
@@ -163,7 +175,7 @@ rule traits:
 rule export:
     message: "Exporting data files for auspice"
     input:
-        tree = rules.refine.output.tree,
+        tree = rules.prune_outgroup.output.tree,
         metadata = files.metadata,
         branch_lengths = rules.refine.output.node_data,
         traits = rules.traits.output.node_data,
@@ -191,6 +203,7 @@ rule export:
 rule clean:
     message: "Removing directories: {params}"
     params:
+        "data "
         "results ",
         "auspice"
     shell:
