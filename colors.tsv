@@ -1,0 +1,34 @@
+## Countries
+country	democratic_republic_of_the_congo	#E4682F
+
+## health_zone
+
+## replicate the countries here
+health_zone	democratic_republic_of_the_congo	#E4682F
+
+# Democratic Republic of the Congo health zone
+health_zone	mabalako	#87CEFF
+health_zone	beni	#3b9072
+health_zone	oicha	#b09977
+health_zone	butembo	#f05129
+health_zone	lubero	#922428
+health_zone	katwa	#f5bd42
+health_zone	kalunguta	#966eac
+health_zone	kyondo	#d2202e
+health_zone	masereka	#621748
+health_zone	musienene	#b7cb95
+health_zone	mutwanga	#1219e9
+health_zone	vuhovi	#32ca29
+health_zone	mandima	#e3337e
+health_zone	komanda	#000000
+health_zone	tchomia	#00ff00
+health_zone	kayna	#37d6dc
+health_zone	biena	#743700
+health_zone	manguredjipa	#274720
+health_zone	bunia	#810025
+health_zone	goma	#FFDD00
+health_zone	nyiragongo	#FF8F8F
+health_zone	rwampara	#221959
+health_zone	ariwara	#BEE900
+health_zone	mambasa	#9FBFFF
+health_zone	mwenga	#C74F9D
