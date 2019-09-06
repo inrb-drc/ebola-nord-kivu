@@ -1,12 +1,7 @@
 ## Countries
 country	democratic_republic_of_the_congo	#E4682F
 
-## health_zone
-
-## replicate the countries here
-health_zone	democratic_republic_of_the_congo	#E4682F
-
-# Democratic Republic of the Congo health zone
+## Democratic Republic of the Congo health zones
 health_zone	mabalako	#87CEFF
 health_zone	beni	#3b9072
 health_zone	oicha	#b09977
@@ -26,3 +21,5 @@ health_zone	kayna	#37d6dc
 health_zone	biena	#743700
 health_zone	manguredjipa	#274720
 health_zone	bunia	#810025
+health_zone	nyakunde	#ffb347
+health_zone	unknown	#C0C0C0
