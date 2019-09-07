@@ -98,7 +98,7 @@ rule refine:
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --timetree \
-            --root "MK088515_outgroup" \
+            --root "outgroup" \
             --coalescent {params.coalescent} \
             --date-confidence \
             --date-inference {params.date_inference}
@@ -113,7 +113,7 @@ rule prune_outgroup:
     run:
         from Bio import Phylo
         T = Phylo.read(input[0], "newick")
-        outgroup = [c for c in T.find_clades() if str(c.name) == "MK088515_outgroup"][0]
+        outgroup = [c for c in T.find_clades() if str(c.name) == "outgroup"][0]
         # T.root_with_outgroup(outgroup)
         T.prune(outgroup)
         Phylo.write(T, output[0], "newick")
