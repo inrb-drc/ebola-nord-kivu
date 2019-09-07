@@ -9,6 +9,7 @@ rule files:
         metadata = "data/metadata.tsv",
         dropped_strains = "config/dropped_strains.txt",
         reference = "config/reference.gb",
+        clades = "config/clades.tsv",
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
         auspice_config = "config/auspice_config.json"
@@ -153,6 +154,22 @@ rule translate:
             --output {output.node_data} \
         """
 
+rule clades:
+    input:
+        tree = rules.prune_outgroup.output.tree,
+        aa_muts = rules.translate.output.node_data,
+        nuc_muts = rules.ancestral.output.node_data,
+        clades = files.clades
+    output:
+        clade_data = "results/clades.json"
+    shell:
+        """
+        augur clades --tree {input.tree} \
+            --mutations {input.nuc_muts} {input.aa_muts} \
+            --clades {input.clades} \
+            --output {output.clade_data}
+        """
+
 rule traits:
     message: "Inferring ancestral traits for {params.columns!s}"
     input:
@@ -183,6 +200,7 @@ rule export:
         aa_muts = rules.translate.output.node_data,
         colors = files.colors,
         lat_longs = files.lat_longs,
+        clades = rules.clades.output.clade_data,
         auspice_config = files.auspice_config
     output:
         auspice_tree = rules.all.input.auspice_tree,
@@ -192,7 +210,7 @@ rule export:
         augur export \
             --tree {input.tree} \
             --metadata {input.metadata} \
-            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
+            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.clades} {input.aa_muts} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
