@@ -1,0 +1,215 @@
+#! /usr/bin/env python
+
+"""
+A script to merge new sequences & associated metadata with
+the current live dataset (present in ./data).
+Author: James Hadfield <jhadfiel@fredhutch.org>
+"""
+
+import argparse
+import os
+from Bio import SeqIO
+import sys
+import csv
+from collections import defaultdict
+import re
+import xlrd
+import shutil
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Add new sequences & metadata to the previous collection of sequences & metadata.")
+    return parser.parse_args()
+
+def fatal(msg):
+    print("ERROR: {}".format(msg))
+    sys.exit(2)
+
+def gather_files():
+    def _ls (d, suffix):
+        return [os.path.join(d, f) for f in os.listdir(d) if os.path.isfile(os.path.join(d, f)) if f.endswith(suffix) and not f.startswith("~$")]
+    try:
+        new_metadata = _ls("new_sequences", ".xlsx")
+        new_sequences = _ls("new_sequences", ".fasta")
+    except FileNotFoundError:
+        fatal("Please ensure both the \"data\" and \"new_sequences\" folders exist")
+
+    data_metadata = os.path.join("data", "metadata.tsv")
+    data_sequences = os.path.join("data", "sequences.fasta")
+    if not os.path.isfile(data_metadata) or not os.path.isfile(data_sequences):
+        fatal("The data/metadata.tsv and/or data/sequences.fasta file are missing!")
+
+    if not len(new_metadata):
+        fatal("Please make sure there is at least one metadata file (ending in '.xlsx') inside the 'new_sequences' directory.")
+    if not len(new_sequences):
+        fatal("Please make sure there is at least one sequendes file (ending in '.fasta') inside the 'new_sequences' directory.")
+    print("Found {} new metadata and {} new sequences files :)".format(len(new_metadata), len(new_sequences)))
+    return {
+        "data_metadata": data_metadata,
+        "data_sequences": data_sequences,
+        "new_metadata": new_metadata,
+        "new_sequences": new_sequences
+    }
+
+def gather_sequences(ref_seqs, new_seqs):
+    data = {}
+    origin_file = {}
+    errors = False
+    for fasta_path in [ref_seqs, *new_seqs]:
+        for seq_record in SeqIO.parse(fasta_path, "fasta"):
+            # turn 'BTB22545_S3_18FHV090_S4_DRC-2018-REF' into "BTB22545" as needed
+            # NOTE: ignore "_outgroup"
+            name = seq_record.id
+            if not name.endswith("outgroup"):
+                name = seq_record.id.split("_")[0]
+            seq_record.id = name
+            seq_record.description = seq_record.id
+            if name in data:
+                print("ERROR - the sequence {} (from {}) was already present in {}".format(name, fasta_path, origin_file[name]))
+                errors = True
+            else:
+                origin_file[name] = fasta_path
+                data[name] = seq_record
+    if errors:
+        fatal("Please remove those duplicate sequences!")
+    return data
+
+
+def ensure_date(strain, name, exit_on_error):
+    if name == "" or name == "?":
+        fatal("There is no date provided for {} -- please provide any information you have, or remove it! (e.g. 2019-06-XX would represent something from June".format(strain))
+    if isinstance(name, float):
+        try:
+            date_tuple = xlrd.xldate.xldate_as_tuple(name, 1)
+        except:
+            if exit_on_error:
+                fatal("The strain {}'s date is incorrectly formatted -- please fix!".format(strain))
+            else:
+                return "XXXX-XX-XX"
+        return "{}-{:0>2}-{:0>2}".format(date_tuple[0], date_tuple[1], date_tuple[2])
+    else:
+        match = re.match(r'(\d{4})-([\dX]{2})-([\dX]{2})', name)
+        if match:
+            if (match.group(2) != "XX" and int(match.group(2)) > 12) or (match.group(3) != "XX" and int(match.group(3)) > 31):
+                if exit_on_error:
+                    fatal("WARNING: date {} wasn't the format we need, which is YYYY-MM-DD. Note that MM or DD can be written as XX if they are unknown".format(name))
+                else:
+                    return "XXXX-XX-XX"
+            return name
+        else:
+            if exit_on_error:
+                fatal("WARNING: date {} from strain {} wasn't the format we need, which is YYYY-MM-DD".format(name, strain))
+            else:
+                return "XXXX-XX-XX"
+    return "XXXX-XX-XX"
+
+def fix_location(name):
+    if name == "" or name == "?":
+        return "unknown"
+    return "-".join([x.capitalize() for x in name.replace("-", "_").split("_")])
+
+def fix_country(name):
+    if name == "" or name == "?":
+        return "unknown"
+    if name.upper() == "DRC":
+        return "Democratic_Republic_of_the_Congo"
+    # e.g. Democratic_Republic_of_the_Congo
+    return "_".join([x.capitalize() for x in name.replace("-", "_").split("_")])
+
+
+def gather_metadata(ref_file, new_files):
+    # tsv_header = ["strain", "date", "num_date", "location", "state", "region", "country", "study", "authors"]
+    # tsv_data = []
+    # strains = set()
+    # lat_long_data = {}
+    # for csv_path in args.metadataIn:
+
+    data = {}
+    origin_file = {}
+    duplicates = False
+
+    ## parse the data/metadata.tsv unchanged (i.e. if there are errors here they get fixed manually)
+    with open(ref_file, "rU") as fh:
+        reader = csv.DictReader(fh, delimiter="\t")
+        for row in reader:
+            strain = row["strain"]
+            origin_file[strain] = ref_file
+            data[strain] = {
+                "strain": strain,
+                "virus": row["virus"],
+                "date_symptom_onset": row["date_symptom_onset"],
+                "date": row["date"],
+                "accession": row["accession"],
+                "health_zone": row["health_zone"],
+                "province": row["province"],
+                "country": row["country"],
+                "authors": row["authors"]
+            }
+    
+    for fp in new_files:
+        sheet = xlrd.open_workbook(filename=fp).sheet_by_index(0)
+        header = sheet.row_values(0)
+        # ensure all fields in the header
+        for field in ['strain', 'date_symptom_onset', 'date', 'health_zone', 'province', 'country', 'authors']:
+            if field not in header:
+                fatal("header of {} is not correct - please check against the provided template".format(fp))
+        # iterate across the rows
+        for row_idx in range(1, sheet.nrows):
+            row = sheet.row_values(row_idx)
+            strain = row[header.index("strain")]
+            if strain in data:
+                duplicates = True
+                print("Error - {} is present in both {} and {}".format(strain, fp, origin_file[strain]))
+                continue
+            origin_file[strain] = fp
+            try:
+                data[strain] = {
+                    "strain": strain,
+                    "virus": "ebola",
+                    "date_symptom_onset": ensure_date(strain, row[header.index("date_symptom_onset")], False),
+                    "date": ensure_date(strain, row[header.index("date")], True),
+                    "accession": "unknown",
+                    "health_zone": fix_location(row[header.index("health_zone")]),
+                    "province": fix_location(row[header.index("province")]),
+                    "country": fix_country(row[header.index("country")]),
+                    "authors": row[header.index("authors")]
+                }
+            except IndexError:
+                fatal("The row associated with strain {} in file {} is incorrect. Please fix!".format(strain, fp))
+
+    if duplicates:
+        fatal("Please remove those duplicate metadata entries!")
+    return data
+
+def ensure_matches(sequences, metadata):
+    no_meta = [k for k in sequences.keys() if k not in metadata]
+    no_seqs = [k for k in metadata.keys() if k not in sequences]
+    if no_meta or no_seqs:
+        fatal("Sequences & Metadata don't match :(\nSequences which don't have metadata: {}.\nMetadata without sequences: {}.".format(", ".join(no_meta), ", ".join(no_seqs)))
+
+def write_data(metadata_path, sequences_path, sequences, metadata):
+    print("Writing (all) sequences & metadata into the data directory.")
+    SeqIO.write([x for x in sequences.values()], sequences_path, "fasta")
+    with open(metadata_path, "w") as fh:
+        ## HEADER
+        header = ["strain","virus","accession","date_symptom_onset","date","health_zone","province","country","authors"]
+        print("\t".join(header), file=fh)
+        for _, value in metadata.items():
+            print("\t".join([str(value[field]) for field in header]), file=fh)
+
+def remove_new_sequences(paths):
+    print("removing the files from 'new_sequences' that we've added to the data directory")
+    for p in paths:
+        try:
+            os.remove(p)
+        except PermissionError:
+            print("Couldn't remove {} for some reason (maybe the file is open??). Please delete it yourself!".format(p))
+    shutil.copyfile("./data/template_metadata.xlsx", './new_sequences/metadata.xlsx')
+
+if __name__ == "__main__":
+    args = parse_args()
+    files = gather_files()
+    sequences = gather_sequences(files["data_sequences"], files["new_sequences"])
+    metadata = gather_metadata(files["data_metadata"], files["new_metadata"])
+    ensure_matches(sequences, metadata)
+    write_data(files["data_metadata"], files["data_sequences"], sequences, metadata)
+    remove_new_sequences([*files["new_sequences"], *files["new_metadata"]])
