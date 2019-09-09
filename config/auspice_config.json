@@ -1,5 +1,5 @@
 {
-  "title": "Genomic epidemiology of the 2018 North Kivu, DRC Ebola epidemic",
+  "title": "Genomic epidemiology of the 2018-19 Ebola epidemic",
   "color_options": {
     "gt": {
       "menuItem": "genotype",
@@ -36,8 +36,8 @@
     "geoResolution": "health_zone"
   },
   "maintainer": [
-    "Catherine Pratt",
-    ""
+    "E. Kinganda Lusamaki, INRB & C. Pratt",
+    "mailto:catherine.pratt@unmc.edu"
   ],
   "filters": [
     "country",

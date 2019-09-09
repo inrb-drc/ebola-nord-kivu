@@ -1,7 +1,7 @@
 MAN081
-BTB513
 MAN082
-BTB485
 MAN083
+BTB513 # alignment issues due to regions of Ns
+BTB485 # alignment issues due to regions of Ns
 
 

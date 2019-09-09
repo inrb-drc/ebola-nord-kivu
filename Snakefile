@@ -11,7 +11,8 @@ rule files:
         reference = "config/reference.gb",
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
-        auspice_config = "config/auspice_config.json"
+        auspice_config = "config/auspice_config.json",
+        root_name = "outgroup",
 
 files = rules.files.params
 
@@ -90,7 +91,8 @@ rule refine:
         node_data = "results/branch_lengths.json"
     params:
         coalescent = "skyline",
-        date_inference = "marginal"
+        date_inference = "marginal",
+        root = files.root_name
     shell:
         """
         augur refine \
@@ -100,10 +102,11 @@ rule refine:
             --output-tree {output.tree} \
             --output-node-data {output.node_data} \
             --timetree \
-            --root "outgroup" \
+            --root {params.root} \
             --coalescent {params.coalescent} \
             --date-confidence \
-            --date-inference {params.date_inference}
+            --date-inference {params.date_inference} \
+            --keep-polytomies
         """
 
 rule prune_outgroup:
@@ -112,11 +115,12 @@ rule prune_outgroup:
         tree = rules.refine.output.tree
     output:
         tree = "results/tree_pruned.nwk"
+    params:
+        root = files.root_name
     run:
         from Bio import Phylo
         T = Phylo.read(input[0], "newick")
-        outgroup = [c for c in T.find_clades() if str(c.name) == "outgroup"][0]
-        # T.root_with_outgroup(outgroup)
+        outgroup = [c for c in T.find_clades() if str(c.name) == params[0]][0]
         T.prune(outgroup)
         Phylo.write(T, output[0], "newick")
 
