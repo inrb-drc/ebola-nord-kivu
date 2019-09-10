@@ -76,7 +76,10 @@ def gather_sequences(ref_seqs, new_seqs):
 
 def ensure_date(strain, name, exit_on_error):
     if name == "" or name == "?":
-        fatal("There is no date provided for {} -- please provide any information you have, or remove it! (e.g. 2019-06-XX would represent something from June".format(strain))
+            if exit_on_error:
+                fatal("There is no date provided for {} -- please provide any information you have, or remove it! (e.g. 2019-06-XX would represent something from June".format(strain))
+            else:
+                return "XXXX-XX-XX"
     if isinstance(name, float):
         try:
             date_tuple = xlrd.xldate.xldate_as_tuple(name, 1)
@@ -138,7 +141,6 @@ def gather_metadata(ref_file, new_files):
                 "virus": row["virus"],
                 "date_symptom_onset": row["date_symptom_onset"],
                 "date": row["date"],
-                "accession": row["accession"],
                 "health_zone": row["health_zone"],
                 "province": row["province"],
                 "country": row["country"],
@@ -167,7 +169,6 @@ def gather_metadata(ref_file, new_files):
                     "virus": "ebola",
                     "date_symptom_onset": ensure_date(strain, row[header.index("date_symptom_onset")], False),
                     "date": ensure_date(strain, row[header.index("date")], True),
-                    "accession": "unknown",
                     "health_zone": fix_location(row[header.index("health_zone")]),
                     "province": fix_location(row[header.index("province")]),
                     "country": fix_country(row[header.index("country")]),
@@ -191,7 +192,7 @@ def write_data(metadata_path, sequences_path, sequences, metadata):
     SeqIO.write([x for x in sequences.values()], sequences_path, "fasta")
     with open(metadata_path, "w") as fh:
         ## HEADER
-        header = ["strain","virus","accession","date_symptom_onset","date","health_zone","province","country","authors"]
+        header = ["strain","virus","date_symptom_onset","date","health_zone","province","country","authors"]
         print("\t".join(header), file=fh)
         for _, value in metadata.items():
             print("\t".join([str(value[field]) for field in header]), file=fh)
@@ -202,8 +203,15 @@ def remove_new_sequences(paths):
         try:
             os.remove(p)
         except PermissionError:
-            print("Couldn't remove {} for some reason (maybe the file is open??). Please delete it yourself!".format(p))
-    shutil.copyfile("./data/template_metadata.xlsx", './new_sequences/metadata.xlsx')
+            print("Couldn't remove {} for some reason (maybe the file is open??)".format(p))
+            print("Make sure you delete it manually!")
+    try:
+        shutil.copyfile("./data/template_metadata.xlsx", './new_sequences/metadata.xlsx')
+    except PermissionError:
+        print("Couldn't copy the template file into the new_sequences folder")
+        print("This is needed in order to have a template ready for the next batch of new sequences")
+        print("Please copy it by typing the following command:")
+        print("cp ./data/template_metadata.xlsx ./new_sequences/metadata.xlsx")
 
 if __name__ == "__main__":
     args = parse_args()
@@ -213,3 +221,4 @@ if __name__ == "__main__":
     ensure_matches(sequences, metadata)
     write_data(files["data_metadata"], files["data_sequences"], sequences, metadata)
     remove_new_sequences([*files["new_sequences"], *files["new_metadata"]])
+    
