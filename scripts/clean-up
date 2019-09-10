@@ -1,0 +1,36 @@
+#! /usr/bin/env python
+
+import os
+import sys
+import shutil
+
+def fatal(msg):
+    print("ERROR: {}".format(msg))
+    sys.exit(2)
+
+def _ls (d, suffix):
+    return [os.path.join(d, f) for f in os.listdir(d) if os.path.isfile(os.path.join(d, f)) if f.endswith(suffix) and not f.startswith("~$")]
+
+
+if __name__ == "__main__":
+
+    try:
+        metadata_files = _ls("new_sequences", ".xlsx")
+        sequences_files = _ls("new_sequences", ".fasta")
+    except FileNotFoundError:
+        fatal("Please ensure both the \"data\" and \"new_sequences\" folders exist")
+
+    for p in [*metadata_files, *sequences_files]:
+        try:
+            os.remove(p)
+        except PermissionError:
+            print("Couldn't remove {} for some reason".format(p))
+            print("This is normally due to the file being open. Close it & rerun this script!")
+    try:
+        shutil.copyfile("./data/template_metadata.xlsx", './new_sequences/metadata.xlsx')
+    except PermissionError:
+        print("Couldn't copy the template file into the new_sequences folder")
+        print("This is needed in order to have a template ready for the next batch of new sequences")
+        print("This is normally due to the file being open. Close it & rerun this script!")
+
+    

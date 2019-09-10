@@ -107,12 +107,12 @@ def ensure_date(strain, name, exit_on_error):
 
 def fix_location(name):
     if name == "" or name == "?":
-        return "unknown"
+        return ""
     return "-".join([x.capitalize() for x in name.replace("-", "_").split("_")])
 
 def fix_country(name):
     if name == "" or name == "?":
-        return "unknown"
+        return ""
     if name.upper() == "DRC":
         return "Democratic_Republic_of_the_Congo"
     # e.g. Democratic_Republic_of_the_Congo
@@ -203,15 +203,17 @@ def remove_new_sequences(paths):
         try:
             os.remove(p)
         except PermissionError:
-            print("Couldn't remove {} for some reason (maybe the file is open??)".format(p))
-            print("Make sure you delete it manually!")
+            print("Couldn't remove {} for some reason.".format(p))
+            print("This is normally due to the file being open. Close it & rerun this script!")
+            print("Please run the following command:")
+            print("./scripts/clean-up")
     try:
         shutil.copyfile("./data/template_metadata.xlsx", './new_sequences/metadata.xlsx')
     except PermissionError:
         print("Couldn't copy the template file into the new_sequences folder")
         print("This is needed in order to have a template ready for the next batch of new sequences")
         print("Please copy it by typing the following command:")
-        print("cp ./data/template_metadata.xlsx ./new_sequences/metadata.xlsx")
+        print("./scripts/clean-up")
 
 if __name__ == "__main__":
     args = parse_args()
