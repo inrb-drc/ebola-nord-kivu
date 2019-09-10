@@ -33,11 +33,11 @@ Finally we want to reset the contents of this folder (`ebola-nord-kivu`) to be e
 
 Here's an image of how the terminal should now look (the last line will contain slightly different wording):
 
-![](./docs/img/terminal_setup.jpg)
+![](./docs/img/terminal_setup.JPG)
 
 We also want to open up an "explorer" in this same folder -- we've created a shortcut in the sidebar on the left of windows explorer for you. This window should look similar to:
 
-![](./docs/img/finder_setup.jpg)
+![](./docs/img/finder_setup.JPG)
 
 ---
 
@@ -59,7 +59,7 @@ You should do this one-by-one, i.e. for each sequence which the "synthese" file 
 
 We should now have something like this, with the folder containing all the files (and the "synthese" file) given to you on the left, and the `new_sequences` folder on the right. Note that not all the sequences have been copied, only those with acceptable coverage. (Of course, the names of the seqeuences will be different each time!)
 
-![](./docs/img/add_new_fasta.jpg)
+![](./docs/img/add_new_fasta.JPG)
 
 
 ---
@@ -74,11 +74,11 @@ You'll have seen that when you start, there's an excel file in the `new_sequence
 
 > If this excel file is ever missing for some reason, you can find a backup at `ebola-nord-kivu/data/template_metadata.xlsx`. Please copy that over into the `new_sequences` folder if needed.
 
-![](./docs/img/template_metadata.jpg)
+![](./docs/img/template_metadata.JPG)
 
 We're now going to add in a line for each of the sequences we added in step 2. You'll have to refer to whatever excel files were provided to you with the sequences in order to find this information! Here is how the excel file should look when we've collected the information. 
 
-![](./docs/img/template_filled_in.jpg)
+![](./docs/img/template_filled_in.JPG)
 
 Some points:
 
@@ -132,15 +132,15 @@ nextstrain view auspice/
 Which will print the following message to the screen
 
 
-![](./docs/img/nextstrain_view.jpg)
+![](./docs/img/nextstrain_view.JPG)
 
 You can now open up the link that it tells you to (http://127.0.0.1:4000/ebola-nord-kivu in this example) and see the tree & map which has been produced!
 
-![](./docs/img/auspice.jpg)
+![](./docs/img/auspice.JPG)
 
 You can search for strains to identify the new sequences which you've just added -- e.g. in this example build we added "BTB23817" and we can see it here:
 
-![](./docs/img/auspice_single.jpg)
+![](./docs/img/auspice_single.JPG)
 
 ---
 ## Step 6: Upload the data
