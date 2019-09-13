@@ -164,6 +164,12 @@ You can search for strains to identify the new sequences which you've just added
 
 ![](./docs/img/auspice_single.JPG)
 
+When you're done exploring the tree locally, and you are ready to upload the data publicly, in order to get your terminal back you'll need to stop running `nextstrain view`. To stop it, type:
+
+`ctrl + c`
+
+Typing `ctrl + c` will stop the process, your terminal will give you a cursor back so you can go back to entering commands.
+
 ---
 ## Step 6: Upload the data
 
