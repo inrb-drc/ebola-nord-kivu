@@ -1,6 +1,25 @@
-MAN081
-MAN082
-MAN083
+MAN081 # second sample from same patient
 BTB513 # alignment issues due to regions of Ns
+MAN082 # second sample from same patient
 BTB485 # alignment issues due to regions of Ns
-BEN234 # alignment issues due to regions of Ns
+MAN083 # second sample from same patient
+BTB20594 # identical to MAN5923
+KAT8927 # identical to MAN5923
+MAN6906 # identical to MAN5923
+KAT9459 # identical to MAN5923
+BTB24973 # identical to MAN5923
+MAN7450 # identical to MAN5923
+MAN7600 # identical to MAN5923
+MAN7716 # identical to MAN5923
+MAN7787 # identical to MAN5923
+BTB25101 # identical to MAN5923
+MAN7856 # identical to MAN5923
+MAN7882 # identical to MAN5923
+BEN31891 # identical to MAN5923
+BTB24970 # identical to MAN5923
+MWG016 # alignment issues due to regions of Ns
+KAT5550 # alignment issues due to regions of Ns
+BTB9406 # alignment issues due to regions of Ns
+
+
+
