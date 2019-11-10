@@ -43,7 +43,7 @@
   },
   "author_info": {
     "Mbala et al.": {
-      "n": 433
+      "n": 443
     }
   },
   "color_options": {
@@ -56,7 +56,7 @@
     "country": {
       "color_map": [
         [
-          "Democratic_Republic_Of_The_Congo",
+          "Democratic_Republic_of_the_Congo",
           "#E4682F"
         ]
       ],
@@ -300,6 +300,6 @@
     "entropy"
   ],
   "title": "Genomic epidemiology of the 2018-19 Ebola epidemic",
-  "updated": "30 Oct 2019",
-  "virus_count": 413
+  "updated": "10 Nov 2019",
+  "virus_count": 423
 }
