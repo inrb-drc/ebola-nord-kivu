@@ -18,8 +18,9 @@ MAN7882 # identical to MAN5923
 BEN31891 # identical to MAN5923
 BTB24970 # identical to MAN5923
 MWG016 # alignment issues due to regions of Ns
-KAT5550 # alignment issues due to regions of Ns
 BTB9406 # alignment issues due to regions of Ns
-
-
-
+MAM1133 # low coverage
+MAM035 # alignment issues due to regions of Ns
+BEN1543 # alignment issues due to regions of Ns
+BEN4627 # alignment issues due to regions of Ns
+BTB41015 # low coverage

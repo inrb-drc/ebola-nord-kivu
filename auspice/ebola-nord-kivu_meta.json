@@ -56,7 +56,7 @@
     "country": {
       "color_map": [
         [
-          "Democratic_Republic_of_the_Congo",
+          "Democratic_Republic_Of_The_Congo",
           "#E4682F"
         ]
       ],
@@ -309,5 +309,5 @@
   ],
   "title": "Genomic epidemiology of the 2018-19 Ebola epidemic",
   "updated": "06 Mar 2020",
-  "virus_count": 594
+  "virus_count": 591
 }
