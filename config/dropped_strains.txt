@@ -1,7 +1,5 @@
 MAN081 # second sample from same patient
-BTB513 # alignment issues due to regions of Ns
 MAN082 # second sample from same patient
-BTB485 # alignment issues due to regions of Ns
 MAN083 # second sample from same patient
 BTB20594 # identical to MAN5923
 KAT8927 # identical to MAN5923
@@ -17,10 +15,20 @@ MAN7856 # identical to MAN5923
 MAN7882 # identical to MAN5923
 BEN31891 # identical to MAN5923
 BTB24970 # identical to MAN5923
-MWG016 # alignment issues due to regions of Ns
-BTB9406 # alignment issues due to regions of Ns
-MAM1133 # low coverage
-MAM035 # alignment issues due to regions of Ns
-BEN1543 # alignment issues due to regions of Ns
-BEN4627 # alignment issues due to regions of Ns
-BTB41015 # low coverage
+MAM1133 #low coverage
+BTB41015 #low coverage
+KOM2796 #low coverage
+KOM2902 #low coverage
+BIA089 #low coverage
+MAN9940 #low coverage
+MAN9412 #low coverage
+BTB42175 #low coverage
+MWG016 #low coverage
+BEN39817 #low coverage
+MAN11190 #low coverage
+MAN13130 #low coverage
+BEN39817 #low coverage
+BEN39859 #low coverage 
+BTB24969 #duplicate of BTB24630
+KOM2844 #duplicate of KOM2823
+MAN13464 #low coverage
