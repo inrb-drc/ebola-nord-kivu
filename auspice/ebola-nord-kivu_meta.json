@@ -43,7 +43,7 @@
   },
   "author_info": {
     "Mbala et al.": {
-      "n": 813
+      "n": 814
     }
   },
   "color_options": {
@@ -307,7 +307,7 @@
     "map",
     "entropy"
   ],
-  "title": "Genomic epidemiology of the 2018-20 Ebola epidemic",
-  "updated": "24 Feb 2021",
-  "virus_count": 782
+  "title": "Genomic epidemiology of the 2018-21 Ebola epidemic",
+  "updated": "13 Oct 2021",
+  "virus_count": 783
 }
