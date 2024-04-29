@@ -1,47 +1,45 @@
 {
   "title": "Genomic epidemiology of the 2018-20 Ebola epidemic",
-  "color_options": {
-    "gt": {
-      "menuItem": "genotype",
-      "legendTitle": "Genotype",
-      "type": "discrete",
-      "key": "genotype"
+  "build_url": "https://github.com/inrb-drc/ebola-nord-kivu",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "genotype",
+      "type": "categorical"
     },
-    "num_date": {
-      "menuItem": "date",
-      "legendTitle": "Sampling date",
-      "type": "continuous",
-      "key": "num_date"
+    {
+      "key": "num_date",
+      "title": "date",
+      "type": "continuous"
     },
-    "authors": {
-      "key":"authors",
-      "legendTitle":"Authors",
-      "menuItem":"authors",
-      "type":"discrete"
+    {
+      "key": "author",
+      "title": "author",
+      "type": "categorical"
     },
-    "country": {
+    {
+      "key": "health_zone",
+      "title": "Health Zone",
+      "type": "categorical"
     },
-    "health_zone": {
-      "key":"health_zone",
-      "legendTitle":"Health zone",
-      "menuItem":"health zone",
-      "type":"discrete"
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
     }
-  },
-  "geo": [
+  ],
+  "geo_resolutions": [
     "health_zone"
   ],
-  "defaults": {
-    "colorBy": "health_zone",
-    "geoResolution": "health_zone"
+  "display_defaults": {
+    "color_by": "health_zone",
+    "geo_resolution": "health_zone"
   },
   "maintainer": [
     "E. Kinganda Lusamaki, INRB & C. Pratt",
     "mailto:catherine.pratt@unmc.edu"
   ],
   "filters": [
-    "country",
-    "health_zone",
-    "authors"
+    "health_zone"
   ]
 }

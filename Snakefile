@@ -1,7 +1,6 @@
 rule all:
     input:
-        auspice_tree = "auspice/ebola-nord-kivu_tree.json",
-        auspice_meta = "auspice/ebola-nord-kivu_meta.json"
+        auspice = "auspice/ebola-nord-kivu.json"
 
 rule files:
     params:
@@ -49,6 +48,8 @@ rule align:
         reference = files.reference
     output:
         alignment = "results/aligned.fasta"
+    threads:
+        8
     shell:
         """
         augur align \
@@ -56,7 +57,7 @@ rule align:
             --reference-sequence {input.reference} \
             --output {output.alignment} \
             --fill-gaps \
-            --nthreads auto \
+            --nthreads {threads} \
             --remove-reference
         """
 
@@ -138,7 +139,7 @@ rule ancestral:
         augur ancestral \
             --tree {input.tree} \
             --alignment {input.alignment} \
-            --output {output.node_data} \
+            --output-node-data {output.node_data} \
             --inference {params.inference}
         """
 
@@ -156,7 +157,7 @@ rule translate:
             --tree {input.tree} \
             --ancestral-sequences {input.node_data} \
             --reference-sequence {input.reference} \
-            --output {output.node_data} \
+            --output-node-data {output.node_data} \
         """
 
 rule traits:
@@ -191,19 +192,17 @@ rule export:
         lat_longs = files.lat_longs,
         auspice_config = files.auspice_config
     output:
-        auspice_tree = rules.all.input.auspice_tree,
-        auspice_meta = rules.all.input.auspice_meta
+        auspice = rules.all.input.auspice
     shell:
         """
-        augur export \
+        augur export v2 \
             --tree {input.tree} \
             --metadata {input.metadata} \
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
             --auspice-config {input.auspice_config} \
-            --output-tree {output.auspice_tree} \
-            --output-meta {output.auspice_meta}
+            --output {output.auspice}
         """
 
 rule clean:
