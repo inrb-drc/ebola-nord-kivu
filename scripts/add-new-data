@@ -131,7 +131,7 @@ def gather_metadata(ref_file, new_files):
     duplicates = False
 
     ## parse the data/metadata.tsv unchanged (i.e. if there are errors here they get fixed manually)
-    with open(ref_file, "rU") as fh:
+    with open(ref_file, "r") as fh:
         reader = csv.DictReader(fh, delimiter="\t")
         for row in reader:
             strain = row["strain"]
