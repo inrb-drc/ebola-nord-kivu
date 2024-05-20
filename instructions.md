@@ -26,6 +26,10 @@ To do this we run
 conda activate nextstrain
 ```
 
+> If the nextstrain conda environment doesn't exist, you can create it via: `conda create -y -n nextstrain` and then use the following instructions to update the tools inside the environment
+
+> To update the necessary tools in the conda environment first ensure you are inside the environment via `conda activate nextstrain` and then run `conda install --override-channels --strict-channel-priority -c conda-forge -c bioconda --yes augur auspice iqtree mafft`
+
 Finally we want to reset the contents of this folder (`ebola-nord-kivu`) to be exactly the same as what's online. This means that any changes Catherine, James or Alli have made will be downloaded to this laptop. However it will also clear out the `new_sequences` folder (see Step 2, below) -- so make sure you do this first!
 ```
 ./scripts/start
