@@ -125,14 +125,11 @@ You can run this script now:
 You'll need to read the messages which it prints to the terminal, as they will inform you if anything needs to be fixed.
 If things need fixing, you simply rerun the script (`./scripts/add-new-data`) after making the corrections!
 
-When it works, you should see something similar to:
-```
-Found 1 new metadata and 10 new sequences files :)
-Writing (all) sequences & metadata into the data directory.
-removing the files from 'new_sequences' that we've added to the data directory
-```
+Upon success, the script will update the data files `./data/metadata.tsv` and `./data/sequences.fasta` as well as removing the FASTA files in `new_sequences/` and replacing the `new_sequences/metadata.xlsx` with a blank version ready for the next time we have new data.
 
-You can tell that it has worked because the script will have removed the FASTA files that you placed in the `new_sequences` folder.
+> If you get an error indicating the `openpyxl` library is not available please run `pip install openpyxl` to install it and try again.
+
+
 ---
 
 ## Step 4: Run Nextstrain!

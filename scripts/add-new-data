@@ -11,10 +11,10 @@ import os
 from Bio import SeqIO
 import sys
 import csv
-from collections import defaultdict
 import re
-import xlrd
+from openpyxl import load_workbook
 import shutil
+from datetime import datetime
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Add new sequences & metadata to the previous collection of sequences & metadata.")
@@ -31,18 +31,22 @@ def gather_files():
         new_metadata = _ls("new_sequences", ".xlsx")
         new_sequences = _ls("new_sequences", ".fasta")
     except FileNotFoundError:
-        fatal("Please ensure both the \"data\" and \"new_sequences\" folders exist")
+        return fatal("Please ensure both the \"data\" and \"new_sequences\" folders exist")
 
     data_metadata = os.path.join("data", "metadata.tsv")
     data_sequences = os.path.join("data", "sequences.fasta")
     if not os.path.isfile(data_metadata) or not os.path.isfile(data_sequences):
-        fatal("The data/metadata.tsv and/or data/sequences.fasta file are missing!")
+        return fatal("The data/metadata.tsv and/or data/sequences.fasta file are missing!")
 
     if not len(new_metadata):
         fatal("Please make sure there is at least one metadata file (ending in '.xlsx') inside the 'new_sequences' directory.")
     if not len(new_sequences):
         fatal("Please make sure there is at least one sequendes file (ending in '.fasta') inside the 'new_sequences' directory.")
-    print("Found {} new metadata and {} new sequences files :)".format(len(new_metadata), len(new_sequences)))
+
+    print("New metadata .xlsx files:\n\t" + "\n\t".join(new_metadata))
+    print("New sequence FASTA files:\n\t" + "\n\t".join(new_sequences))
+    print("")
+
     return {
         "data_metadata": data_metadata,
         "data_sequences": data_sequences,
@@ -54,6 +58,7 @@ def gather_sequences(ref_seqs, new_seqs):
     data = {}
     origin_file = {}
     errors = False
+    new_seq_count = 0
     for fasta_path in [ref_seqs, *new_seqs]:
         for seq_record in SeqIO.parse(fasta_path, "fasta"):
             # turn 'BTB22545_S3_18FHV090_S4_DRC-2018-REF' into "BTB22545" as needed
@@ -69,41 +74,59 @@ def gather_sequences(ref_seqs, new_seqs):
             else:
                 origin_file[name] = fasta_path
                 data[name] = seq_record
+                if fasta_path != ref_seqs:
+                    new_seq_count += 1
     if errors:
         fatal("Please remove those duplicate sequences!")
+    print(f"Parsed {new_seq_count} new strains from FASTA files")
     return data
 
 
-def ensure_date(strain, name, exit_on_error):
-    if name == "" or name == "?":
-            if exit_on_error:
-                fatal("There is no date provided for {} -- please provide any information you have, or remove it! (e.g. 2019-06-XX would represent something from June".format(strain))
-            else:
-                return "XXXX-XX-XX"
-    if isinstance(name, float):
-        try:
-            date_tuple = xlrd.xldate.xldate_as_tuple(name, 1)
-        except:
-            if exit_on_error:
-                fatal("The strain {}'s date is incorrectly formatted -- please fix!".format(strain))
-            else:
-                return "XXXX-XX-XX"
-        return "{}-{:0>2}-{:0>2}".format(date_tuple[0], date_tuple[1], date_tuple[2])
-    else:
-        match = re.match(r'(\d{4})-([\dX]{2})-([\dX]{2})', name)
+DATE_ERROR_MESSAGE = "Please add a date in YYYY-MM-DD format. For instance, '2019-09-16' or '2019-09-XX' if the exact day is not known or '2019-XX-XX' if only the year is known."
+AMBIGUOUS_DATE = "XXXX-XX-XX"
+
+def ensure_date(strain, excel_date, exit_on_error):
+    """
+    Given a openpyxl parsed cell value which conceptually corresponds to a date, do our best to represent it in
+    YYYY-MM-DD format.
+
+    Returns YYYY-MM-DD string or calls `fatal()` which will exit the program
+    """
+    def unknown_date(msg):
+        return fatal(msg) if exit_on_error else AMBIGUOUS_DATE
+
+    if excel_date is None:
+        return unknown_date(f"There is no date provided for {strain!r}. {DATE_ERROR_MESSAGE}")
+
+    if isinstance(excel_date, str):
+        if excel_date == "" or excel_date == "?":
+            return unknown_date(f"There is no date provided for {strain!r}. {DATE_ERROR_MESSAGE}")
+        # attempt to parse as YYYY-MM-DD string
+        match = re.search(r'^(\d{4})-(XX|\d\d)-(XX|\d\d)$', excel_date)
         if match:
-            if (match.group(2) != "XX" and int(match.group(2)) > 12) or (match.group(3) != "XX" and int(match.group(3)) > 31):
-                if exit_on_error:
-                    fatal("WARNING: date {} wasn't the format we need, which is YYYY-MM-DD. Note that MM or DD can be written as XX if they are unknown".format(name))
-                else:
-                    return "XXXX-XX-XX"
-            return name
-        else:
-            if exit_on_error:
-                fatal("WARNING: date {} from strain {} wasn't the format we need, which is YYYY-MM-DD".format(name, strain))
-            else:
-                return "XXXX-XX-XX"
-    return "XXXX-XX-XX"
+            # some basic sanity checking -- YYYY-DD-MM dates and ambiguous months with provided days
+            if (match.group(2)!="XX" and int(match.group(2)) > 12) or \
+                (match.group(2)=="XX" and not match.group(3)=="XX"):
+                return unknown_date(f"strain {strain!r} has date {excel_date!r} which doesn't seem correct. {DATE_ERROR_MESSAGE}")
+            return excel_date
+        # allow YYYY-MM dates
+        if re.search(r'^(\d{4})-([\d]{2})$', excel_date):
+            return f"{excel_date}-XX"
+        # allow YYYY dates as well
+        if re.search(r'^(\d{4})$', excel_date):
+            return f"{excel_date}-XX-XX"
+
+        return unknown_date(f"strain {strain!r} has date {excel_date!r} which is not in the correct format. {DATE_ERROR_MESSAGE}")
+
+    if isinstance(excel_date, int) and excel_date>1980 and excel_date<=datetime.today().year:
+        return f"{excel_date}-XX-XX"
+
+    if isinstance(excel_date, datetime):
+        # <https://openpyxl.readthedocs.io/en/stable/datetime.html>
+        return f"{excel_date.year}-{excel_date.month:02}-{excel_date.day:02}"
+
+    return unknown_date(f"strain {strain!r} has an unknown date {excel_date!r} (type: {type(excel_date)!r}) which is not in the correct format. {DATE_ERROR_MESSAGE}")
+
 
 def fix_location(name):
     if name == "" or name == "?":
@@ -114,6 +137,8 @@ def fix_country(name):
     if name == "" or name == "?":
         return ""
     if name.upper() == "DRC":
+        return "Democratic_Republic_of_the_Congo"
+    if name.lower() == "democratic republic of the congo":
         return "Democratic_Republic_of_the_Congo"
     # e.g. Democratic_Republic_of_the_Congo
     return "_".join([x.capitalize() for x in name.replace("-", "_").split("_")])
@@ -131,7 +156,7 @@ def gather_metadata(ref_file, new_files):
     duplicates = False
 
     ## parse the data/metadata.tsv unchanged (i.e. if there are errors here they get fixed manually)
-    with open(ref_file, "rU") as fh:
+    with open(ref_file, "r") as fh:
         reader = csv.DictReader(fh, delimiter="\t")
         for row in reader:
             strain = row["strain"]
@@ -147,38 +172,50 @@ def gather_metadata(ref_file, new_files):
                 "authors": row["authors"]
             }
     
+    new_strain_count = 0
     for fp in new_files:
-        sheet = xlrd.open_workbook(filename=fp).sheet_by_index(0)
-        header = sheet.row_values(0)
-        # ensure all fields in the header
-        for field in ['strain', 'date_symptom_onset', 'date', 'health_zone', 'province', 'country', 'authors']:
-            if field not in header:
-                fatal("header of {} is not correct - please check against the provided template".format(fp))
-        # iterate across the rows
-        for row_idx in range(1, sheet.nrows):
-            row = sheet.row_values(row_idx)
-            strain = row[header.index("strain")]
+        workbook = load_workbook(filename=fp)
+        worksheet = workbook.active
+        rows = worksheet.values # type: ignore
+        if rows is None:
+            print(f"The metadata file {fp} seemed to be empty!")
+            return
+        
+        expected_header = ('strain', 'date_symptom_onset', 'date', 'health_zone', 'province', 'country', 'authors')
+        header = next(rows)
+        if header != expected_header:
+            return fatal(f"The metadata file {fp} had unexpected columns! Please re-generate this file by copying the " +
+                  "'data/template_metadata.xlsx' file into the 'new_sequences' folder and starting again.")
+
+        for row in rows:
+            strain = row[0]
+            if strain is None: # empty rows - no problem!
+                continue
+            
             if strain in data:
                 duplicates = True
                 print("Error - {} is present in both {} and {}".format(strain, fp, origin_file[strain]))
                 continue
-            origin_file[strain] = fp
-            try:
-                data[strain] = {
-                    "strain": strain,
-                    "virus": "ebola",
-                    "date_symptom_onset": ensure_date(strain, row[header.index("date_symptom_onset")], False),
-                    "date": ensure_date(strain, row[header.index("date")], True),
-                    "health_zone": fix_location(row[header.index("health_zone")]),
-                    "province": fix_location(row[header.index("province")]),
-                    "country": fix_country(row[header.index("country")]),
-                    "authors": row[header.index("authors")]
-                }
-            except IndexError:
-                fatal("The row associated with strain {} in file {} is incorrect. Please fix!".format(strain, fp))
+
+            parsed_row = {
+                "strain": strain,
+                "virus": "ebola",
+                "date_symptom_onset": ensure_date(strain, row[header.index("date_symptom_onset")], False),
+                "date": ensure_date(strain, row[header.index("date")], True),
+                "health_zone": fix_location(row[header.index("health_zone")]),
+                "province": fix_location(row[header.index("province")]),
+                "country": fix_country(row[header.index("country")]),
+                "authors": row[header.index("authors")]
+            }
+
+            data[strain] = parsed_row
+            new_strain_count+=1
 
     if duplicates:
         fatal("Please remove those duplicate metadata entries!")
+
+    print(f"Parsed {new_strain_count} new strains from metadata")
+    print("")
     return data
 
 def ensure_matches(sequences, metadata):
@@ -186,6 +223,9 @@ def ensure_matches(sequences, metadata):
     no_seqs = [k for k in metadata.keys() if k not in sequences]
     if no_meta or no_seqs:
         fatal("Sequences & Metadata don't match :(\nSequences which don't have metadata: {}.\nMetadata without sequences: {}.".format(", ".join(no_meta), ", ".join(no_seqs)))
+    print(f"After addition of new data we now have {len(metadata.keys())} genomes for analysis")
+    print("")
+
 
 def write_data(metadata_path, sequences_path, sequences, metadata):
     print("Writing (all) sequences & metadata into the data directory.")
@@ -223,4 +263,4 @@ if __name__ == "__main__":
     ensure_matches(sequences, metadata)
     write_data(files["data_metadata"], files["data_sequences"], sequences, metadata)
     remove_new_sequences([*files["new_sequences"], *files["new_metadata"]])
-    
+    print("\nSUCCESS\n")
