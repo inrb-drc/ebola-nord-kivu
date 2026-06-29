@@ -11,6 +11,7 @@ rule files:
         colors = "config/colors.tsv",
         lat_longs = "config/lat_longs.tsv",
         auspice_config = "config/auspice_config.json",
+        description = "config/description.md",
         root_name = "outgroup",
 
 files = rules.files.params
@@ -184,6 +185,7 @@ rule export:
     input:
         tree = rules.prune_outgroup.output.tree,
         metadata = files.metadata,
+        description = files.description,
         branch_lengths = rules.refine.output.node_data,
         traits = rules.traits.output.node_data,
         nt_muts = rules.ancestral.output.node_data,
@@ -201,6 +203,7 @@ rule export:
             --node-data {input.branch_lengths} {input.traits} {input.nt_muts} {input.aa_muts} \
             --colors {input.colors} \
             --lat-longs {input.lat_longs} \
+            --description {input.description} \
             --auspice-config {input.auspice_config} \
             --output {output.auspice}
         """
